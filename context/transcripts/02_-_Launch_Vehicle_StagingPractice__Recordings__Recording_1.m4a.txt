@@ -1,0 +1,318 @@
+# lang=en
+[00:00] which are basically height and mass of period, and all the considerations we said about non-technical requirements.
+[00:07] But basically the mass of the period and the height we want to arrive, and from that we derive a certain delta B.
+[00:13] This delta B we are deriving is an approximate one, right?
+[00:20] We were putting 1.5 for 2 kilometers of losses, but we don't know this number for sure.
+[00:25] What do we need for knowing this number for sure?
+[00:29] We would need to model the trajectory.
+[00:32] We would need to model a tick point, what is the direction of the velocity, and therefore from that direction of velocity,
+[00:37] note these angles, the flight path angle, and note the angle of attack.
+[00:41] And from that, for all the points of the trajectory, we would compute some loss and say,
+[00:44] okay, the loss is not 2 kilometers per second, but it's 2.1 kilometers per second, for example.
+[00:50] So we are just supposing this, just to tell you.
+[00:52] Why are we supposing this?
+[00:54] Because it's going to be an iterative problem.
+[00:57] What we are going to do is, you are going to see this in this unit, I will say,
+[01:00] I have this delta B, which is a rough delta B.
+[01:04] With this delta B, I size the rocket.
+[01:07] Size the rocket means, decide how much has to be the mass, and how the mass is distributed among the different stages.
+[01:14] And once I have now this mass, I then do the trajectory analysis.
+[01:20] And see if the delta B I have to pose is enough or not.
+[01:25] If it's not enough, I have to recompute again the delta B, and from this delta B, the mass, and do the trajectory analysis again.
+[01:32] You see? We are going to see this in more detail, but just to tell you, that we were saying of 2 kilometers per second is just an approximation.
+[01:39] We need a proper trajectory analysis, and this trajectory analysis comes from certain initial mass.
+[01:45] How I can make the mass, the mass was derived from a certain delta B approximation.
+[01:50] Ok?
+[01:51] Ok, so.
+[01:53] We are now going to do a so-called staging unit.
+[01:59] The staging unit, as I was telling you before, is how to compute the initial mass, ok?
+[02:04] And more specifically, how to minimize it.
+[02:08] Because as you know, every kilo has a certain cost to put it into orbit, so therefore my objective is to minimize the total mass.
+[02:15] This total mass is called gross mass at lift off, or mass at lift off.
+[02:20] Ok?
+[02:21] The total mass of the rocket plus the payload.
+[02:23] Ok?
+[02:24] And this is my objective, being able to reach a certain orbit, minimizing the mass of the system.
+[02:28] Ok?
+[02:29] Ok.
+[02:30] So, and for this part of the staging, ok?
+[02:43] We are now forgetting about the trajectory optimization, and we are just going to care where all the delta Bs that we will be using are the approximate B ones.
+[02:56] Ok?
+[02:57] The ones that we obtained from the previous equation we saw.
+[02:59] Ok?
+[03:00] So this delta B is the approximate delta B.
+[03:03] The 7 km per second plus the two estimated loss.
+[03:09] Ok?
+[03:10] So, from the Tsiolkowski equation, ok, why can I use Tsiolkowski equation?
+[03:15] Pablo, you told me we cannot use it.
+[03:17] Ok, because we are accounting for the losses already here in the delta B.
+[03:20] Right?
+[03:21] So that's why we can use the delta B equation, because we are now only hearing about the thrust.
+[03:26] Ok?
+[03:27] Ok?
+[03:28] Ok?
+[03:29] Ok?
+[03:30] So, we are from this Tsiolkowski equation, ok, it's clear.
+[03:34] Here, for the nomenclature, we are using M0 for the initial mass of the rocket, ok?
+[03:40] And M1 for the empty mass, ok?
+[03:41] And M1 for the empty mass, ok?
+[03:42] So, the empty mass is, ok, you are going to have a certain mass, mass of the rocket, that
+[03:47] we call it the initial mass, and this mass, what does the rocket have?
+[03:52] It has a structure, a structural mass, ok?
+[03:57] We have propellant, and we have a use mass, ok, a payload mass, the spacecraft we are trying
+[04:05] to put in orbit, ok, this is the total mass, ok?
+[04:10] Ok?
+[04:11] We don't have anything apart from that.
+[04:13] Whenever we deplete all the tanks, this is what we call empty mass, so it's just mass
+[04:19] of the structure plus mass of the payload, so it's everything but the mass of the payload.
+[04:26] Ok?
+[04:27] So, we can introduce, you are going to see now, a lot of formulations, a lot of equations,
+[04:34] but I don't want you to get those, ok?
+[04:36] We just go little by little, and explain all the things.
+[04:39] What is important, as I was telling you, is to extract the concepts, I don't either remember
+[04:43] all the equations by heart.
+[04:46] So, here we define a lot of parameters, a lot of ratios, to abbreviate the nomenclature.
+[04:53] And one very useful ratio that gives us a lot of information is the so-called mass ratio,
+[04:58] ok?
+[04:59] A mass ratio is the initial mass divided by the initial mass by the final mass, the empty mass,
+[05:04] ok?
+[05:05] This is the mass ratio.
+[05:06] Ok?
+[05:07] So, you can introduce it in the Chokosky equation, and replace this is exactly the ratio
+[05:12] with other, so this is the natural algorithm of this mass ratio, ok?
+[05:18] Here,
+[05:20] So, if I represent the delta B as a function of the different parameters, or the delta B that
+[05:33] I can reach, depending basically on two parameters, the mass ratio, ok?
+[05:39] And depending on the specific inputs, I obtain cards like that.
+[05:43] What do these cards tell me?
+[05:44] It tells me that, if I increase the mass ratio, ok?
+[05:49] If I increase the mass ratio, that is, I move to the right on this ground, for a certain
+[05:53] specific impulse, ok?
+[05:54] What is having certain specific inputs?
+[05:56] Certain propulsion technology, ok?
+[05:57] Each kind of technology, each kind of NASL thruster you have, has some fixed specific inputs, so therefore you will be in a certain card.
+[06:04] Ok?
+[06:05] So imagine we are with a certain card, and we increase the mass ratio, that is, we increase the initial mass with respect to the empty mass.
+[06:14] Ok?
+[06:15] So, if we do so, what does it mean?
+[06:17] It means that, we are consuming less propellant, right?
+[06:20] If this rate increase, it is because we are consuming less propellant, ok?
+[06:24] So therefore, the higher the mass ratio, the higher is the delta B that I can achieve, ok?
+[06:31] If we, on the contrary, fix a certain mass ratio, and we increase the specific impulse, so we move from one card to the other, we see that the higher the specific impulse, the more efficient the engines are, and therefore the higher the delta B.
+[06:46] Ok?
+[06:47] Sorry, before I said, not only is we consuming less propellant, but the structure is more efficient, ok?
+[06:52] Because, this empty mass, you can put it as, this here, ok?
+[07:05] For a certain initial mass, and for a certain payload mass, it means that increasing this, increasing the payload volume, means that you are reducing the structural mass.
+[07:15] Ok?
+[07:16] So, usually, you could do also the propellant reasoning, but usually when you say increasing the payload volume,
+[07:21] increasing the payload, increasing the mass ratio is decreasing the mass of the structure, that is, the structure is more efficient, ok?
+[07:28] So, having more efficient structures and having more efficient engines leads you to a higher delta B.
+[07:35] And higher delta B means you can reach higher orbits, or the same orbit, but with higher, with mass which are heavier, ok?
+[07:45] Heavier mass of the payload.
+[07:47] Ok?
+[07:48] Ok, this is just a recap of what is each of the components.
+[07:55] The useful mass, the payload mass is the satellite, you can have not only one satellite, but for example, you have, what I'm referring there, a multi-stage, so it's like a matrix cap problem.
+[08:15] We are going to see this, no?
+[08:16] We are going to see this, no?
+[08:17] But, you have different stages, ok?
+[08:18] So, therefore, you have, imagine, two stages, ok?
+[08:19] So, the useful mass of the first stage is different of the useful mass of the second stage.
+[08:31] Ok?
+[08:32] We are going to see this afterwards.
+[08:33] So, the useful mass can be, for the total load vehicle, yes, the useful mass is the satellite you are deploying into orbit.
+[08:44] Ok?
+[08:45] But for a single stage, as you contain another stage inside, you can say, ok, we are going to see this afterwards.
+[08:52] Ok?
+[08:53] You can have not only one satellite, but an OTV.
+[08:55] You know what an OTV is?
+[08:56] Yeah?
+[08:57] You have heard about this orbit transfer vehicle.
+[08:59] It's a kind of a kick stage, or, let's say, it's not a vehicle itself, but it's some structure with certain propulsion that brings the satellite to the final orbit you want to reach.
+[09:12] Ok?
+[09:13] With extra capabilities that the launch vehicle itself could not provide.
+[09:17] Yeah?
+[09:18] What is the difference between that and a bus?
+[09:21] The bus are usually, like, more for, for, like, for specific, typical, for refilling operations, where an orbit transfer vehicle is more related to deploying the orbits.
+[09:34] Ok?
+[09:35] So, but this is, like, a very new market that it's been developed for several different applications.
+[09:40] Ok?
+[09:41] There are also some orbit transfer vehicles which are being developed with the purpose of really removing space debris.
+[09:47] Ok?
+[09:48] So, they bring a satellite to a specific orbit, and then the satellite removes the space debris.
+[09:52] There is a lot of market on there.
+[09:54] Ok?
+[09:55] Just to say that the useful mass can be a satellite, or can be a cluster of satellites, or can be a satellite plus an OTV.
+[10:01] Ok?
+[10:02] I can invest in a rocket lab.
+[10:03] Ok?
+[10:04] And then, we have the structural mass.
+[10:06] So, we have the structural cells.
+[10:07] Ok?
+[10:08] Ok?
+[10:09] By the way, important thing.
+[10:10] This was an error I committed in one interview, I remember.
+[10:13] The, let's say, what we said before, 90% around, 90% of the total mass of a rocket is propellant.
+[10:21] So, all the thing that is inside, ok?
+[10:25] So, the tank itself, it's empty, and all the propellant is inside.
+[10:30] Ok?
+[10:31] So, you don't have some such systems as in a satellite in which you have the reaction wheels.
+[10:35] All the parts, you have an avionic bay for having this guidance and the brain of the launch vehicle.
+[10:40] Ok?
+[10:41] So, you have a tank, but all the rest, whenever you see a tank, this tank is just closed and only contains the propellant.
+[10:45] Ok?
+[10:46] Yeah?
+[10:47] Because whenever they tell you the mass of the tanks, this was my error.
+[10:50] When an interview they were telling me, it was a company, they were telling me, yeah, because the mass of the tanks is something.
+[10:55] And I was saying, ok, and the total mass of the launch vehicle, and it's like, it's almost the same, because the launch vehicle does not contain transistors as in a satellite in which you have the tanks and then you have a lot of other subsistence.
+[11:08] Almost all the mass is here in the vehicle, in the sub-traumas.
+[11:11] Ok?
+[11:12] What apart from that?
+[11:13] You have the motors, you have the pipes, you have the avionics that I was commenting, yes.
+[11:17] And then it's all the sensors, all the dial and computer, etc, etc.
+[11:22] And you have also a residual profiland that we can improve the difference.
+[11:29] Ok, we have other ratios apart from the mass radius.
+[11:33] So the mass radius on the bottom, we already know.
+[11:37] It's the mass, or the initial mass divided by the final mass.
+[11:40] The final mass can be the addition of the useful mass in the short mass.
+[11:45] But we have some other ratios which are useful, which is, one of them is, which is lambda, which is the payload radius.
+[11:51] Ok?
+[11:52] The payload radius is, how much payload mass are you going to be able to put into our orbit, with respect to your total mass, your initial mass of the rocket.
+[12:00] Ok?
+[12:01] Do you have also, this one I commented before, which is the structural efficiency.
+[12:06] It's the mass of the structure, with respect to addition of the mass of the structure plus the mass propeller.
+[12:11] The smaller this parameter, the higher is the higher, or the better is your structure.
+[12:16] Ok?
+[12:17] Because it means you are able to contain certain propeller with less mass.
+[12:20] Ok?
+[12:21] You see, if this decreases, this decreases.
+[12:22] Ok?
+[12:23] And then the propeller ratio.
+[12:24] The propeller ratio is almost like this, but instead of the useful mass, the propeller.
+[12:30] The mass of the program over the initial mass.
+[12:32] Ok?
+[12:33] And we are now going to play with this parameter and the Cholkovsky equation, just to see how can we optimize the mass of the structure.
+[12:40] So, to minimize the mass, and how do we distribute the mass of the propeller among the different stages.
+[12:45] Ok?
+[12:46] So, payload ratio, structural efficiency, propeller ratio, and mass rate.
+[12:53] Ok, this is just a graphical representation of what I was telling of the SLS.
+[13:01] Ok?
+[13:02] This is the rocket for the Artemis mission.
+[13:04] And this is like a representation of how much?
+[13:08] What is inside what I was telling.
+[13:10] All this is a tank.
+[13:11] Ok?
+[13:12] I don't remember very hard, I know someone asked what were, this is the fuel and this is the oxygen.
+[13:19] I think this is the oxygen.
+[13:20] Yes.
+[13:21] And this is what?
+[13:22] Hydrogen.
+[13:23] Ok.
+[13:24] So, that's why you have all this.
+[13:26] But I have to tell you, and then you have here the kick stage, which also contains propeller.
+[13:30] But you see how much?
+[13:31] Just to give you a graphical.
+[13:34] Yeah, yeah, yeah, yeah, yeah.
+[13:36] So, there you see the propeller ratio that we were talking about.
+[13:39] Okay, now we are going to relate the different parameters.
+[13:46] How do we relate the different parameters?
+[13:48] So, this is the typical relationship that holds for relating the propeller ratio, ok?
+[13:54] With the structural efficiency and with the payload ratio.
+[13:58] And this, I don't want to go now into that much detail, but it's not that difficult to obtain.
+[14:09] I put it on the annex scale, ok?
+[14:11] For the ones who have curiosity on this, on how I did obtain this relationship.
+[14:16] This is the most interesting thing, and you can go to the annex stage, ok?
+[14:22] And also, here I'm showing another equation, but ok, this can be simply done.
+[14:29] So, we said that the mass ratio was the initial mass divided by the final mass, right?
+[14:35] This final mass, right?
+[14:36] This final mass, ehm...
+[14:37] You are throwing me in there?
+[14:38] Ok, just not to write everything.
+[14:39] The final mass is the mass of the structure plus the useful mass, right?
+[14:42] And if I now...
+[14:43] This was...
+[14:44] I could also express it as the mass, the initial mass minus the propeller mass.
+[14:48] Yes?
+[14:49] So, the final mass was everything but the propeller mass.
+[14:50] And if I divide now everything by the initial mass, I obtain a 1 here, and this is also a 1,
+[15:03] and this is MP divided by M0, but this was the propeller ratio.
+[15:07] So, I obtain a relationship between the mass ratio and the propeller ratio.
+[15:11] Yes?
+[15:12] And if I introduce this previous relationship of the propeller ratio here, in that expression
+[15:19] here, I end up with this relationship.
+[15:22] This relationship holds for the mass ratio, for the structural efficiency, and for the payload
+[15:30] ratio.
+[15:31] Ok?
+[15:32] Why this relationship is important?
+[15:33] Ok, this relationship is important because the structural efficiency is usually...
+[15:38] we're going to see this afterwards, but it's usually going to be given a data.
+[15:42] So, you are the system engineers of the load vehicle, and you are going to talk with different
+[15:45] departments.
+[15:46] One of them is the structural department, and the structural department said, ok, you know,
+[15:52] we have decided that for enduring the loads, we estimate that we are going to put this thickness,
+[15:57] and that our structure is this, this weight.
+[16:01] And therefore, you are going to infer from this weight, the mass of the propeller, an estimated
+[16:07] one, you are going to infer this structural efficiency.
+[16:10] So, this structural efficiency is usually a data of the structure.
+[16:13] Ok?
+[16:14] It's a data that the structure department is giving to you.
+[16:19] Ok?
+[16:20] The payload ratio, we said that the payload ratio was, if you remember, was the mass of the payload
+[16:26] divided by the initial mass.
+[16:28] Right?
+[16:29] Yes?
+[16:30] The mass of the payload, you know, because it was the, let's say, you remember the system
+[16:35] requirements philosophy was put certain mass of payload into a certain orbit.
+[16:39] So, this is going to be given.
+[16:41] This is not, this is what I'm trying to compute, the initial mass, the total mass of the load
+[16:46] payload.
+[16:47] Right?
+[16:48] Ok?
+[16:49] Ok.
+[16:50] And then, what else do you have in this equation?
+[16:51] And that's it.
+[16:52] So, in other words, this equation is important because it only depends on M0.
+[16:57] Ok?
+[16:58] And in other words, determining this as a function of all these parameters is going to allow me
+[17:03] to determine the initial mass.
+[17:06] Ok?
+[17:07] Ok?
+[17:08] Ok, this I am explaining how did I determine.
+[17:13] I was telling you, I put it in that equation and I had that with this one.
+[17:17] Ok, and we are going to obtain some insights, some information from this equation.
+[17:23] Ok?
+[17:24] This is the equation you see here.
+[17:25] You remember, no?
+[17:26] We have from the Tchaikovsky equation.
+[17:31] Whenever you don't follow, you just tell me.
+[17:33] Ok?
+[17:34] So, we have that.
+[17:40] Right?
+[17:41] And we have just seen the same mass of the mass.
+[17:46] We have just seen that this from the previous equation, you saw, no?
+[17:53] So, this was 1 over structural minus lambda plus lambda, right?
+[17:54] 
+[17:54] 
+[17:54] 
+[17:54] 
+[17:54] 
+[17:54] 
+[17:54] 
+[17:54] Yeah?
+[17:55] Yeah?
+[17:56] 
+[17:56] Yeah?
+[17:57] So, I put this here.
+[17:58] Yeah?
+[17:59] that?
+[18:00] 
+[18:00] and minus 1, plus 1, right?
+[18:04] Which is also this to the 91, right?
+[18:06] Oh, this.
+[18:12] OK.
+[18:13] Yes?
+[18:15] So I put this here.
+[18:30] OK?
+[18:36] And the natural logarithm of the minus 1 is minus that
+[18:39] was lateral logarithm, right?
+[18:42] So this is minus 0, minus 3, natural logarithm.
+[18:48] OK?

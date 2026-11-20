@@ -1,0 +1,771 @@
+       important
+
+very
+    theexam
+for
+ theoretical
+             and
+   work
+                   Launch from Satellite Perspective
+ always in    exam
+
+
+                      Launchers and Re-entry- 19260
+                            Pablo Ramos Sánchez
+                       Contents
+1. Launch from Satellite Perspective
+
+
+2. LSP Selection Process
+   ▪ Documentation / Process
+   ▪ Launch Modalities
+   ▪ LSP Requirements
+       ▪ Environmental Requirements
+       ▪ Interface Requirements
+
+3. Launch Campaign
+
+
+4. LSP Selection: Decision Making Tips
+       Launch from Satellite Perspective
+                                                Launch Event
+
+
+
+
+        From LV Perspective                                                     From S/C Perspective
+
+
+
+
+                                                                           At unit 4, lets change our mindset:
+All concerns from all the other units of this
+                                                               • You work in a Satellite Owner Company (SCO) now
+course (structures, propulsion, GNC)
+                                                               • You are the LV Interface Systems Engineer
+                                                               • What shall you do to be able to ride the S/C on the LV?
+
+
+
+                                                           3
+                     LSP Documentation / Process
+▪ Selection of a LSP is not a straight-forward process but an iterative one in which a few steps and
+  associated documentation are needed
+▪ Specially on institutional-founded projects, several factors are considered:
+      ▪    Geopolitical aspects
+      ▪    Launch Service Availability
+      ▪    Technical justification
+      ▪    Cost
+      ▪    Level of risk accepted Onlyconsideroptionswith accepted risklevel
+      ▪    Synergies                                       LSP Selection
+                                                                         (negotiations)
+▪ Main documentation/steps flow
+                                                                                           launchservice
+                                                                                            agreement
+
+                           request   la
+                              proposal
+
+                                                                                              LSA
+          NDA              RFP/RFQ               BAFO                 IRD                                        ICD
+    Nondisclosure                                                                          signature
+     agreement             request   le       Best
+                                              And
+                                                                 Interlace
+                                                                 Requirement
+                            quotation
+                into                          Find                Document
+youprovide them                               Oller
+of
+yousicand                                                           say
+                                                                 They
+                                                                        compliant
+                                                                                   ornot
+aboutthelunch                                                    theyarenot
+                                                                         goingtochange
+vehicle                                                          but  decidebasedon
+                                                                  youca
+                Before the selection of the final LSP (many LSP candidates)Het              Only with the Selected Candidate
+
+
+
+
+                                                                               4
+                                                 LSP Documentation
+      ▪      NDA (Non-Disclosure Agreement)
+               ▪ Established between different companies, in this case the Satellite Owner (us) and the LSP to protect and disclose
+                  the information provided by both parties.
+               ▪ Important to establish the duration of this confidentiality (5-10 years)
+               ▪ Information already public or independently developed is not considered confidential
+      ▪      RFQ/RFP (Request For Quotation/Request For Proposal)
+               ▪ RFQ: satellite owner asks multiple LSPs for price and basic service information
+weprovideSkmess                                                                                                 Answer from LSP
+                                                                                                                                                 priceraisesetc   bu
+                                        Info from S/C Owner                                  Estimated price Con subjectedtovariationinflation
+lemonwindow                    •
+                                                                                         •                           be
+                                   Preliminary Payload mass and orbit                    •   Launch vehicle options                   nomorethan       X
+weaskloavailability
+                               •   Launch window                                         •   Preliminary schedule availability
+                               •   Interface constraints                                 •   High-level technical compatibility feedback
+
+ tiolrequirements
+ ni           ▪ RFP: proposal is asked to a narrowed list of LSPs
+ youneed   to
+         exoleuch
+                                                                                                         Answer from LSP
+ mehwith                  Info from S/C Owner                                                 •       Full technical proposal: interfaces,
+veincluded   inRED         •   Payload mass and orbit (more accurate)                                 accommodation        whereinsidethefairingare
+                                                                                                                                          tobeplaced
+                           •   Launch window                                                  •                              yousois
+                                                                                                      Schedule (manufacturing,    integration,
+                           •   Interface constraints                                                  launch readiness)
+                                                                                              •       Pricing breakdown
+                    findotherthat        get
+                                       you      fromlemaher
+      ▪      BAFO (Best And Final Offer): last chance to adjust price, delivery schedule, or risk-sharing terms before contract award.
+      ▪      IRD (Interface Requirement Document): list of Requs. from SCO to LSP, for LSP to assess individual compliance
+                                                 • en
+                                                       xtoeate.ci www.eneeintan
+                                                     Launch period,www.sina.am.at
+                                                                                        tantas
+                                                                    Launch Slot, Launch ne
+                                                                                              beenteau
+                                                                                                enana
+                                                                                          s ina.in
+                                                                                        Date
+                                                               •   Price and milestones payment plan
+                                                               •   Technical requirements (then this is more detailed on the ICD, see LSP requirements section)
+      ▪      LSA (Launch Service Agreement)
+                                                               •   Integration and testing plan
+               lcontract                                       •   Insurance and liability conditions
+                                                               •   Changes, delay and termination provisions
+
+
+
+                                                                                                  5
+                                                    Launch Modalities
+     ▪ 4 Different Launch Modalities exist. Satellite owner can select one among them:
+                                                                                            Secondary Payload                       Rideshare
+                 Dedicated Flight               Main Passenger (or Lead)
+                                                                                               (Rideshare)
+        dedicated
+ itis a   more
+       have
+sit you
+gociation
+            power
+                                                                                   capacity
+                                                                             payload
+                                                                       greater        the
+                                                                                 lixing
+                                                                              one
+                                                                        itisthe
+                                                                        orbit
+
+
+                                                                                                                                                              secondary
+                                                                                                                                                               passengers
+
+
+                                                                                                                                                     Rideshare PL
+
+                                                •   Lead passenger dictates                                                 •   Multiple satellites from different
+             •   Maximum flexibility (final         schedule, orbit and                     •   Some Missions have two          customers sharing a single launch
+                 orbit, release conditions,         integration timeline                        Payloads, where usually         vehicle for to reducing costs
+                 delays, interfaces..), up to   •   Cost is shared (usually on                  one is the main one and     •   Participants have less control
+                 what is allowed in LSA             mass basis + lead pays a                    other is secondary              over launch timing and orbital
+             •   Most expensive option              higher amount for having                •   Usually used when 2             parameters
+             •   Usually for large satellites       more decision capability)                   heavy payloads need to go   •   Ideal for CubeSats, small
+                                                •   Medium Cost                                 to a similar orbit              satellites, and constellations
+
+
+
+     ▪ When comparing proposals (risk, schedule…) from different LSPs, only same modality launch options
+       shall be compared among them (i.e. Rideshare on Falcon 9 vs Rideshare on Vega-C, Main Passenger
+       on Vega-C vs Main Passenger on Miura 5)
+
+
+
+
+                                                                                                  6
+                                          LSP Requirements
+    ▪ Requirements flow bi-directionally: LSP              Satellite
+      Owner
+           ▪   Customer specifies orbit, launch date, payload mass and
+                                                                                         •   Environmental Requirements
+               volume and has some flexibility on deployment conditions
+                                                                                         •   Interface Requirements
+               (rate, pointing accuracy..)
+           ▪   LSP specifies all the environmental and requirement
+               conditions that the S/C Owner shall satisfy
+           ▪   All these requirements on both sides are included on the ICD
+               (Interface Control Document)                                              •   𝑚𝑃𝐿 + 𝑉𝑃𝐿
+           ▪   As requirements evolve along the project, so it does the ICD,             •   Final orbit (if possible, depending on Launch Strategy) justa
+                                                                                                                                                      requer
+               until a moment at which it is frozen and the ICD is signed                •   Launch Date (if possible, depending on Launch Strategy)
+                                                                                         •   Deployment conditions
+           ▪   ICD takes priority on the other contractual documents
+               even to the LSA in case of conflict.
+
+                 Takespreference so it isimportanttosignthe ICD
+                  attheend
+   ▪ When defining requirements towards the S/C coming from the LSP it is crucial to differentiate between:
+          ▪            What is strictly needed by the LSP (i.e. the fundamental frequency value). For this aspects LSP usually requires
+  shallsuertee         a proof to the S/C owner that they are compliant (analysis, test..). All this info shall be translated by SCO (LV
+ thenaturalfrequencies
+                       Interface Engineer) into Requirements coming from the LSP
+ seeaandaren
+ apart
+ ser             l agunas and
+           minimum                                    It isintoFORYousineyouwillnot Inridesharethesearemorestrict
+                                                      donethelantebutitmy
+     i mpose
+         since
+requirente    lante not eres                                            dangyou
+ verylower ▪ Environmental information that the LSP is giving to SCO to describe the launch environment, but whose
+                       compliance and/or proof is not required. This info shall not be translated into a Requirement: the info shall be
+                       passed to the Spacecraft Team, and they shall decide whether to add is a S/C Requirement or not (Ex: Thermal
+                       environment ascent profile)
+          ▪    What if an info of mandatory compliance is stated in the ICD but formal proof is not required by the LSP??
+               (example: Susceptibility Emission Requirements)
+
+
+
+                                                                                7
+               LSP to S/C Requirements
+                                                   •    Mass properties
+                                                   •    Fundamental Frequency
+                                 Mechanical        •    QSL                            Different mechanical
+                                Requirements       •    Random /Acoustics              Vibration Tests that try
+                                                   •    Shock                          to reproduce the
+                                                   •    Power Inhibit Tests            Launch Environment
+                                  Thermal          •    Temperature Profile: 𝑇 𝑡
+                                Requirements            (hot and cold cases)
+
+
+
+                Environmental     EMC/RF           •    Emissivity Requirements
+                                                        (from LV)
+                Requirements    Requirements
+
+                                 Deployment
+                                                   •    Pointing Accuracy by LV
+                                Requirements       •    Deployment Rate by LV
+                                   (AOCS)                                                important
+
+    LSP                                            •    Propulsion Requirements (Pressure Tests, Leak Tests)
+Requirements                                       •    Venting
+                                    Other          •    Manufacturing Techniques (3D Printed Prohibited..)
+                                                   •    GS Requirements
+
+
+                                  S/C – Sep.           Launch service
+                                                                        providers   donotrespond ilthey
+                                   System
+                  Interface                            donot reach orbit or explode
+                Requirements
+                                Sep. System- LV
+
+
+
+
+                                               8
+                                Mechanical Requirements
+▪   Mass Properties
+        ▪   “MCI (Mass, Center of Mass, Inertia) shall be measured guarantying an error smaller than X% (i.e. 5%)”
+        ▪   “The distance of the CoM to the adapter plate shall be inferior to X mm”
+        ▪   Usable Volume                                                                                        redtests
+                                                                                            needto providethatwith
+                                                                                          You
+                                                                                                youcanonlydo
+                                                                                          In spain           theminINTA
+▪   Fundamental Frequency
+        ▪   It is essential to guarantee that the fundamental frequency of the S/C is greater than the one of the LV to
+            avoid the coupling between the two.
+        ▪   “Fundamental frequency of the satellite on the corresponding axis shall be greater than the ones of the LV,
+            that is
+                 ▪   50 Hz on the LV longitudinal direction               dthebucher
+                                                               longitudinal
+
+                 ▪   100 Hz on the LV transversal directions
+    ▪   For the direction on which to consider the frequencies and also for the directions on which to apply the load levels (QSL, sine,
+        random) in the Vibration Table, consider the S/C Axis
+            ▪    LV always specifies their conditions with respect to their axis
+            ▪    To translate LV axis into the S/C axis analyze the accommodation (vertical or horizontal, tilted..)
+            ▪    S/C applies its levels in the test facilities with respect to its own axis (i.e. for vertical accommodation “ LV longitudinal” corresponds
+                 to S/C longitudinal)
+    ▪   Fundamental frequency search is executed before and after each vibration test to verify the S/C is not damaged
+
+
+
+
+                S/C Vertical Accommodation                 S/C Horizontal Accommodation                        Vibration Table: every information is
+                 LV longitudinal direction ≡ S/C               LV longitudinal direction ≡ S/C
+                                                                                                                      expressed into S/C axis
+                      longitudinal direction                        transversal direction
+
+
+                                                                                          9
+                                        Mechanical Requirements
+      ▪    QSL (Quasi-Static Load)
+                 ▪      QSL represent the equivalent maximum inertial load levels that the S/C will be subjected to at the S/C-LV Interface during all the
+                        phases of the LV flight (load cases)
+                 ▪      It is an equivalent static load, but it considers not only static loads but also dynamics!!
+
+
+                 ▪      Example:
+
+nelisethe
+          nexdisplacement
+ eachfundamentalfrequency
+delanalysisincludesanalysis                                                                                                                          Dynamic
+ldefrequencies                                                                                                         QSL static t               how frequency
+                                                                                                                                                         20H
+                                                                                       requirements
+                        highfrequency
+                     very
+                        event
+
+                             Requirement: “S/C owner shall make sure that the satellite is able to endure a QSL ±5.8 g in the LV axial direction and ±2.3 g
+                             in the LV lateral direction and proof by test shall be delivered”
+
+
+                 ▪      Objective of QSL: to condensate in just one static value (one per axis) the maximum acceleration at which the S/C could be
+                        subjected during the flight inside the LV. As only the amplitude of low frequency dynamic loads are considered, dynamic
+                        effects are not fully captured here, but random, sine and shock tests are needed.
+                 ▪      Frequency search before and after the QSL test vibration to verify the S/C is not damaged.
+
+
+                                                                   Modal Coordinate (spatial
+                                        FEM of the LV (and S/C)                                        Sum of Modal responses       Take the maximum
+                                                                   solution for each n mode) 𝜙n
+                                        Loads for the different                                                                     acceleration among different p
+                 ▪     QSL value                                   (from 0 to 1) and the spectral
+                                        load cases p                                                                                load cases
+                       obtention                                   acceleration 𝑆𝑎 (𝑤𝑛 ) at each                                                          𝒑
+                                        and the modal response                                                                             𝒂𝑸𝑺𝑳 = 𝐦𝐚𝐱 𝒂𝒆𝒒
+                       by LSP                                      resonance frequency 𝑤𝑛 for the                                                    𝒑
+                                        of the structure for the
+                                                                   p load case considered (lift-off,
+                                        different modes at the
+                                                                   stage separation..)
+                                        I/F structure
+
+
+
+
+                                                                                               10
+                      Mechanical Requirements
+▪   QSL (Quasi-Static Load)
+
+
+
+
+       QSL Test is the execution of a sinusoidal at a frequency well below the resonance frequency of the S/C and with
+       a high amplitude previously described.
+
+
+       Between 5-10 Cycles at nominal level
+
+
+
+
+                                                                  11
+                      Mechanical Requirements
+▪   Random Vibration Test
+
+      ▪   It s meant to simulate the broadband dynamic loads that occur during the powered flight phases of
+          launch, especially those caused by engine combustion, structural coupling, and aerodynamic
+          turbulence.
+      ▪   PSD (Power Spectral Density) in 𝑔2 /𝐻𝑧 is specified for each of the frequency covered: is the mean square
+          acceleration per frequency unit
+      ▪   The test is like “playing all the piano keys at the same time”: all the frequencies excited simultaneously
+      ▪   Frequency search before and after the Random Vibration Test to verify the S/C is not damaged
+      ▪   Requirement: “The satellite shall be subjected to the following PSD Random Profile and proof of the
+          test shall be provided”
+
+
+                                                                                                  Test
+                                                                                             1 Resonancesearch
+                                                                                             2 Rendertest QSL sine
+                                                                                             3 Resonance search It should
+                                                                                                bethesameasbefore
+
+
+
+
+                                                                  12
+                       Mechanical Requirements
+For all mechanical levels (and fundamental frequencies), if LSP has not been selected
+(initial S/C design phases), level envelopes shall be considered.
+
+                                                                            Random PSD [g2/Hz]
+                          1
+
+
+
+
+                                                                                                                                                       Falcon 9
+                         0.1
+                                                                                                             5.04E-02
+                                                                                                 5.04E-02           0.06                               Vega-C Main Deck
+
+
+
+        PSD [g2/Hz]
+                                                                                                 0.03112                      0.03112    0.013
+                                    0.02                                                                                                               SSLV
+                                                                                2.03E-02
+                                                                                                                                           0.01556
+                                     1.01E-02                                                                                 1.28E-02
+                        0.01                                   1.01E-02                                                                                Alpha
+                                                                                                                                            1.01E-02
+                                                0.0039             0.0039
+
+
+                       0.001
+
+
+
+
+                      0.0001
+                               10                                         100                                              1000
+                                                                               frequency [Hz]
+
+
+
+                                                   Axial 150
+                                                         Satellite Fundamental Frequency [Hz]
+                                                                                           100                                           Falcon 9
+                                                         100                   90 90                    90
+                                                                                                                                         Vega-C
+
+                                                         50               40                                                             ISAR_old
+                                                                                                   8                                     SSLV
+                                                          0
+
+
+
+
+                                                                                                            13
+           Mechanical Requirements (LSP to S/C )
+       ▪   Shock Test
+             ▪   Shock tests are very high acceleration destructive tests.
+             ▪   They try to reproduce events such as stage separation or fairing jettison
+             ▪   Must Never be performed to a Flight Model (FM) or Proto-Flight Model (PFM) S/C but only to Structural Models
+very
+ f           ▪   For FM and PFM shock propagation analysis can be performed instead
+                 Requirement “Satellite shall be able to cope with the following SRS (Shock Response Spectrum) levels”
+serplitude ▪
+
+
+
+
+                                                                                      14
+    Mechanical Requirements (LSP to S/C )
+                            Test to ensurethatthe switch doesnot
+                                                                switch on
+▪   Power Inhibit Test                                                    If notyo need to
+                            comply with the launcher's RF requirements
+       ▪   LV usually requests the S/C to be switched off, so that there is no interference between S/C and the
+           Electrical Interface and Buses and Antennas of the LV. This is hard to achieve, because vibrations could
+           switch the S/C on.
+       ▪   Requirement: “S/C owner shall guarantee that the S/C remains off during all the phases of the launch”
+       ▪   In practice, the S/C has a killing switch device that avoids the switching-on of the S/C (it is nothing else than
+           an electromechanical interrupter that prevents the S/C switching-on).
+       ▪   During all the vibration tests, it must be verified that the computer has not turned on (proper functioning of
+           the killing switch)
+
+
+
+
+                                                                       15
+                       Thermal Requirements
+ ▪   Usually, LSP does not require proof of compliance but still, compliance itself is usually requested
+     (sometimes only an analysis is fine), that is, shall be interpreted by SCO only as environmental description
+ ▪   In any case, the thermal environment to which the S/C is subjected is less severe than the one in its
+     operational orbit, so it shall be not a major issue for the S/C owner (that are tested in a TVAC test), but also
+     dynamic considerations play a role
+ ▪   Requirement: “Satellite shall be able to endure the following thermal environment during launch”
+
+
+
+
+                           Maximum Temperature Seen by Rideshare Payloads, Falcon 9, v10 RPUG
+
+
+
+
+                                                                                If the LV hot case is greater (~90°C), why do
+TVAC Satellite Tests do not usually go beyond 60 or 70 °C
+                                                                                 we usually consider it as covered by TVAC?
+
+                                                                                becausethe LVthermalleadisonlyfor a
+                                                                               reducedamount oftimesothe Stc doesnot
+
+                                                                               seethetemperatures
+
+                                                                      16
+                        Deployment Requirements
+▪ Those are Requirements that are usually set upon negotiation and iterative process between the
+  two parties (only when the S/C is in lead or in dedicated configuration, otherwise these conditions
+  are just set by the LSP)
+▪ One central aspect to be set here is the deployment strategy:
+       ▪   For instance, consider a launch with 2 main passengers
+       ▪   The customers communicate to the LSP the direction at which they would like to be deployed and the LSP
+           assess if it is possible to guarantee the needs of both passengers or not (see manoeuvres for deployment
+           from Vega-C AVUM on next slide)
+
+             • Be deployed in the direction of the orbital 𝑣Ԧ direction                                                                     𝑣Ԧ 𝑑𝑖𝑟𝑒𝑐𝑡𝑖𝑜𝑛
+               of the kick stage
+             • Be deployed in a direction perpendicular to the Sun
+             • Be deployed in a nadir-pointing direction
+             • Be deployed in a direction such that the separation
+               with the other S/C is as much as possible
+
+                                                                                                   Itmaybelowerthenthemaximumdependingontheacomode
+       ▪   The customers communicate to the LSP the maximum tip-off rate at which they would like to be deployed
+           and the LSP assess if it is possible to guarantee the needs of both passengers or not
+
+       ▪   A very important concern in this negotiations of the Deployment Conditions is the Assessment of the
+           Probability of Collision, PoC (the deployment strategy shall ensure the PoC is low enough)
+▪   Example of Deployment Requirements
+       ▪   “The S/C shall be released from the LV in the velocity direction of the final orbit”
+       ▪   “The S/C shall be released in a three axis stabilized strategy with a maximum tip-off rate of 1.5 deg/s in all axes “ (see next slide)
+
+
+
+
+                                                                                  17
+                       Deployment Requirements
+▪   As an example, AVUM (last stage of Vega-C) is able to perform attitude manoeuvres to guarantee the selected
+    deployment direction
+▪   In this example, the spin exerted (phase B) is only optional, the same could be without spin.
+▪   Generally, there are 2 strategies for LV kick stage stabilization:
+       ▪   Longitudinal Spin stabilized
+       ▪   Three axis stabilized (the most common one): even if this one is selected, a marginal tip-off rate appears due to the fact that
+           the control of the LV can not get completely rid of the rotation
+               Typical Residual Tip-Off Rate is around 1.5 deg/s in all axes
+
+
+
+
+                                          Deployment manoeuvres sequence for AVUM (Vega-C)
+
+
+
+                                                                               18
+                          Propulsion Requirements
+•   Requirement: “The use of 3D Printed Tanks is forbidden” (v10 of Falcon 9
+    User Guide, 2024)
+
+•   Requirement: “During the mechanical vibration tests, the overall propulsion
+    subsystem is pressurized at MEOP(Maximum Expected Operation Pressure)”
+    (Falcon 9)
+
+•   Requirement (The 15% Rule from Falcon 9): “The non-pressure loading
+    (environmental loads) shall be less than or equal to 15% of the total
+    combined flight stress (MEOP+ environmental loads)”
+
+•   The whole propulsion subsystem shall be subjected to a Leak Test according
+    to one or more methods shown below:
+                                                                                   15% Rule (Falcon 9)
+
+
+
+
+                                                                                  S/C Propulsion System
+
+
+
+
+                                                                         19
+                                     EMC/RF Requirements
+            •    EMC (Electro-Magnetic Compatibility) Requirements from LV are
+                 emissivity requirements (forbidden radiation bands from the S/C to
+                 LV imposed by the LSP to the S/C)
+
+            •    The Susceptibility Requirements (from LV to S/C) shall be assessed
+                 at satellite level, but are not strictly requirements coming from LSP
+
+            •    Emissivity Radiation Requirements do not apply if the S/C justifies
+thesic           that the satellite is switched-off during the vibration tests
+witchedoffat
+        not
+a thisdoes
+ly          • Requirement: “Satellite owner shall guarantee that its S/C does not
+condition
+
+ is alsoatime interfere with the LV critical frequencies shown below”:
+  buenonwhich
+canttaniton
+na2min
+
+
+
+
+        •       Requirement: “Satellite owner shall guarantee that its S/C shall not start
+                transmitting signals before deployment+2 minutes”
+
+
+
+                                                                           20
+                         Venting Requirements
+▪ The S/C shall be able to cope with a maximum fairing compartment depressurization rate of 3.6 kPa/s.
+
+
+
+
+                                                              needtobecompliantwith
+                                                             this
+                                                                                                    You
+                                                                                                      need tohave
+                                                                                                    aporosityanthe
+                                                                                                             that
+                                                                                                    surtassuch
+                                                                                                    you a   the
+                                                                                                         vent gasses
+
+                           Depressurization rate inside the fairing, Electron Vehicle, Rocket Lab
+
+
+▪ Concern: as LV raises, 𝑃𝑎𝑡𝑚 decreases, a gradient of 𝑃 between inside/outside the fairing → the S/C shall
+  be designed in such a way that the air can freely escape towards the faring (𝐴ℎ𝑜𝑙𝑒𝑠 /𝑉ℎ𝑜𝑙𝑒𝑠 )
+
+
+
+
+                                                                         21
+                         Interface Requirements
+▪ Depending on the type of satellite there are different types of LV/Satellite Interfaces:
+      ▪   Cubesat Satellites usually fly inside PODs ( or Deployers)
+      ▪   Bigger satellites are directly attached to the LV adapter by means of a separation ring+ clampband
+
+
+
+
+               POD in LV adapter
+                                                                        Separation Ring in LV adapter
+
+
+
+                                                                       22
+                       Interface Requirements
+▪ S/C Owner shall make sure that the S/C is compatible with the Separation System Characteristics
+  (mechanical and electrical Fit-check)
+▪ S/C Owner shall make sure that the Separation System selected is qualified for flight on the LV intended
+     ▪ Sometimes this is not the case, and the process of qualification is long and complicated. Take that
+       in consideration when selecting a separation system or even the LSP itself.
+▪ For the case of a CubeSat released from a deployer, consider the contribution of the torque that the
+  misalignment S/C-POD could introduce in the deployment
+▪ It is not only necessary to select a LSP but define with them the Accommodation Analysis: the position
+  on the LV adapter will define for instance the exact vibration levels
+
+                                                                                  Tower
+
+
+
+
+                                                                                          Main Deck
+                              Hexa
+
+
+
+                                SSMS Adapter for Vega-C: Main Deck, Tower and Hexa positions
+
+
+▪ For rideshare missions, am important I/F requirement imposed by the LSP to S/C owner is the autonomy
+  of the S/C batteries: minimum time that the batteries shall remain within their safe limits without any
+  charging. This way, the S/C owner does not interfere the LSP integration activities even in case of
+  campaign delays
+
+
+
+                                                                     23
+Launch Campaign
+
+
+
+
+   LC-1 (Rocket Lab)
+
+
+
+
+                 24
+Launch Campaign
+
+
+
+
+  PPF and Hangar (LC-1, Rocket Lab)
+
+                   25
+                                  Launch Campaign
+
+                                                         S/C-LV Kick
+S/C Arrival and              S/C Standaolone
+                                   Ops
+                                                            Stage        Combined Test           Encapsulation
+Acclimatisation
+                                                         Integration
+
+
+
+                     - Inspections (early fit checks!)                   LV commanding of
+                                - Health Check                           separation signals:
+                         - S/C P/L functional tests                    reception at separation
+                             - Filling Operations                      system and actioning of
+                             - Battery Charging                           actuators checked
+                          - Propulsion Leak Check
+                  - S/C assembly into Interface(POD,
+                                      ring)
+
+
+
+
+                                                                  26
+                          Launch Campaign
+
+                  Kick-stage     S/C-LV Kick       Final     WDR (Wet
+Encapsulation   mating to the       Stage       Integrated     Dress      Launch
+                rest of the LV   Integration   System Test   Rehearsal)
+
+
+
+
+                                               27
+    LSP Selection Decision Making Tips
+▪   First, be aware that the Launch represents a significant cost of the project, important decision and subjected to
+    a lot of pressure from the different players.
+▪   Launch selection is (theoretically) not subjected to Geo-Return.
+▪   Several aspects to be considered when taking this decision:
+        ▪ Geopolitical factors
+        ▪ Declared Launch availability periods
+        ▪ Feasibility: risk assessment by means of FMECA
+        ▪ Cost
+        ▪ Technical assessment (requirements)
+
+       Assign a score and a weight to each of the factors considered and merge them on a global score
+
+▪   Different LSPs may require different environmental requirements -> How do we start designing the S/C and
+    defining requirements if the LSP has not been decided yet?
+        ▪ One possible solution: Consider the Envelope of different LSPs (f.e. in mechanical levels)
+
+▪   If a requirement towards a LSP is not met, try to communicate them as study if it would be feasible or not to
+    process a RFD (Request for Deviation) or RFW (Request For Waiver)
+         ▪ If this is not possible at all, this LSP shall be ruled out as soon as possible
+▪   In the actual market several new micro-launchers are about to produce big changes: from an institutional
+    paradigm to a commercial paradigm, and this offers new capabilities specially for small/medium size satellites
+         ▪ However, keep always in mind that building a Rocket from scratch is not easy: their technological (and
+            financial risk is quite high nowadays)
+         ▪ Are Micro launchers companies accomplishing the launch dates they promised?
+         ▪ If you are about to select one of this companies the insight of their development program shall be very
+            high. Are they offering you all the info you need to take a decision?
+
+
+
+
+                                                               28
+

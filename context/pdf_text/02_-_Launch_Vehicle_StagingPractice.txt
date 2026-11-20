@@ -1,0 +1,977 @@
+Staging Practice
+Launchers and Re-entry- 19260
+      Pablo Ramos Sánchez
+                                 Contents
+                        totalmess ol object
+       Objective Minimize
+
+
+
+ 1. Tsiolkovsky Equation And Rockets Parameters
+ 2. Single Stage Analysis by using the Rocket
+    Parameters
+ 3. Optimal Staging from a System Requirements
+    point of view
+ 4. Optimal Staging Performances Analysis
+Requirements         To knowthe real lossesof AV
+Moss    height       we need to model it
+
+
+
+
+                                                    Donotcareabouttrajectory
+                                           Sizing
+                                               S pm    no
+Tsiolkovsky Equation And Rockets Parameters
+                                                                                  𝑀0
+ ▪ Tsiolkovsky Equation                                            ∆𝑉 = 𝑔0 𝐼𝑠𝑝 ln
+                                                                                  𝑀𝑒
+
+ ▪ Where the empty mass 𝑀𝑒 is equal to the                         𝑀𝑒 = 𝑀0 − 𝑀𝑝 propellant
+   initial mass 𝑀0 minus the propellant mass                                    mess
+   𝑀𝑝                                                  emptymess
+                                                      statue          initialmessofroiket
+                                                      propellant
+                                                      t payload          𝑀0
+ ▪ It is important to introduce the Mass Ratio 𝜦                      Λ=
+                                                                         𝑀𝑒      M0
+                                                                                  5
+                                                                                frac
+ ▪ It can be seen as the initial mass can be                        ∆𝑉 = 𝑔0 𝐼𝑠𝑝 ln Λ
+   considered as the sum of the
+
+     ▪ Structural Mass      𝑀𝑠                                 𝑀0 = 𝑀𝑢 + 𝑀𝑠 + 𝑀𝑝
+     ▪ Payload Mass         𝑀𝑢
+     ▪ Propellant Mass      𝑀𝑝                                       𝑀𝑒 = 𝑀𝑢 + 𝑀𝑠
+
+
+
+
+                                               3
+                   DV as function of Λ
+∆𝑉 = 𝑔0 𝐼𝑠𝑝 ln Λ
+                                         1h    PAV we canachieve
+                                               youhavemorepropellantwir
+                                                 thesame structure
+
+
+
+
+                                               ↑ Λ ↑ ∆𝑉
+                                         (efficient structure)
+
+
+
+                                              ↑ 𝐼𝑆𝑃 ↑ ∆𝑉
+                                           (efficient engines)
+
+
+
+
+                              4
+               Rockets Paremeters
+▪ Payload mass indicates 𝑀𝑢
+   ▪ Satellite
+   ▪ Scientific package
+   ▪ A complete rocket vehicle (multistage)
+
+▪ Structural Mass 𝑀𝑠
+   ▪ Rocket Structure
+   ▪ Rocket Motors
+   ▪ Pipes, cables, thermal insulation
+   ▪ Installed equipment
+   ▪ Avionics
+   ▪ Electrical and power supply
+   ▪ Residual propellant
+
+
+
+
+                                         5
+               Rockets Paremeters
+▪ We define, with the typical values range
+  for a single stage rocket
+                                                                 payloadmess
+                                                            𝑀𝑢
+   ▪ Payload Ratio            𝜆                          𝜆=
+                                                            𝑀0
+                                                                  initialmess
+       ▪ 0.01 < 𝜆 < 0.2
+                                                              𝑀𝑠 street
+                                                                   mess
+   ▪ Structural efficiency    𝜀              theless     𝜀=
+                                                            𝑀𝑠 + 𝑀𝑝
+       ▪ 0.08 < 𝜀 < 0.5                      thebetter
+
+                                                            𝑀𝑝
+   ▪ Propellant Ratio         𝜑                          𝜑=
+                                                            𝑀0
+       ▪ 0.5 < 𝜑 < 𝟎. 𝟗
+
+   ▪ Mass Ratio               Λ                                𝑀0
+                                                          Λ=
+      ▪ 2 < Λ < 10                                           𝑀𝑢 + 𝑀𝑠
+
+
+
+                                    6
+Propellant Ratio
+      𝑀𝑝
+   𝜑=    ≈ 90%
+      𝑀0
+
+
+
+
+           7
+        Some Relationship among the
+            Rocket Parameters
+▪ It can be easily verified the relation among the Propellant Ratio (𝜑),
+  Structural Coefficient (𝜀) and Payload Ratio (𝜆) (see Annex A)
+
+                               𝜑 = 1−𝜀 1−𝜆
+
+▪ The Mass Ratio (Λ) is clearly related to the propellant Ratio
+
+           𝑀0      𝑀0      𝑀0 /𝑀0       1
+      Λ=        =       =           =
+         𝑀𝑠 + 𝑀𝑢 𝑀0 − 𝑀𝑝 1 − 𝑀𝑝 /𝑀0   1 − 𝜑
+
+            M
+            e
+▪ Finally we get a relevant equation to relate the three coefficients
+
+             01x                 Onlydepends
+                  1               on   M
+                                       0                    1 − Λ𝜀
+           Λ=                              extreet
+                                                         𝜆=
+              𝜀 1−𝜆 +𝜆           Sowecon                    1−𝜀 Λ
+                                  0 from it
+                                  M
+          M
+          ps
+         frac           0
+                        v
+                        M
+                        frac
+
+                                                     8
+varepsilon
+ lambda
+ Omega
+  Sigma
+   Delta
+   right
+   cdot
+   frac
+    left
+     ln
+     V
+     0
+     p
+     g1s
+       I
+        Some Relationship among the
+            Rocket Parameters
+▪ It can be easily verified the relation among the Propellant Ratio (𝜑),
+  Structural Coefficient (𝜀) and Payload Ratio (𝜆) (see Annex A)
+
+                            𝜑 = 1−𝜀 1−𝜆
+
+▪ The Mass Ratio (Λ) is clearly related to the propellant Ratio
+
+           𝑀0      𝑀0      𝑀0 /𝑀0       1
+      Λ=        =       =           =
+         𝑀𝑠 + 𝑀𝑢 𝑀0 − 𝑀𝑝 1 − 𝑀𝑝 /𝑀0   1 − 𝜑
+
+
+
+▪ Finally, we get a relevant equation to relate the three coefficients
+
+
+                  1                                  1 − Λ𝜀
+           Λ=                                     𝜆=
+              𝜀 1−𝜆 +𝜆                               1−𝜀 Λ
+
+
+                                              9
+                   Rocket Parameters
+                               1                      Δ𝑉 = −𝑔0 𝐼𝑠𝑝 ln 𝜀 1 − 𝜆 + 𝜆
+∆𝑉 = 𝑔0 𝐼𝑠𝑝 ln Λ = − 𝑔0 𝐼𝑠𝑝 ln
+                               Λ
+                                                           (Δ𝑉max ) = −𝑔0 𝐼𝑠𝑝 ln 𝜀
+                                          from
+                          stage to move
+                    You
+                                to anotherto
+                      one   are                            •
+                              more AV
+                                                                Higher payload mass ↑ λ ↓ Δ𝑉
+                        get
+                                                       •       Δ𝑉max as first estimate of feasibility
+
+                                                                                           𝑀𝑠
+                                                                •   ↓ 𝜀 ↑ Δ𝑉        𝜀=
+                                                                                         𝑀𝑠 +𝑀𝑝
+                                                                           wantempty
+                                                                    Donotthings
+                                                           •    Rocket is nothing but a structure
+                                                                 containing a lot of propellant
+
+                                                           • As propellant is consumed, inert
+                                                           structural mass is being accelerated =>
+                                                               Get ride of it!! => ↓ 𝜀 (Staging)
+
+                                                       Pd LAV
+
+                                                 10
+               Multistage Launchers
+▪ To reach higher DV a possibility
+  is the staging of the rocket
+
+
+▪ The basic idea is to separate the
+  empty vehicle to waste energy
+  accelerating inert mass
+
+
+▪ How many stages ?
+
+
+▪ How to distribute propellant
+  mass among the different
+  stages to maximize
+  performances
+
+
+
+
+                                      11
+      Some Multistage: Sub-Rocket
+             Definitions
+
+
+
+                                             Sub-Rocket 3: 𝑀03
+
+
+
+
+                    Sub-Rocket 2: 𝑀02
+
+
+                                   𝑀0𝑖 = 𝑀𝑢𝑖 + 𝑀𝑠𝑖 + 𝑀𝑝𝑖
+
+Sub-Rocket 1: 𝑀01                       𝑀𝑢𝑖 = 𝑀0 𝑖+1
+
+
+
+                           12
+M
+S
+3
+0
+2
+p
+u
+1
+o
+s
+
+
+
+
+          2
+3
+1
+         lambda
+lambda
+
+
+
+
+lambda
+  prod
+  cdot
+  frac
+   M0
+    3
+    2
+    d
+    o
+    v
+    1t
+     i
+  frac
+   M0
+    2
+    1
+lambda
+               MultiStage Equations
+                                         𝑀0𝑖    𝑀0𝑖
+▪ Mass Ratio         Λ𝑖             Λ𝑖 =     =
+                                         𝑀𝑓𝑖 𝑀0𝑖 − 𝑀𝑝𝑖
+
+                                         𝑀𝑢𝑖 𝑀0_𝑖+1
+▪ Payload Ratio      𝜆𝑖             𝜆𝑖 =     =
+                                         𝑀0𝑖   𝑀0𝑖
+                                         𝑀𝑝𝑖
+▪ Propellant Ratio   𝜑𝑖             𝜑𝑖 =
+                                         𝑀0𝑖
+
+                                            𝑀𝑠𝑖
+▪ Structural efficiency   𝜀𝑖        𝜀𝑖 =
+                                         𝑀𝑠𝑖 + 𝑀𝑝𝑖
+
+
+
+
+                               13
+                  MultiStage Equations
+▪ The equations that we have introduced for the single stage are still valid
+  when considering a Multistage vehicle
+▪ In particular
+
+    ▪ Propellant Ratio as function of structural coefficient and payload ratio
+
+                             𝜑𝑖 = 1 − 𝜀𝑖 1 − 𝜆𝑖
+    ▪ Mass Ratio as function of Propellant Ratio and viceversa
+
+                    1             1                        1 − Λ𝑖 𝜀𝑖
+             Λ𝑖 =        =                            𝜆𝑖 =
+                  1 − 𝜑𝑖   𝜀𝑖 1 − 𝜆𝑖 + 𝜆𝑖                  1 − 𝜀𝑖 Λ𝑖
+
+
+    ▪ Sub-Rocket ΔVi
+
+                               ∆𝑉𝑖 = 𝑐𝑖 ln Λ𝑖
+
+
+
+
+                                                14
+       Total Multistage parameters
+▪ We have introduced the single subrockets parameters but
+  let’s see some general launcher figures
+
+
+▪ Total Payload Ratio
+                      𝑀𝑝𝑙 𝑀𝑢𝑛 𝑀02 𝑀03 𝑴𝒖𝒏
+               𝜆𝑡𝑜𝑡 =    =    =       …
+                      𝑀0   𝑀01 𝑴𝟎𝟏 𝑀02 𝑀0𝑛
+                𝜆𝑡𝑜𝑡 = 𝜆1 𝜆2 … 𝜆𝑛
+
+                                    𝑁              𝑁
+▪ Total ΔV               ∆𝑉𝑡𝑜𝑡 = ෍ Δ𝑉𝑖 = ෍ 𝑐𝑖 𝑙𝑛Λ𝑖
+                                    𝑖=1        𝑖=1
+
+                                          𝑁                𝑁
+                                                   1
+                         ∆𝑉𝑡𝑜𝑡 = − ෍ 𝑐𝑖 𝑙𝑛            = − ෍ 𝑐𝑖 𝑙𝑛 𝜆𝑖 + 𝜖𝑖 1 − 𝜆𝑖
+                                                   Λ𝑖
+                                        𝑖=1               𝑖=1
+
+
+
+                                              15
+                        Two different approaches
+     ▪ Even if conceptually equivalent, this topic can be
+       addressed following two different approaches
+
+
+          ▪ System Requirement Problem (Design Problem)                 how to distributethemesses       d       to
+                                                                        minimizethemess
+Given    Get
+              ▪ Given a final Orbit and a required Payload
+Ma       tomo   mass compute the minimum GMLO (Gross                             i.e. You are an engineer designing a new
+h               Mass at Lift Off) and its distribution among                     rocket and you want to minimize its mass
+ c
+                the different stages
+
+                                                 howto distributethepropellant
+                                                                               insidethe differentstages   X me AV
+          ▪ Performance analysis problem                                         i.e. You are a mission manager engineer at
+Given         ▪ Given the GMLO compute the propellant                            SpaceX who has to maximize the total
+
+Mu               distribution among the stages to maximize                       delta V of the Falcon 9 rocket for a given
+
+ c
+         PAV the total ΔV at injection                                           payload
+
+No
+     ▪ In both cases it is assumed that the stages Isp and Structural
+       coefficient are known: 𝑐𝑖 , 𝜀𝑖 , 𝑁
+
+
+
+
+                                                              16
+     System Requirement Approach
+▪ Minimize the GMLO once assigned the launcher final Orbit
+  and the launcher configuration
+
+
+▪ Assigned
+   ▪ Final Orbit: Meaning Total ΔV is known
+   ▪ Number Of Stages N
+   ▪ Structural coefficient 𝜀𝑖
+   ▪ Specific Impulse 𝑐𝑖
+
+▪ Minimum 𝑀0 for a given payload mass 𝑀𝑃𝐿
+
+                           𝑀0   1
+   ▪ Minimize the ratio       =
+                           𝑀𝑝𝑙 𝜆𝑡𝑜𝑡
+
+
+
+
+                                      17
+       Cost function definition (f)
+                            𝑁              𝑁
+                   𝑀𝑝𝑙            1 − Λ𝑖 𝜀𝑖
+            𝜆𝑡𝑜𝑡 =     = ෑ 𝜆𝑖 = ෑ
+                   𝑀0             1 − 𝜀𝑖 Λ𝑖
+                           𝑖=1            𝑖=1
+
+
+                                     1 − Λ 𝑖 𝜀𝑖
+                          𝜆𝑘 =
+                                     1 − 𝜀𝑖 Λ 𝑖
+
+
+                𝑁                          We can select to minimize
+    𝑀0          1 − 𝜀𝑖 Λ 𝑖                 the same function but with
+                                                                                     𝑀0
+𝑚𝑖𝑛     = 𝑚𝑖𝑛 ෑ                                                             min 𝑙𝑛
+    𝑀𝑝𝑙         1 − Λ 𝑖 𝜀𝑖                 the logarithm                             𝑀𝑝𝑙
+               𝑖=1
+
+                                                       𝑁
+                        𝑀0             1 − 𝜀𝑖 Λ 𝑖
+                 min 𝑙𝑛     = min 𝑙𝑛 ෑ
+                        𝑀𝑝𝑙            1 − Λ 𝑖 𝜀𝑖
+                                                      𝑖=1
+                                                       𝑁         𝑁
+
+      Recalling Properties of logarithms           ln ෑ 𝐸𝑖 = ෍ ln 𝐸𝑖
+                                                      𝑖=1        𝑖=1
+
+
+                                 𝑁
+            𝑀0             1 − 𝜀𝑖 Λ𝑖                            Objective function to be minimized
+   min 𝑙𝑛       = min ෍ 𝑙𝑛
+                                                                onlydepends onthe 1
+            𝑀𝑝𝑙            1 − Λ𝑖 𝜀𝑖
+                             𝑖=1
+
+
+
+                                                           18
+              Constraint Function (g)
+▪ Launch vehicle must provide the required energy to insert the
+  satellite into desired orbit.
+▪ Thus, Δ𝑉𝑉𝑒ℎ𝑖𝑐𝑙𝑒 must be equal to Δ𝑉𝑀𝑖𝑠𝑠𝑖𝑜𝑛                   size therocket
+                                       𝑁
+
+                   ∆𝑉𝑡𝑜𝑡 = ∆𝑉𝑚𝑖𝑠𝑠𝑖𝑜𝑛 = ෍ 𝑐𝑖 𝑙𝑛Λ𝑖            selectthe payload reto
+                                      𝑖=1                   ofeachofthe stages
+▪ The Minimization problem is hence transcribed
+                                   select tominimize
+                                                        todo
+                                              constrained
+
+Minimize:                                                                Recall:
+                                                                    𝛬𝑖 is a variable
+                              𝑁
+                                                                  𝜀𝑖 is a known data
+                                  1 − 𝜀𝑖 Λ𝑖
+                             ෍ 𝑙𝑛
+                                  1 − Λ𝑖 𝜀𝑖
+                              𝑖=1
+Subject to:
+                         𝑁
+
+                        ෍ 𝑐𝑖 𝑙𝑛Λ 𝑖 = ∆𝑉𝑚𝑖𝑠𝑠𝑖𝑜𝑛
+                        𝑖=1
+
+
+                                        19
+   Augmented Function and Lagrange multiplier
+   ▪ If the Method of Lagrange Multipliers is applied, optimal mass ratios Λ 𝑘 can be found
+     by specifying the values for
+
+   ▪ Δ𝑉𝑀𝑖𝑠𝑠𝑖𝑜𝑛                                   lambda I t0
+                                                  Delta
+                                                   cdot
+                                                    ln
+                                                    V
+                                                    0iC
+                                                    g
+                                                                                      meansthatthe
+   ▪ Structural Coefficient:                𝜀𝑘                  Maximizing
+
+                                                                augmented
+                                                                              left
+                                                                               pti
+                                                                               g also
+                                                                             right
+                                                                             cdot
+                                                                          function
+                                                                                 is
+                                                                                           maximized
+   ▪ Specific Impulse                       𝑐𝑘 = 𝐼𝑠𝑝𝑘 ∗ 𝑔0
+   ▪ Number of Stages                       𝑁
+   ▪ Introducing the Lagrange multiplier (p), the augmented function can be expressed as
+      𝑓 ∗ = 𝑓right
+                 n+ 𝑝𝑔Gil
+               left
+                                                                   why do       need a
+            multiplier
+     lagrange                                                                        you
+                                                                                multiplier
+                                                                     lagrange
+
+
+
+
+ 0
+ piln
+ gf
+mu1k
+left
+frac
+                                                                                            work
+
+cdot
+right
+                                                                     how does that
+sum_
+partial
+lambda
+varepsilon
+                                                 g
+
+
+
+
+                                                     20
+                      Applying the necessary conditions
+▪ Differentiating with respect to Λ 𝑘 and equating it to zero
+
+
+
+
+                                                     linear
+                                                  mon                              onlyunknownis
+                                                  equation                              p
+
+                                                                                    getp
+
+▪ The last equation allows to compute the Lagrange multiplier
+                                                                                   go to    and
+
+▪ It needs to be solved numerically
+                                                                                   get h
+▪ Matlab fZero.m works very well when providing a good initial guess: for the initial guess you
+  could solve previous equation considering identical stages:
+
+                                                      1
+                                  𝑝𝑔𝑢𝑒𝑠𝑠 =
+                                             𝑐𝑖 𝑖 𝑒 𝑉/𝑁𝑐𝑖 − 1
+          thatallstagesareequal
+   Supposes                        p
+interms of DV E   1
+
+                                                              21
+          Numerical Solution Scheme
+▪ Solve numerically the equation finding the Lagrange multiplier (taking initial
+  guess)                                                HowtosolveMATLAB
+                                                            x fzero left
+                                                                   right
+                                                                     0f
+                                                                     u
+                                                                     x initial
+                                                                            guess
+
+                                                                           Sigma
+                                                                           sum_
+                                                                           Delta
+                                                                            cdot
+                                                                            frac
+                                                                             m
+                                                                             ln
+                                                                              Ni
+                                                                              C
+                                                                              p
+                                                                              c
+                                                                              k1
+                                                                              fV    mission
+
+
+
+
+▪ Check that it represents really a minimum
+
+
+▪ Compute the Mass Ratio for each stage
+
+                                                           1 − Λ𝑘 𝜀𝑘
+▪ Compute the Payload Ratio for each stage          𝜆𝑘 =
+                                                           1 − 𝜀𝑘 Λ𝑘
+                                                      𝜆𝑡𝑜𝑡 = 𝜆1 𝜆2 … 𝜆𝑛
+▪ Compute the Total Payload Ratio
+                                                     𝑀0   1
+                                                        =
+▪ Compute the GMLO                                   𝑀𝑝𝑙 𝜆𝑡𝑜𝑡
+
+
+                                            22
+Exercise: Try to solve the example provided in
+                 previous lesson
+
+
+
+                                                                                                                 ΔV                9700 m/s
+                                                                                                                 PL                1500 kg
+
+
+
+                                                                      TWO STAGE TO ORBIT
+           Stage       Propellant Mass (kg)      Inert Mass (kg)       ISP (s)     Structural Coefficient     DV (m/s)      Lift Off Mass
+                     1                     23680                 2630          400                        10%          4966
+           FAIRING
+                     2                     4503                  673          430                          13%              4735
+           Payload                                              1500
+
+           Total                                                                                                            9700                   32986
+
+
+
+
+                                                                    SINGLE STAGE TO ORBIT
+           Stage       Propellant Mass (kg)     Inert Mass (kg)       ISP (s)     Structural Coefficient         DV (m/s)          Lift Off Mass
+                     1                   285950                 24865         400                          8%               9700
+           FAIRING
+           Payload                                              1500
+
+           Total                                                                                                                                   312315
+
+
+
+                                                              23
+                                                                                                                                   10 times Heavier
+              Performance Analysis
+▪ In this case we consider the dual problem wrt the previous
+
+   ▪ The Initial Mass is known as well the payload mass
+   ▪ We want to maximize the total ΔV. It turns in maximizing, e.g, the
+     orbital altitude.
+   ▪ As before, these parameters are known
+
+       ▪ Number of stages                  𝑁
+       ▪ Specific Impulses                 𝑐𝑖
+                                                  rightarrow Mex Vtot
+                                                      i
+                                                                Delta
+       ▪ Structural Coefficients           𝜀𝑖     lambda
+        Total mess Mo
+        Mu payload
+
+
+
+
+                                      24
+                Problem Formulation
+▪ The costs function in this case is the total ΔV, expressed in
+  function of ε, 𝜆𝑖 , 𝑐𝑖 . This is the function that we want to
+                                                                𝑀𝑝𝑙
+  maximize, once assigned the total payload ratio: 𝜆𝑡𝑜𝑡 =
+                                                                             𝑀0
+
+                                       𝑁
+
+                 max ∆𝑉𝑡𝑜𝑡 = max − ෍ 𝑐𝑖 𝑙𝑛 𝜆𝑖 + 𝜀𝑖 1 − 𝜆𝑖
+                                      𝑖=1
+                                                       it alldepends on di
+▪ This time the solution is found in terms of payload ratios 𝜆𝑖
+▪ The 𝜆𝑖 are subject to the constraint
+                                                 𝑁           𝑁
+      𝜆𝑡𝑜𝑡 = 𝜆1 𝜆2 … 𝜆𝑛          ln 𝜆𝑡𝑜𝑡 = ln ෑ 𝜆𝑖 = ෍ ln 𝜆𝑖
+                                                 𝑖=1        𝑖=1
+
+
+         Constraint function   g = σ𝑁
+                                    𝑖=1 ln 𝜆𝑖 − ln 𝜆𝑡𝑜𝑡
+
+
+
+
+                                            25
+    Augmented Function and Lagrange multiplier
+▪ The augmented cost function is defined by introducing the Lagrange multiplier (𝜐)
+
+             𝑓 ∗ = − σ𝑁
+                      𝑖=1 𝑐𝑖 ln λ𝑖 + ε𝑖 1 − λ𝑖     + ν (σ𝑁
+                                                         𝑖=1 ln 𝜆𝑖 = ln 𝜆𝑡𝑜𝑡 )
+
+                                        𝜕𝑓∗ (𝜆𝑖 )
+▪   The necessary condition is given by           =0
+                                         𝜕𝜆𝑖
+
+                                  Clearing 𝑖                  ν 𝜀𝑖
+                                                 𝜆∗𝑖 =
+                                                         (ci − 𝜈)(1 − 𝜀𝑖 )
+
+
+▪ Introducing 𝜆𝑖 in the constraint function      σ𝑁
+                                                  𝑖=1 ln 𝜆𝑖 = ln 𝜆𝑡𝑜𝑡
+    we get the Lagrange multiplier (𝜐) by solving an Nth order algebraic equation
+
+                                                                non linea equation to
+                                                                                        solve   la v
+
+
+
+
+                                                         26
+              Ass1: Constant Specific Impulse
+▪ An analytical solution can be derived under the approximation of all the stages with
+  the same specific impulse 𝑐𝑖 = 𝑐𝑜𝑛𝑠𝑡 𝑁                            𝑁
+                                                    ν 𝜀𝑖                     ν 𝜀𝑖
+                                        ෍ 𝑙𝑛                   = 𝑙𝑛 ෑ                  = ln 𝑡𝑜𝑡
+                                              (𝑐 − 𝜈)(1 − 𝜀𝑖 )        (𝑐 − 𝜈)(1 − 𝜀𝑖 )
+                                              𝑖=1                           𝑖=1
+
+▪ 𝑐𝑖 = 𝑐𝑜𝑛𝑠𝑡
+                                                1/𝑁
+   ν         1 − 𝜀1 1 − 𝜀2 … (1 − 𝜀𝑁 )
+      = tot
+  𝑐−ν               𝜀1 𝜀2 … 𝜀𝑁
+                 ν 𝜀𝑖
+   𝜆∗𝑖 =
+           (𝑐 − 𝜈)(1 − 𝜀𝑖 )
+
+From 𝑉𝑖𝑑 𝜆𝑖 = − σ𝑁
+                 𝑖=1 𝑐𝑖 𝑙𝑛 𝜆𝑖 + 𝜀𝑖 1 − 𝜆𝑖   = −𝑐 𝑙𝑛 ς𝑁
+                                                     𝑖=1 𝜆𝑖 + 𝜀𝑖 1 − 𝜆𝑖   = −𝑐 𝑙𝑛 ς𝑁
+                                                                                   𝑖=1 𝜆𝑖 1 − 𝜀𝑖 + 𝜀𝑖
+
+
+
+
+▪ And also the inverse solution relating 𝜆𝑡𝑜𝑡 𝑚𝑎𝑥 = 𝑓(𝑉𝑖𝑑 )
+                                                                            Ideal velocity ratio
+                                                                          𝑉𝑖𝑑ൗ
+                                                                   𝑢=         𝑐
+
+                                                           27
+                       Two Stages case
+▪ Let’s consider the case of two stage Rocket. The previous equation
+  specializes in:
+
+
+▪ We can see for very small ideal velocity ratio, the total payload ratio is
+  practically independent of the structural coefficient
+
+                                                                   smallchange in
+                                                                                       of
+                                                                   structural efficiency
+
+                                                                   the secondstage has a
+                                                                   greatimpacton the
+                                                                    totalpayload ratio
+
+
+
+
+▪ Performance can be considerably increased by improving the
+  structural coefficient of the second stage 𝜺𝟐 (provided high velocity
+  ratio 𝒖), that is why they are usually more structurally optimized
+
+
+                                             28
+ Ass2: Constant Structural coefficients
+▪ The launcher has identical stages and all the payload ratio are equal
+▪ The assumption of constant structural coefficient can be also done for a
+  very preliminary assessment
+▪ Moreover all the stages shall provide the same Δ𝑉𝑖
+                                                          1ൗ
+                                            𝜆𝑖 = 𝑐𝑜𝑛𝑠𝑡 = 𝜆𝑡𝑜𝑡𝑁
+
+
+                                                                     N ∆𝑣
+
+
+                                                                    Compare ∆𝑣𝑚𝑎𝑥
+                                                                    with the ∆𝑣 for
+                                                                    final height as
+                                                                    first check
+
+
+
+
+▪ This expression can be used to determine the initial guess for p at the
+  design problem
+
+
+                                           29
+          Numerical Solution Scheme
+▪ Solve numerically the equation finding the Lagrange multiplier
+
+
+
+
+▪ Check that it represents really a minimum
+
+                                                               ν 𝜀𝑖
+▪ Compute the Payload Ratio for each stage       𝜆∗𝑖 =
+                                                         (ci − 𝜈)(1 − 𝜀𝑖 )
+
+                                                𝑁
+▪ Compute the total delta-V       ∆𝑉𝑡𝑜𝑡 = − ෍ 𝑐𝑖 𝑙𝑛 𝜆𝑖 + 𝜀𝑖 1 − 𝜆𝑖
+                                                𝑖=1
+
+
+
+                                                              1
+▪ Compute Mass ratio (mass distribution)        Λ𝑖 =
+                                                       𝜀𝑖 1 − 𝜆𝑖 + 𝜆𝑖
+
+
+                                           30
+                              SATURN-V
+
+
+
+
+                  Wet Mass     Dry                             DV
+                    (kg)     Mass(kg)    ε    Isp (s)    λ    (m/s) DV% Propellant
+1st stage-SI-C      2278298    142113    6.23% 263      22.05% 3386 28%    LOX/RP1
+2nd Stage-SIIB        479882    40385    8.42% 421      25.50% 4728 38%    LOX/LH2
+3rd Stage-SIV-B       119099    13961   11.72% 421      27.72% 4197 34%    LOX/LH2
+Payload                         45685
+Total               2877279    196459                   1.56% 12311 100%
+
+
+
+
+                                                 31
+STAGING DESIGN PROBLEM
+                    (System Engineering Perspective)
+
+                 Mission
+               Requirements                                           System                                           Solve staging                                                                                                                         Compute nominal
+h sub o r b i. t goes to increment cap V
+
+
+
+ℎ𝑜𝑟𝑏𝑖𝑡 → ∆𝑉 (with                                                  Requirements                                          problem                                                                                                                              trajectory with
+ approximated
+                                                                        c sub i.
+
+
+
+                                                                        𝑐𝑖                    p goes to cap lambda sub i. goes to goes to  sub i. , subscript base , goes to  , end base , sub t o t , subscript base , goes to cap M , end base , sub 0   constraints (heat
+      losses)
+                                                                                                 𝑝 → Λ𝑖 →                                                                                                                                                      flux, drag, TC
+                                                                                              → 𝑖 → 𝑡𝑜𝑡 → 𝑀0
+                                                                        script epsilon
+
+
+
+                                                                        𝜀𝑖
+                                                                        sub i.
+
+
+
+
+                                           m sub p a. y                                                                                                                                                                                                          windows..)
+                                           𝑚𝑝𝑎𝑦
+
+
+
+
+                                                          Increase ∆𝑉                    No                                                                                                                                              Is trajectory                  Yes
+                                                                                                                                                                                                                                           feasible?                             END
+
+
+
+
+                                                                                                                                                                                              32
+       Annex A: Proof of structural
+          relationship formula
+                          𝜑 = 1−𝜀 1−𝜆
+
+
+▪ Objective: Relate 𝜑 with 𝜀 and λ
+
+                         𝑀𝑠     𝑀0 − 𝑀𝑝 − 𝑀𝑢
+           𝑀𝑠     𝑀𝑠     𝑀0          𝑀0        1−𝜑−
+     𝜀=        =       =      =              =
+        𝑀𝑠 + 𝑀𝑝 𝑀0 − 𝑀𝑢 1 − λ       1−λ         1−λ
+
+                                  𝜑
+                           𝜀 =1−
+                                 1−λ
+                                      𝜑
+                           1−𝜀 =
+                                     1−λ
+
+                         𝜑 = 1−𝜀 1−𝜆
+
+
+
+
+                                           33
+      Annex B: Augmented function
+Optimization Problem
+Find a value of the variable x to Maximize/Minimize the value of
+the objective function f(x) satisfying a constraint g(x) = 0
+
+Lagrange Function
+                     𝐿 𝑥, 𝜆 = 𝑓 𝑥 + 𝜆𝑔 𝑥
+𝐿 𝑥, 𝜆 is the augmented Lagrange function
+𝑓 𝑥 is the objective function to be maximized or minimized
+𝜆 is the Lagrange multiplier
+𝑔 𝑥 is the constraint function that the independent variable x
+has to satisfy
+
+                𝛻𝑥 𝐿(𝑥, 𝜆) = 𝛻𝑓(𝑥) + 𝜆𝛻𝑔(𝑥) = 0
+
+
+                                    34
+      Annex B: Augmented function
+At optimal conditions:
+                𝛻𝑥 𝐿(𝑥, 𝜆) = 𝛻𝑓(𝑥) + 𝜆𝛻𝑔(𝑥) = 0
+
+                        𝛻𝑓 𝑥 ∗ = −𝜆𝛻𝑔(𝑥 ∗ )
+At optimal point, the gradient of 𝑓(𝑥 ∗ ) function is parallel to the
+gradient of 𝑔(𝑥 ∗ ) function
+
+
+Lagrange multiplier is only a mathematical construction to
+guarantee that the optimal point found not only
+maximizes/minimizes the objective function but also the
+constraint is satisfied at this point
+
+
+
+
+                                       35
+      Annex B: Augmented function
+Example:
+
+
+Objective function to be minimized 𝑓 𝑥, 𝑦 = 𝑥 2 + 𝑦 2
+Restriction: 𝑥 + 𝑦 = 1
+
+
+Solve it
+
+
+
+
+                                   36
+

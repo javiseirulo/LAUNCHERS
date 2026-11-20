@@ -1,0 +1,22 @@
+# lang=en
+[00:00] Ok, here I was just showing the example of, ok, someone gives me the height, and therefore
+[00:12] from that height I get the final velocity, and from adding the 2km loss I can arrive
+[00:18] to that, to 9.7, we were saying around 7km per second for going to the orbit, plus this
+[00:25] is 2km per second, ok, it can get around 9.7km per second of total delaying. I am also given
+[00:32] the mass of payload that I want to put into orbit, let's say 1.5t, which is pretty high,
+[00:37] not all the launchers now can put this mass into orbit, but ok, yes. And we are just doing
+[00:44] the exercise that we are going to solve next, now in the unit we are seeing now, of the staging
+[00:49] of the mass, ok, the so called lift off mass of the rocket, if the rocket had one single
+[00:56] stage, and if the rocket had 2 stages, ok, if it was only one stage, we would need this mass,
+[01:04] which is, ok, sorry, around 300,000 kilos, ok, so, whereas the other is 32,000 kilos, ok, for
+[01:19] the 2 stages, so you see that by using 2 stages instead of 1, we reduce 10 times the mass we
+[01:25] need to arrive to the same load, to the same payload, ok, so that's, first just see the
+[01:31] numbers, we will not see in this unit, shows how do we arrive to that number, ok, but for
+[01:38] a, you see the benefit of really staging, but what is important for me is that you understand
+[01:44] that the data you are given is the delta V, or you are not given the delta V, but you are
+[01:49] given the height to which you want to arrive, and from this height you derive the delta V, you
+[01:54] are given the mass of payload, and from that we could compute the mass, or we could size
+[01:59] the load's vehicle total mass, ok, ok.
+[02:03] Ok, so we are, ok, the question is so far on this unit?
+[02:20] And, Iustin, Iustin, Iustin, Iustin, Iustin, Iustin, Iustin, Iustin, Iustin, Iustin, Iustin,
+[02:21] I can do the work.

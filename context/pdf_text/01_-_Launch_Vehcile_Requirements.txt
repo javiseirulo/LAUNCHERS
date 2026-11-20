@@ -1,0 +1,493 @@
+Launch Vehicle Requirements
+      Launchers and Re-entry- 19260
+            Pablo Ramos Sánchez
+                      Contents
+1. Requirements in System
+   Engineering
+
+
+2. X-34 Example
+
+3. Launcher Requirements for
+   System Design
+
+
+4. Introduction to Rocket
+   Dynamics: Tsiolkovsky Equation
+   and Losses
+  Requirements in System Engineering
+▪ Requirements are the foundation of any
+  engineering effort
+
+
+▪ A requirement is a statement that identifies a
+  product or process characteristic, which is
+  unambiguous verifiable, measurable and
+  necessary for product or process acceptability
+
+
+▪ The cornerstone of systems approach is the
+  correct translation of need into requirements
+
+
+▪ The vast majority of project that end up
+  derailing in terms of poor performances,
+  schedule delays and costs overruns are
+  inundated with inappropriate or ill-defined
+  requirements
+
+
+
+
+                                                3
+      Stakeholder and System Requirements
+▪ There are basically two domains in
+  system in Engineering:
+                                                         Problem Domain
+    ▪ Problem Domain
+      (Stakeholder Requirements)                       Step 1: Stakeholder
+                                                          Requirements
+
+    ▪ Solution Domain
+      (System Requirements)
+
+
+▪ Other possible definition                              Step2: Selection
+                                                        of Design Concept
+
+    ▪ High Level Requirements
+
+    ▪ Detailed Requirements                              Solution Domain
+
+                                                   Step 3: System Requirements
+                                                    (Stakeholder requirements
+▪ A common error is to state the Req. that           translated to the selected
+  describes the identified need or perceived              design concept)
+  opportunity but somehow indicate the type
+  of the solution to be adopted
+
+
+
+
+                                               4
+     Stakeholder and System Requirements
+▪ Example: New Commercial LEO Launcher
+            Need                                Requirement                    Possible Design Solution
+  Deliver satellites to orbit   •    REQ-001: Cost per launch shall be ≤
+                                                                                  Reusable first stage
+         at low cost                               €8M
+                                    •REQ-002: Vehicle shall deliver
+                                        ≥1,500 kg to 500 km SSO
+  Serve small and medium         • REQ-003: The payload fairing shall
+   satellite market to LEO         provide a usable volume of at least          Two-stage liquid rocket
+       and GTO orbits                            60 m³
+                                • REQ-004: First-stage thrust shall be
+                                           ≥ 8 MN at sea level
+
+                                •       REQ-005: Vehicle shall support ≥20
+    High launch cadence                                                      Containerized ground systems
+                                          launches/year (after ramp-up)
+
+                                •    REQ-006: Launch readiness shall be
+   Minimize customer wait
+                                     achieved within 14 days of payload      Simplified integration process
+            time
+                                                   arrival
+                                                                              Prioritize flight proven and
+  Launcher shall also fulfill
+                                    • Mission reliability shall be ≥98%                 simplified
+    institutional demand
+                                                                                solutions/components
+
+                                                                5
+  A significant Example: FASTRAC Engine and X-34
+▪ The FASTRAC Engine Project
+
+   ▪ In the middle of the 1990s NASA was
+     pushing to lower the cost and
+     development time of access to space
+
+   ▪ Propulsion costs and development
+     have a relevant impact on overall
+     budget and schedule
+
+   ▪ Propulsion community within NASA
+     MSFC (Marshall Space Flight Center)
+     sought to go from a ‘clean sheet’
+     engine design to having the engine in
+     a test stand in 2 years: COTS;
+     simplified design, lower manufacturing
+     costs. It was a standalone product
+     development prgram
+
+
+                                      6
+       A significant Example: FASTRAC Engine @NASA
+▪ The X-34 VEHICLE
+
+   ▪ At approximately the same time as the
+     FASTRAC engine development, NASA released
+     a NASA Research Announcement (NRA) for a
+     reusable flight x-vehicle to demonstrate
+     technologies, the X-34.
+
+   ▪ The X-34 vehicle was intended only as a flight
+     demonstration vehicle to test some of the key
+     features of reusable launch vehicle operation
+     (released by the aircraft)
+
+   ▪ NASA selected Orbital Sciences Corporation in
+     1996, awarding it a fixed price, $49.5 million
+     contract.
+
+   ▪ Under the contract, Orbital was given lead
+     responsibility for vehicle design, fabrication,
+     integration, and initial flight testing for powered
+     flight of the X-34 test vehicle
+
+
+
+                                                       7
+                               Main Facts
+▪ Originally, the X-34 project was managed
+  from NASA HQ but quickly the leadership
+  transitioned to MSFC and MSFC provided
+  the day-to-day project management
+                                                           MSFC (PM)
+
+▪ A Memorandum of Understanding (MOU)
+  was signed between NASA and Orbital
+  Sciences Corporation. FASTRAC was                    MSFC
+  identified as the main engine of X-34.
+                                                                   Orbital (X-34)
+                                                   FASTRAC Team
+  Original FASTRAC objectives evolved
+  however, there was a “use-as-is” clause in
+  the MOU.
+
+
+▪ It was decided that the MSFC Engines Team would provide engines to the X-34
+  vehicle contractor as Government Furnished Equipment (equipment directly
+  delivered by the agency that the contractor does not have to develop).
+
+
+▪ This decision removed the normal flow of requirements and accountability
+  between vehicle and engine
+
+
+
+
+                                               8
+                             Conclusion
+▪ From a vehicle perspective, it was reasonable to expect that the FASTRAC
+  engine would be modified for the X-34 application.
+
+
+▪ The MSFC engine team believed that they had been directed to offer the engine
+  to the X-34 “as is”, which was understood as no vehicle requirements would be
+  flowed down to impact engine development
+
+
+▪ As an example, the X-34 was to be launched in a horizontal configuration, a
+  requirement not initially considered by the engine development team, which
+  tested vertically.
+
+
+▪ The requirements from the X-34 were not flown down to FASTRAC because
+  the engine was originally conceived as a standalone low-cost demonstrator
+
+
+▪ Ultimately, concerns arose over the impact of engine orientation on such items
+  as firing the gas generator, engine chill down and propellants and pressuring
+  bleed systems.
+
+
+▪ Powered flight never achieved
+
+                                              9
+X34 Today
+
+
+
+
+      10
+    Characteristics of Requirements
+▪ Stakeholder and System Requirements
+   ▪ Verifiable
+   ▪ Needed
+       ▪ Put a short sentence for each characteristic
+       ▪ Nice to have is not a Requirement
+   ▪ Unique
+   ▪ Positive
+   ▪ Objective
+   ▪ Understandable
+   ▪ Concise
+   ▪ Traceable
+
+
+
+
+                                     11
+    Launcher Requirements for System Design
+▪ Launcher Design Approach
+
+    ▪ Stakeholder Requirements
+      (Institutional stakeholder and private stakeholder)
+          ▪ Flight termination system
+          ▪ Debris mitigation
+          ▪ Flight corridor constraints
+          ▪ Probability Success (related to Third Party Liability)
+
+    ▪ Mission Requirements
+         ▪ Final Orbit
+         ▪ Final Mass Into Orbit
+         ▪ Launch Price
+         ▪ Launch Recurrent Mission
+         ▪ Mission Constraints:
+                ▪   Technological constraints
+                ▪   Institutional and National strategic constraints
+                ▪   Return on relevant technological investment
+
+    ▪ Design Concept
+        ▪ Number of stages
+        ▪ Propulsion technology (𝐼𝑠𝑝 )
+        ▪ Structural choices (Structural coefficient)
+        ▪ Structural limit is term of accelerations
+
+    ▪ System Requirements
+
+
+                                                               12
+       LV Requirements for System Design
+   ▪ In typical space mission, stakeholder needs are consolidated through
+     an initial loop (Loop 0) that brings to define:
+          ▪ MISSION REQUIREMENTS
+          ▪ Knowledge Data Base
+   ▪ After selecting a Design Concept the knowledge data base is enriched
+     with more data (uncertainty reduction with expertise)
+
+                                                                                            Estimated weight and
+                                                                                            ballistic coefficients based
+                                          Mission                                           on literature
+                                                                             Knowledge
+    Mission Statement                   Requirements
+                                                                             Data Base
+                                            (MR)
+                                                                                                 Expertise
+Develop a LV to cope with the    LV shall be able to place at least
+high European Satellite Demand   500 kg into 500 km Polar Orbit
+                                                                                                  After testing
+                                                                           Design Concept         aerodynamic
+                                                                                                  performance is
+                                                                                                  improved : reduction
+                                                                                                  of thickness of stage
+
+
+
+
+                                                                      13
+  Mission Requirements for a Launch Vehicle
+▪ Some example of Mission Requirements for a Launch
+  Vehicle
+
+   ▪ Market/Opportunity
+      ▪ Target Orbit
+      ▪ Payload Mass into orbit
+      ▪ Launch Price
+      ▪ Orbital accuracy
+      ▪ Launch Rate
+
+   ▪ Institutional Political Requirements
+       ▪ Launch base
+       ▪ Inherited Technologies/Know-How with important
+         previous investment (Ex: Vega launchers)
+
+
+
+                                   14
+ Mission Requirements and Desing Concept
+
+Mission Requirements                   Design Concept
+
+    Target Orbit        Required ΔV
+                                                     Staging and
+   Payload Mass        Propulsion Tech              Optimum Mass
+                            (Isp)                    Distribution
+
+                         Structural
+    Launch Price
+                         coefficient
+
+
+
+                                  Launcher Definition
+
+
+
+
+                            15
+        Tsiolkovsky Equation (1857-1935)
+▪ His Classic article "Research into Interplanetary Space by
+  Means of Rocket Power" was published in 1903.
+▪ Fundamental equation because relates a specified change
+  in velocity (V) with the required propellant mass (𝑚𝑝 )
+             m p = f (V )
+
+    ▪ Negligible Aerodynamic forces: D~0        𝑑𝑣 𝑇      𝑑𝑣 −𝑚ሶ 𝑝 𝑔0 𝐼𝑠𝑝
+                                                  =          =
+    ▪ Gravity force neglected                   𝑑𝑡 𝑚      𝑑𝑡     𝑚
+    ▪ Thrust oriented along the V-axis
+
+
+                                                  mi 
+                 V prop = V f − Vi = g 0 I sp ln    
+                                                 m 
+                                                  f 
+
+
+▪ Is Rocket Equation valid during atmospheric flight of a
+  rocket?
+                      Dynamics of Rocket Flight
+                                                   𝛼          𝑣Ԧ         𝛼 ≡ angle of attack
+                                         𝐿                               𝛾 ≡ flight path angle
+                                                             𝜃           𝛿 ≡ deflection angle
+                                                                         𝜃 ≡ pitch angle
+                                                    𝛾
+                                                                         𝐷 ≡ drag force ( ‖ 𝒗 )
+           Local
+         Horizontal                                                      𝑊 ≡ weight
+                            𝐷                𝛾
+   change al
+            this                                                         𝑇 ≡ thrust force
+he        lost
+                                                                         𝐿 ≡ lift force (⊥ 𝒗 )
+angleis so                               𝑊                               𝑣Ԧ ≡ relative velocity vector
+          equations     𝛿
+Dynamic                                                                       (𝑣Ԧ𝐿𝑉 − 𝑣Ԧ𝑎𝑖𝑟 )
+       small                𝑇
+are too
+     model it
+ o
+                                                           𝑑𝑣
+     Decomposition of forces along 𝑣Ԧ direction:       𝑚
+                                                           𝑑𝑡
+                                                              = −𝐷 + 𝑇𝑣 − 𝑊𝑣
+
+
+                                                             1 (𝛿 ≈ 0)
+                 𝑣𝑓          𝑡𝑓                𝑡𝑓                      𝑡𝑓
+                                  𝐷 (𝑡)           𝑇 𝑡 cos 𝛿 (𝑡)
+             න 𝑑𝑣 = − න                 𝑑𝑡 + න                  𝑑𝑡 − න 𝑔 𝑡 sin 𝛾(𝑡) 𝑑𝑡
+               𝑣0           𝑡0    𝑚 (𝑡)       𝑡0      𝑚(𝑡)            𝑡0
+         Dynamics of Rocket Flight
+From ground to orbit
+                                                 𝛿~0
+   𝑣𝑓           𝑡𝑓         𝑡𝑓                      𝑡𝑓
+              𝐷 (𝑡)           𝑇 𝑡 cos 𝛿 (𝑡)
+ න 𝑑𝑣 = − න         𝑑𝑡 + න                  𝑑𝑡 − න 𝑔 𝑡 sin 𝛾(𝑡) 𝑑𝑡
+  𝑣0       𝑡0 𝑚 (𝑡)       𝑡0      𝑚(𝑡)            𝑡0
+
+𝑣0 = 0
+                                        ∆𝑣𝑇𝑂𝑇
+                       𝑡𝑓          𝑡𝑓
+                      𝐷 (𝑡)                                              𝜇
+     ∆𝑣𝑇𝑂𝑇 = 𝑣𝑓 + න         𝑑𝑡 + න 𝑔 𝑡 sin 𝛾(𝑡) 𝑑𝑡              𝑣𝑓 =
+                   𝑡0 𝑚 (𝑡)       𝑡0                                   𝑅𝐸 + ℎ
+
+                        ∆𝑣𝑑𝑟𝑎𝑔 𝑙𝑜𝑠𝑠𝑒𝑠       ∆𝑣 𝑔𝑟𝑎𝑣𝑖𝑡𝑦 𝑙𝑜𝑠𝑠𝑒𝑠
+
+
+
+ • Select a trajectory to
+   go very horizontal,
+   very vertical??
+Losses Definitions
+
+
+
+
+∆𝑣𝑇𝑂𝑇 = 𝑣𝑜𝑟𝑏𝑖𝑡 + [1.5 – 2] km/s
+
+
+                         19
+ Computed Losses after trajectory
+        computation
+                                  DELTA-V ANALYSIS [m/s]
+                                                                   AV LOSSES
+
+    Total                             1787
+
+
+ gra-LOSS                   991
+
+
+ pre-LOSS        286.4
+
+
+  aD-LOSS           509.6
+
+             0              500          1000        1500   2000
+
+
+
+
+            tf                                  tf                         tf
+                                                 D(t )
+VGL = g sin( )dt                     VAL =        dt     VPL = Ae  Pe (t )dt
+            t0                                t0
+                                                 m(t )                     t0
+Single Vs Two Stages To Orbit
+                                                                                                          ΔV                9700 m/s
+                                                                                                          PL                1500 kg
+
+
+                                                               TWO STAGE TO ORBIT
+    Stage       Propellant Mass (kg)      Inert Mass (kg)       ISP (s)     Structural Coefficient     DV (m/s)      Lift Off Mass
+              1                     23680                 2630          400                        10%          4966
+    FAIRING
+              2                     4503                  673          430                          13%              4735
+    Payload                                              1500
+
+    Total                                                                                                            9700                   32986
+
+
+
+
+                                                                                                                 10 less mess
+                                                             SINGLE STAGE TO ORBIT
+    Stage       Propellant Mass (kg)     Inert Mass (kg)       ISP (s)     Structural Coefficient         DV (m/s)          Lift Off Mass
+              1                   285950                 24865         400                          8%               9700
+    FAIRING
+    Payload                                              1500
+
+    Total                                                                                                                                   312315
+
+
+
+
+                                                                                                                            10 times Heavier
+
+
+
+
+                                                          21
+                                 Objectives
+▪ The goal is to serve nanosatellite market:
+    ▪ Inject Payload into a Polar Orbit
+    ▪ Target performances are to inject 10-25 kg on 200-300 km altitude
+    ▪ Launcher based on sounder rocket configuration
+                           Question
+                  𝑡𝑓          𝑡𝑓
+                 𝐷 (𝑡)                                               𝜇
+∆𝑣𝑇𝑂𝑇 = 𝑣𝑓 + න         𝑑𝑡 + න 𝑔 𝑡 sin 𝛾(𝑡) 𝑑𝑡               𝑣𝑓 =
+              𝑡0 𝑚 (𝑡)       𝑡0                                    𝑅𝐸 + ℎ
+
+                   ∆𝑣𝑑𝑟𝑎𝑔 𝑙𝑜𝑠𝑠𝑒𝑠        ∆𝑣 𝑔𝑟𝑎𝑣𝑖𝑡𝑦 𝑙𝑜𝑠𝑠𝑒𝑠
+
+
+
+                         ≈ 1.5 − 2 𝑘𝑚/𝑠(𝐿𝐸𝑂)
+
+
+The higher the final orbit, the smaller the ∆𝑣𝑇𝑂𝑇 ??
+

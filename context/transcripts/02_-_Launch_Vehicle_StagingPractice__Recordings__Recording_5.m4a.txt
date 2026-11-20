@@ -1,0 +1,453 @@
+# lang=en
+[00:00] This is exactly this, because this is the initial mass over the final mass.
+[00:09] So what is the amount of propellant that I waste, sorry, that I consume in each of the stages, right?
+[00:16] Because the initial mass is the structural plus propellant plus payload, and the final one is just the payload plus the structural mass.
+[00:24] So basically what I'm sizing by selecting a certain mass ratio is how much mass of propellant I put into each of the different stages.
+[00:32] So I have to, that is to size the rocket, to select a mass ratio for each of the stages to minimize the total mass.
+[00:40] So, and this, we show that this two solve this equation to minimize this function.
+[00:44] This is known, this is the structural coefficient we were talking about, and the only degree of freedom is on the payload ratio of each of the stages.
+[00:53] Okay? But we don't only have to select this to minimize initial mass, but also we have to select this subject to this constraint.
+[01:02] That is, the total delta V of all the stages that we saw that was this, right?
+[01:06] This is the typical formula of the delta V, the x-velocity, hyper-alaboration of the mass rating.
+[01:11] So the total, the sum of the total delta V's has to be equal to the delta V of the mission.
+[01:16] And this I know, right? Because how do I compute the total delta V of the mission?
+[01:21] From, how? From the height that we are given, plus the losses that we are assuming.
+[01:30] Okay? So this is data.
+[01:32] So, you have to select this such that you minimize this function, and you have to select also this, taking in trouble that you have to fulfill this.
+[01:39] Okay? So, from this we were building the so-called augmented function, and we were saying that the augmented function was,
+[01:46] augmented function was the function I want to minimize, plus a number which does not have a meaning, it's just kind of a mathematical tool I use,
+[01:56] in order to put this, the constraint function. The constraint function is nothing more but this minus the delta V of the mission equal to zero.
+[02:05] So my function G is...
+[02:15] This is G, okay? And G just depends on...
+[02:20] Okay?
+[02:24] So, when I do this, and I build the total augmented function at this, this is x, sorry.
+[02:31] Sorry.
+[02:44] This is f, okay? This is P plus G. Okay?
+[02:49] If you do this, okay, you expand the logarithm, and what you have to do at the end, in order to get the optimal condition,
+[02:54] if we were saying it's the derivative, f would respect to P, and...
+[02:59] Sorry.
+[03:00] f would respect to our variable, and make it equal to zero, right?
+[03:05] And from that condition, if I... if you do this, you end up having this... this relationship in which you only have... you solve for P. Okay?
+[03:15] You have derivative with respect to the mass radio, you see? You have derivative with respect to the mass radio, and you obtain this equation here, which does not depend on the mass radio, but only on P.
+[03:27] You have to solve for P. But you have the relationship between P and between the optimal mass radio, which is this one.
+[03:33] So once you solve this equation, you have everything, because solving this equation means... obtaining P. And from that equation here, I obtain the mass radio.
+[03:45] And if you have the mass radio, we have solved the staging problem. Okay? Yes?
+[03:52] Questions? Or no?
+[03:55] So, we are going to focus on how to solve this equation, because it's an nonlinear equation. This is all I'm going to explain to you later, okay?
+[04:01] But questions? Questions on the theory about this. No?
+[04:08] Okay, so we just have to solve this equation. So, first step, solve this equation.
+[04:14] Okay, now we are going to see how to solve it, but imagine we have solved it. And from this equation, we have obtained P.
+[04:21] So, we check, important, we check that this, the secondary value of the augmented function with respect to that variable is bigger than zero.
+[04:28] Why? Because we are solving a minimization problem. And therefore, if this is F, and this is this, we are saying that if that's something like that, okay?
+[04:43] So that the secondary value of the augmented function is bigger than zero. Okay? We have not found an idea.
+[04:49] So, we have not found a maximum. Okay, from P, we can obtain what that was telling, the mass ratio. Okay?
+[04:56] Lambda, capital lambda, is the mass ratio. And this just depends on P, because the x of velocity and the structural coefficient are wrong.
+[05:03] Then, we show what is the relationship between the mass ratio and the payload ratio. You see? From the mass ratio, I can obtain the payload ratio.
+[05:15] And we also showed the other day that the total payload ratio is the product of all of the individual payload ratios.
+[05:23] If I have the payload ratio, I can obtain the initial mass, simply multiplying this by the inverse of the payload ratio. Okay?
+[05:30] It's not your case.
+[05:31] Yes? So, only complexity is just to solve this expression? Yes? Yes?
+[05:37] Yes?
+[05:38] The two. Okay.
+[05:40] I'm going to give some hints because I don't know how much familiar is it.
+[05:45] How much familiar is it?
+[05:47] Ah, okay.
+[05:49] Okay, okay.
+[05:51] Okay, okay.
+[05:52] This is a really good thing.
+[05:53] This is a really good thing.
+[05:55] You have the best.
+[05:56] You have the best.
+[05:57] I'm going to give some hints.
+[05:58] I'm going to give some hints.
+[05:59] I'm going to give some hints.
+[06:00] I'm going to give some hints.
+[06:01] I'm going to give some hints.
+[06:02] I'm going to give some hints.
+[06:03] Okay.
+[06:04] Okay.
+[06:05] So, we have to solve this equation.
+[06:07] For the end of the week.
+[06:10] And basically, the factor that I recommend you to use is F0, okay?
+[06:13] If you do...
+[06:15] What is this?
+[06:17] You have a variable here.
+[06:19] I have a command.
+[06:20] 
+[06:20] I have a little one.
+[06:20] I have a little one.
+[06:21] 
+[06:21] I have a little one.
+[06:22] 
+[06:22] I have a little one.
+[06:22] I have a little one.
+[06:22] I have a little one.
+[06:22] I have a little one.
+[06:22] I have a little one.
+[06:23] I have a little one.
+[06:23] I have a little one.
+[06:23] I have a little one.
+[06:23] I have a little one.
+[06:24] I have a little one.
+[06:24] I have a little one.
+[06:24] I have a little one.
+[06:24] I have a little one.
+[06:24] I have a little one.
+[06:24] I have a little one.
+[06:25] I have a little one.
+[06:25] I have a little one.
+[06:25] I have a little one.
+[06:25] I have a little one.
+[06:25] I have a little one.
+[06:25] and a telephonic
+[06:35] okay so basically if you do this line of both
+[06:46] okay of the f0 function
+[06:47] f0 function is that this function gives you back as
+[06:53] x is the value of this function you have defined here
+[06:59] that makes 0 this function
+[07:01] okay with an initial guess
+[07:05] because you have to have an initial guess for this kind of server
+[07:07] x0 so this is the function that you are trying to obtain
+[07:11] equal to 0 this is the initial guess and this is the solution
+[07:17] okay from this server
+[07:19] the value of x which makes this function equal to 0
+[07:23] in our case what is x the p we are trying to obtain right
+[07:27] we are trying to solve this equation that is
+[07:29] well we could define the function as
+[07:35] the function of the function to be
+[07:39] and the function to be equal to 0 would be the sum of
+[07:43] 2 1 2 n
+[07:45] c y
+[07:49] add to the load item of 1 plus p's
+[07:55] c a
+[07:57] over
+[08:01] p c y
+[08:03] minus delta w
+[08:05] minus delta w
+[08:07] okay
+[08:11] this is the function that i'm trying to do equal to 0
+[08:15] and my only unknown what i'm trying to solve contains the p that makes this function equal to 0
+[08:21] okay
+[08:23] so you have in our case
+[08:25] it's p
+[08:27] equal to f0
+[08:29] the function
+[08:31] okay
+[08:33] and here would be p0
+[08:35] which would be your initial guess
+[08:37] okay
+[08:39] okay for the function
+[08:41] this you know you can define a part
+[08:43] okay in my last you define a part
+[08:45] this function
+[08:47] okay
+[08:49] how do you do the sum
+[08:51] you can do with a loop
+[08:53] for e
+[08:55] equal to 1
+[08:57] until you have 3 stages
+[08:59] okay you sum all the stages
+[09:01] okay so for example
+[09:03] you have to
+[09:05] you know what i'm saying right
+[09:07] or you put one after another
+[09:09] this n is the number of the stages
+[09:11] i have 2 stages
+[09:13] i have c1 and c2
+[09:15] this sum up here
+[09:17] okay to implement it in malda
+[09:19] it's just to sum the two terms
+[09:21] or to put a loop
+[09:22] a for loop
+[09:23] in order to sample the
+[09:25] okay
+[09:26] just i'm saying
+[09:27] in case you see this
+[09:29] and you think it's strange
+[09:30] okay
+[09:31] so you define this function apart
+[09:33] okay
+[09:34] and this function you can define for example as
+[09:36] the only
+[09:37] the only parameter
+[09:38] just depends on p
+[09:39] right because the other act is data
+[09:41] you can define function
+[09:43] functions
+[09:44] or define
+[09:45] yes
+[09:46] ehh
+[09:47] ehh
+[09:48] the me
+[09:49] the others no
+[09:50] because they are not operaciones
+[09:51] you say okay
+[09:52] you can do that
+[09:53] the function
+[09:54] function
+[09:55] okay
+[09:56] you can do that
+[09:57] function
+[09:58] I suppose
+[09:59] but
+[10:00] here is the camera
+[10:01] for the teletrabajo
+[10:02] okay
+[10:03] teletocada
+[10:04] okay
+[10:05] here you define
+[10:16] you can define inside if you want it
+[10:18] depends on what you want
+[10:19] but you can define inside all the parameters
+[10:22] so how much is the value of c1
+[10:24] how much is the value of c2 etc
+[10:26] and from here
+[10:27] when you call the function
+[10:29] okay
+[10:30] when you then call the function
+[10:32] it's going to enter into this loop
+[10:34] and you are just changing the value of p
+[10:36] and checking that the value the final value is zero
+[10:40] okay
+[10:41] okay
+[10:43] and here what is important
+[10:46] is that okay
+[10:47] inside this function
+[10:50] it's important that you
+[10:52] that you check the constraint
+[10:55] okay
+[10:56] so far we have just
+[10:57] so far
+[11:00] so far we have just implemented this function
+[11:02] okay
+[11:11] okay you will know how to
+[11:12] or shall I explain how to implement this
+[11:14] you will know how to implement it
+[11:16] right
+[11:17] so you finally just
+[11:18] from this function
+[11:20] give back
+[11:21] this value
+[11:22] okay
+[11:23] this value you obtain here
+[11:24] is what you give back
+[11:25] okay
+[11:26] so you put for example
+[11:27] 
+[11:27] return
+[11:28] finally you compute here
+[11:31] function
+[11:32] okay
+[11:33] you put it function to this value
+[11:36] and you put return function for example
+[11:39] so that's it
+[11:40] this function checks
+[11:41] if the value is equal to zero also
+[11:43] okay
+[11:44] and then they're zero
+[11:45] and then f zero
+[11:46] and that's it
+[11:47] you have to do nothing
+[11:48] okay
+[11:51] okay
+[11:53] and I don't know maybe not return function but
+[11:55] put value
+[11:56] I don't want to
+[11:58] okay
+[12:02] okay
+[12:04] so this function returns you this value
+[12:06] and you are checking if this value is equal to zero or not
+[12:11] this is done by the f zero
+[12:13] what initial guess to give?
+[12:17] because the solution
+[12:19] okay here in this case
+[12:20] you are going to more or less always find a solution
+[12:21] but for some cases
+[12:22] if you don't give an initial guess
+[12:23] which is good enough
+[12:24] maybe the product is not converted
+[12:25] some of you have studied numerical methods right?
+[12:28] and know this much better than
+[12:29] but
+[12:30] okay
+[12:31] what initial guess
+[12:32] okay
+[12:33] so far everything is clear?
+[12:35] I have theostit with the
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] 
+[12:36] I T6
+[12:36] I T6
+[12:37] I T6
+[12:37] I T6
+[12:37] I T6
+[12:37] 
+[12:37] 
+[12:37] I T6
+[12:37] I T6
+[12:38] I T6
+[12:38] 
+[12:38] 
+[12:38] I T6
+[12:38] I T6
+[12:38] I T6
+[12:38] I T6
+[12:38] I T6
+[12:38] I T6
+[12:38] I T6
+[12:38] I T6
+[12:38] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] I T6
+[12:39] Okay, what initial guess?
+[12:42] Okay, so far everything is clear?
+[12:46] How can you remember?
+[12:48] Okay, so how to give an initial guess?
+[12:55] Okay, the initial guess, the one that I recommend you to use is this one.
+[13:00] This comes down from the equation that we were saying.
+[13:04] Supposing that all the delta v's are equal and all the structural coefficients are equal.
+[13:09] So here, this is the sum of all the delta v's, right?
+[13:12] The sum of the delta v's has to be equal to total delta v's.
+[13:16] So here, if you suppose that all the structural coefficients are equal
+[13:21] and all the specific inputs are equal, and therefore all the delta v's are equal,
+[13:27] this you can just assume as n multiplied by the number.
+[13:31] Okay, and therefore you end up having this equation for p, which is the one that I was saying.
+[13:36] Why is this supposition is good?
+[13:39] Because do you remember when we saw the results of Saturn,
+[13:43] Saturn 5 of how much delta v was given each of the stages?
+[13:46] And you saw that they were not that different.
+[13:48] And in reality this happened.
+[13:50] You have two stages, half of the delta v is going to be given by the first one,
+[13:54] half is given by the second one.
+[13:56] This can seem counter-intuitive because first stage has greater level of trust,
+[14:01] and that's true, but acts for less time.
+[14:03] So the total delta v's is equal, but it's a good approximation to t.
+[14:08] Total delta v is divided equally among the different tables.
+[14:14] So if you do so, you end up with this yes or p, which is this one.
+[14:19] Okay?
+[14:20] In which you know everything, and this is the way the yes you introduce here.
+[14:25] Is here.
+[14:26] Okay?
+[14:27] I have to re-p, I have to be a man, I have the one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have a one, I have
+[14:57] no questions
+[14:59] Sergio
+[15:01] for the groups
+[15:12] I will open
+[15:15] an excel
+[15:16] and what you can do is to enter
+[15:19] there
+[15:20] or better, give me the groups
+[15:23] already done
+[15:24] you put yourself in common
+[15:26] and you just write the groups
+[15:28] and let me know
+[15:30] you can do individual or in person
+[15:32] I recommend to do it in person
+[15:34] this part is easy, the second one is not difficult
+[15:36] but takes more time
+[15:38] Should we send you an e-mail or you put a call in the other one?
+[15:41] Better just give me the groups already done
+[15:46] so you have a group of WhatsApp between you
+[15:49] no?
+[15:50] no, not all of you
+[15:51] ah, because you are from different
+[15:52] ok, then I will put the call on our other one
+[15:55] so you just do it directly
+[15:57] 
+[15:57] 
+[16:01] ok
+[16:02] ok, so this
+[16:05] should not take you a lot of time
+[16:07] but today is 11
+[16:09] I am going to give
+[16:11] a little bit of data now
+[16:13] ok, it is important that you motivate your solution
+[16:15] ok, you explain
+[16:17] you don't have to explain all the steps by step to arrive to that formula
+[16:21] but to show me that you know what you are doing
+[16:24] ok
+[16:25] and then to this other results
+[16:27] I am going to give a maximum extension
+[16:31] there are several
+[16:32] one is the investigation
+[16:33] but there are more
+[16:37] ok
+[16:38] so now we go to the next unit
+[16:40] we do after the
+[16:43] we do the change
+[16:45] we do the change
+[16:46] and we do the change
+[16:47] I don't know what is that
+[16:48] the right
+[16:49] 
+[16:49] 
+[16:49] 
+[16:49] 
+[16:49] 
+[16:49] 
+[16:49] 
+[16:49] the right
+[16:50] the right
+[16:50] 
+[16:50] 
+[16:50] 
+[16:50] the right
+[16:51] the right
+[16:51] 
+[16:51] the right
+[16:52] the right
+[16:52] 
+[16:52] 
+[16:52] 
+[16:52] the right
+[16:53] the right
+[16:53] 
+[16:53] 
+[16:53] the right
+[16:53] the right
+[16:54] the right
+[16:54] 
+[16:54] 
+[16:54] 
+[16:54] 
+[16:54] 
+[16:54] 
+[16:54] 
+[16:54] 
+[16:54] the right
+[16:55] the right
+[16:55] the right
+[16:55] 
+[16:55] the right
+[16:55] the right
+[16:55] the right
+[16:56] the right
+[16:56] вы
+[16:56] the right
+[16:56] вы
+[16:56] the right
+[16:56] 
+[16:56] 
+[16:56] 
+[16:56] 
+[16:56] the right
+[16:56] the right
+[16:57] the right
+[16:57] the right

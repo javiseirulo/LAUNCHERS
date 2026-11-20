@@ -1,0 +1,1574 @@
+# lang=en
+[00:00] More payloads here with respect to the main, but there are not only two, but more than two.
+[00:05] Here, as we were saying, we have less control, we have of course less cost, but with less control on the interfaces and less control on the schedule.
+[00:19] In this case, I was explaining to a colleague, we are now thinking of launching a spacecraft in this modality, the modality of Riser, and the problem of that is if we don't have the spacecraft ready for the dates that we are compromising to, the launch service provider may be entitled to not wait for us and fly other passengers if they are ready.
+[00:44] So usually the main drawback of the right set is that you do not have control on the schedule and you have to be really, you have to cope to get what you commit in terms of the schedule and in terms of pricing.
+[01:00] But of course it's less expensive than the other options. Very ideal for Qpsr and small satellites.
+[01:07] Okay, I'm adding here an important note, which is when comparing different proposals in terms of risk and schedule of different service providers, you should only compare lots options with the same modality.
+[01:24] So you can do it, or you should not, you should not compare the main, build the main passenger on an electric propeller or a self-operative vehicle in the seat.
+[01:36] You can do it in terms of cost, but you should identify very different risks, for each of the different options, and put them in the balance.
+[01:43] So you should compare different prices among them, and different payload configurations among them. This is the best way to do it.
+[01:53] Okay, now we go more into the technical part, which is the requirements. This is more a system engineering activity that we do before and after the signature of the launch of the cycle.
+[02:15] Basically, the flow is bidirectional, but it's bidirectional only, it's not a symmetric bidirectional.
+[02:25] It's usually the launch of the risk provider imposing requirement on us.
+[02:30] So, us, remember, is the spacecraft.
+[02:33] So what requirements do we impose to the launch of the risk provider?
+[02:38] We impose the mass of payload, the volume of payload, and the final output.
+[02:43] The final orbit is just a request.
+[02:45] 
+[02:45] Because if we are not the main passenger, we can communicate to them the orbit in which we are interested.
+[02:50] But if we are not the main passenger, we then maybe cannot fix the final orbit, but can approximately one.
+[02:56] We want to go to 500 km and they are going to 560.
+[03:00] It's fine for us?
+[03:01] Okay, yes.
+[03:02] But if we are not the main passengers, we are not going to be able to modify this height to be out.
+[03:08] Okay?
+[03:09] So, and then the launch state, the same pattern.
+[03:13] Okay?
+[03:14] For deployment conditions, almost the same.
+[03:17] Okay?
+[03:18] So, just to tell you that most of the requirements are from here to here.
+[03:21] From the launch state code to the next case code.
+[03:24] Okay?
+[03:25] So, launch service provider specifies all the environmental conditions.
+[03:32] Okay?
+[03:33] Environmental, we are going to see that this is basically the vibration.
+[03:38] This is the most demanding environment, the vibration.
+[03:42] So, we are accelerating and compressing the launch vehicle.
+[03:45] This launch vehicle transmits, by means of the adapter, by means of this dispenser, the
+[03:52] launch to our spacecraft.
+[03:53] Okay?
+[03:54] So, therefore, these are the environmental conditions and there are other environmental conditions.
+[03:59] So, for example, we have to guarantee that the spacecraft emissions, if it's, imagine it's
+[04:05] forward on, like the flight, like the absent flight, our spacecraft.
+[04:10] If it's switched on, the possible radio frequency that we have to see in the spacecraft.
+[04:15] And it's in the launch vehicle, it shall not produce another lap.
+[04:18] It shall not interfere with the launch vehicle.
+[04:20] The thermal conditions, so we have different environmental requirements that we shall accomplish.
+[04:26] Okay?
+[04:27] All these requirements have to be formally stated.
+[04:31] Okay?
+[04:32] These requirements were not stated on the launch service agreement.
+[04:36] On the launch service agreement, there is preliminary information of, we may think,
+[04:40] it's, let's say, the environment.
+[04:43] But it's not there.
+[04:44] There has to be a formal document saying, this is going to be the environment, and you have
+[04:48] to show, you, spacecraft owner, have to show compliance with these requirements.
+[04:52] And, therefore, we need another document in which we write all these requirements.
+[04:56] And, sometimes, not only the requirements, but the method by which they shall be verified.
+[05:01] That is, if it shall be an analysis, if it shall be a test, if it shall be by head page, etc.
+[05:07] And, this document in which we write all the documents, and we agree between the spacecraft
+[05:13] founder and the conservation worker to accomplish them, is called the interface control document.
+[05:17] Okay?
+[05:18] This interface control document evolves because this comes only after the launch service agreement
+[05:25] signature.
+[05:26] Okay?
+[05:27] But, then, different conditions may evolve.
+[05:29] So, for example, the launch service provider realizes that they have committed a mistake,
+[05:33] or that the environment they have told can be relaxed because it's not as hard as they
+[05:38] have to do here.
+[05:39] So, there is a different version of the ICD.
+[05:41] And then, the final version of the ICD, before going to the launch, or some months before
+[05:45] going to the launch, it has to be signed.
+[05:47] Okay?
+[05:48] So, it's a contract document.
+[05:49] An important question.
+[05:50] If everything that is said on the ICD is contradictory, because it was said in the LSA, at the moment
+[05:55] we signed the LSA, the ICD takes prior evidence.
+[06:00] Okay?
+[06:01] So, imagine.
+[06:02] In the ICD, it's said that the maximum level of vibration is 5G's.
+[06:07] And in the LSA, because there is a section of the LSA, which is the technical part, it
+[06:12] was said that it's 4G's.
+[06:14] What takes preference?
+[06:15] It can be a typo, but it can be not a typo, but what takes preference is the ICD.
+[06:20] Okay?
+[06:21] So, that's why it's so important to sign it at the end of the launch version.
+[06:25] Okay?
+[06:26] Okay.
+[06:27] So, here, this feature is important, the one I'm going to tell you now.
+[06:32] It's important to distinguish between what the LSA is really asking you to meet, and
+[06:39] this is a requirement, and the so-called information, environmental information, that the LSA is
+[06:47] giving to you, but that you, as a good practice, shall not flow down as a requirement.
+[06:52] And this, we are going to see with an example.
+[06:54] Okay?
+[06:55] So, for example, the LSA is going to give you, as a requirement, the fundamental sequence.
+[07:01] So, importantly, we are going to see that, you know that each body, and each direction,
+[07:08] has a fundamental frequency.
+[07:11] Right?
+[07:12] You have studied the fundamental frequency concepts and all this, right?
+[07:15] Yes?
+[07:16] Some are known?
+[07:17] No.
+[07:18] Fundamental frequency is the frequency by which the body tends to oscillate in a, let's
+[07:22] say, in a non-force manner.
+[07:24] Okay?
+[07:25] If you communicate that more load at that frequency, the structure is going to amplify that load,
+[07:30] and to have great displacements at that frequency.
+[07:33] Okay?
+[07:34] So, basically, you shall guarantee that the natural frequency of the long vehicles and the
+[07:39] natural frequency of the spacecraft are much apart, one from the other.
+[07:43] Because if some load appears at that frequency, and if the two of them, the natural frequency of
+[07:52] the two of them, is the same, this amplification is going to be much higher.
+[07:57] Okay?
+[07:58] So, therefore, you have to decouple them.
+[07:59] Usually, the spacecraft has much, it has greater frequency, has bigger frequency than the
+[08:05] launch vehicle.
+[08:06] And therefore, the launch vehicle imposes to you the natural frequency of your spacecraft,
+[08:12] in that axis, because it depends on the x, y, or the set axis, shall be bigger than
+[08:18] 20 Hz.
+[08:19] Okay?
+[08:20] And this is a requirement that the launch vehicle tells to your spacecraft, and you have to go
+[08:24] and go to your spacecraft thing and tell you.
+[08:26] Okay, we have to measure the natural frequency, but be aware that whenever you are designing,
+[08:31] we have to make such that we take this into a room.
+[08:34] We cannot go for the spacecraft to have 20 Hz or less.
+[08:38] Okay?
+[08:39] You see?
+[08:40] Why do they care about this?
+[08:41] Because in case there is some amplification, you can endanger the whole launch vehicle and
+[08:45] the flight if you produce a lot of vibration.
+[08:47] And that's why they care.
+[08:49] They put you this as a requirement.
+[08:50] And not only they put this as a requirement, they tell you.
+[08:53] And you have to show me by test what your natural frequency is.
+[08:57] Okay?
+[08:58] You see?
+[08:59] This is a requirement.
+[09:00] This is this.
+[09:01] But what is the environmental information that the launch service provider is giving to
+[09:05] you?
+[09:06] For example, it's going to tell you the flight profile is going to be between 0 degrees and
+[09:14] 70 degrees Celsius in 2 minutes.
+[09:17] Okay?
+[09:18] And they give you the profile, or they just give you the minimum and the maximum temperature.
+[09:22] But they don't tell you, you have to fulfill this.
+[09:25] You have to make sure you fulfill this.
+[09:27] Now they are characterizing the environment, and for you to know, it's good to know.
+[09:31] But they are not asking you formal proof that you accomplished this.
+[09:36] Why this?
+[09:37] Why do they show?
+[09:38] Because if, for example, a human, if you are a spacecraft man, it's supposed not to produce
+[09:43] any further consequence on the rest of the flight or on the other spacecraft.
+[09:50] If you are a super big spacecraft, maybe later.
+[09:52] But if you are a kubbsat, usually not.
+[09:54] For kubbsat, they don't usually impose thermal requirements.
+[09:56] You see?
+[09:57] Yes?
+[09:58] So then it's up to you to delight this to your spacecraft system, to your colleagues,
+[10:03] or what they are in the spacecraft.
+[10:05] This or not.
+[10:06] You can put this information as information or as requirement.
+[10:11] And that's very, very much different.
+[10:13] Okay?
+[10:14] To formalize something which is a requirement, then information.
+[10:16] Which is, here you have the graph.
+[10:18] It seems reasonable that we shall accomplish this.
+[10:21] But this is not a requirement.
+[10:22] Okay?
+[10:23] Yeah?
+[10:24] So, this, for example, if one spacecraft melts, it might not damage the launcher, but it might
+[10:32] damage the other satellites in the right-sert.
+[10:35] That's a very good point.
+[10:37] And in fact, when we are in right-sert, we take the requirements very seriously, more
+[10:44] more seriously.
+[10:45] So, not only things that are, let's say, we don't care just only about the things they
+[10:51] are requiring to us, but about the things they are not requiring.
+[10:55] So, for example, this could be the case.
+[10:58] It depends on the accommodation.
+[10:59] So, it depends on if you are a riser and you are very close to another one, or all these
+[11:04] things.
+[11:05] Okay?
+[11:06] Usually for the thermal, I mean, I was just giving maybe an exaggerated example, because usually
+[11:12] for thermal conditions, the ones I mentioned in the spacecraft are the in-orbit conditions,
+[11:17] and not these ones, and not the flight, which just takes around some minutes, an hour to
+[11:22] arrive to the final orbit.
+[11:24] Okay?
+[11:25] So, I mean, the conditions you have to fulfill in orbit are usually harder than these ones.
+[11:30] Okay?
+[11:31] But there are some things there that shall not be derived as requirements, because they are
+[11:35] just environmental information.
+[11:36] Okay?
+[11:37] Okay?
+[11:38] Okay, yes?
+[11:39] Okay, and here I am displaying the different types of requirements you have.
+[11:54] Okay?
+[11:55] I am splitting the requirements into environmental requirements and inter-hell requirements.
+[11:58] This is not complete list, but the most important ones.
+[12:01] Okay?
+[12:02] Mechanical requirements.
+[12:03] This is basically vibrations.
+[12:04] And this we are going to devote afterwards on some slides to mechanical requirements.
+[12:09] Okay?
+[12:10] For the vibrations.
+[12:11] You have internal requirements.
+[12:12] You have radio frequency requirements, which is the ones I was saying before, emission
+[12:19] slide pool.
+[12:20] Deployment requirements, these are the pointy accuracy and deployment rate.
+[12:26] The deployment rate is what we were calling the tip of rate, that we have been talking about.
+[12:32] And the attribute rate is you tell them, I want to be the player in that direction, but of course they commit some error, and you have to bound to limit this error.
+[12:41] All these requirements are also included in the ICD.
+[12:45] In the ICD you say, the load vehicle commits to the flow rate with a tip of rate smaller than 1 degree per second, and with an active error smaller than 2 degrees.
+[12:58] You see? They commit to do that in the ICD.
+[13:01] And if they don't do so, the load service agreement passes certain penalty.
+[13:11] An important thing, an important concept that I haven't told you.
+[13:15] Imagine that you are in a launch, and the launcher explodes.
+[13:21] We have so many examples. What does it happen?
+[13:24] Insurance.
+[13:25] Ok, you have the insurance, but the insurance is for someone, very very well by the way, it's from a third party that insurance your satellite.
+[13:35] And pays you if you demonstrate that it was not your fault, under certain conditions.
+[13:41] But, somebody cares about the launch service providers?
+[13:45] Oh, yes, the launcher is grounded and you have to forget why it happened.
+[13:49] You started? Ok, I mean, every launch service agreement is different from one to each other, ok?
+[13:55] But, there is the common, what you have said, is the logic thing.
+[14:00] I would be in favor because I work for as a spacecraft owner.
+[14:04] I'm not the owner, but I work for a company that is spacecraft owner.
+[14:08] But, it's not usually the case.
+[14:10] Usually, what is the common concept shared among all the stakeholders is that,
+[14:16] launch service providers does its best effort, and if for some reason they don't arrive to orbit, and they burn your satellite,
+[14:25] it was not a, I mean, it could be a fault, but they did the best they could.
+[14:32] So, you cannot sue them, you cannot ask for conversations, for people who have insurance,
+[14:37] but they are not going to be guilty, ok? They are not liable of that.
+[14:43] And if you try to hold this into a launch service agreement, then you will.
+[14:47] Ok?
+[14:48] Just as something that I, important I forgot to put in the slide.
+[14:54] Ok, they claim that if this happens a lot of times, they would lose all the market and nobody would like to try to place in their interest to do it well.
+[15:06] But, for some reason, they don't.
+[15:08] Ok, something surprising to me, also.
+[15:12] But, it's usually the common thing.
+[15:19] Ok, other requirements, so propulsion requirements.
+[15:22] So, for example, propulsion requirements, I mean, the propulsion of your own spacecraft.
+[15:28] They are telling, the tanks that you are using in your spacecraft shall be subjected to a pressure of that.
+[15:35] And they care about that.
+[15:36] Because if you haven't qualified properly your spacecraft and you can explode, this can affect the flight.
+[15:42] So, they, sometimes, it depends on the launch service provider, but sometimes they care about the test, the qualification test of the propulsion subsystem.
+[15:52] Ok?
+[15:53] For example, there was one requirement that was a headache in our last launch from SpaceX, which was, in, they produced a new version, and in the last version there was not this requirement.
+[16:07] And they produced the new version, while we were already designed, and while the design of our spacecraft was pretty much frozen.
+[16:14] Which was that you could not use 3D printed tanks.
+[16:18] Addictive manufacturing for the propulsion system, not only the tanks, but also the pipes and all the components of the propulsion subsystem could not be used.
+[16:27] So, they come with this requirement, and what if you don't comply with that requirement?
+[16:35] So, you can either ask for a waiver, that is, look, I have already designed this spacecraft, this is the proof I have designed it, you need a period of grace in order to implement this requirement.
+[16:45] So, if you have signed the last version, you come with a negotiation, and then you decide to sign, this before the signature of the LSA.
+[16:51] If you have signed the LSA, it is the last version which applies, but before the signature, you have not decided, then you have to ask for a waiver.
+[16:58] Ok?
+[16:59] So, just to mention that these requirements are very important to the propulsion requirements.
+[17:05] Ok, why don't you now see each other?
+[17:07] Ok?
+[17:08] So, we're just giving a taste of...
+[17:10] What's the answer?
+[17:11] Question so far?
+[17:12] No?
+[17:13] Ok, so, the mechanical requirements.
+[17:18] Ok?
+[17:19] What we call mechanical requirements.
+[17:20] So, most of them are vibration requirements, but apart from this, first we shall start by the mass properties.
+[17:28] Ok?
+[17:29] So, these are usually the MCI, the mass, center of mass, and inertia.
+[17:34] Ok?
+[17:35] So, for example, I'm putting an example of requirement.
+[17:36] The mass, center of mass, and inertia, shall be measured, and shall be provided to the low service provider, with an error smaller than 5%.
+[17:52] Ok?
+[17:53] So, you, as a space-track owner, shall provide to the low service provider, where the center of mass is, for example, with an accuracy of 5%.
+[18:05] Ok?
+[18:06] Sometimes they require also the method.
+[18:07] You cannot just take the card and provide to the test with the card, because if you don't show the card, it has an accuracy better than 5%.
+[18:16] And you have to do it with real test, which by the way, there is only in time to do it.
+[18:22] Ok?
+[18:23] Ok?
+[18:24] Sometimes the low service provider does not require that, and you forget about the improvement and the test.
+[18:29] Ok?
+[18:30] Ok?
+[18:31] The usable volume.
+[18:32] Ok?
+[18:33] So, when you are providing information to the low service provider, you also commit to have this maximum volume.
+[18:45] You cannot exceed this, because if you exceed this, maybe you won't fit in the space which is meant for you.
+[18:52] Ok?
+[18:53] According to the accommodation they have for singles.
+[18:57] Ok?
+[18:58] Yes?
+[18:59] Questions?
+[19:00] Yes?
+[19:01] Ok, I'm just saying this fast, but if you think I should have to repeat something, let me know.
+[19:07] Ok?
+[19:08] I know it's already late and that you are tired, but, ok.
+[19:11] Come on, just one hour and we finish.
+[19:13] Last hour of the day.
+[19:15] Ok, so fundamental frequencies.
+[19:17] The fundamental frequencies, I have introduced the concept, ok?
+[19:21] And the important thing here is that we have to avoid the coupling of the two bodies.
+[19:26] We have to avoid that the fundamental frequency of the spacecraft is similar to the one of the launch vehicle.
+[19:33] So, they usually tell you, ok, the fundamental frequency of the spacecraft on that axis, on the x axis, shall be bigger than 50 Hz.
+[19:42] On the longitudinal body direction.
+[19:45] They usually, I mean, it depends on the launch service provider, but they usually give you in the, for example, in the axis of the launch terminal body.
+[19:55] This, that I'm going to tell you, seems a silly thing, but a lot of errors are committed here, ok?
+[20:02] And you have to, you have to be about that.
+[20:04] You have to be about that.
+[20:05] Depending on the accommodation you have, depending on if you are placed longitudinal or radial, the long vehicle axis, longitudinal axis, is going to coincide or not with your spacecraft longitudinal axis, right?
+[20:21] So, for example, if you are placed here on top, and this is the longitudinal axis, let's say, x, longitudinal axis for the spacecraft.
+[20:42] Ok?
+[20:43] And this coincides with, is the same with, longitudinal axis for the launch vehicle, ok?
+[20:49] So, whenever they tell you, the fundamental frequency has to be bigger than 50 Hz in the longitudinal body axis, what you say, you have to take into account what your recommendation is.
+[20:59] Because if it's vertical, fine, it's also on that direction.
+[21:02] But what if your recommendation is, as we saw here, the model spacecraft actually plays like that.
+[21:09] So, therefore, this is x of the spacecraft, and this would be maybe, in the spacecraft.
+[21:15] They are telling you that the fundamental frequency, which has to be bigger than 50 Hz, is on this, on this direction.
+[21:21] You see?
+[21:22] Ok?
+[21:23] So, you have to take into account what your accommodation is to understand this requirement.
+[21:28] The same for the load.
+[21:29] We are going to see now the load.
+[21:31] You challenge your post-static load of 5T on the load-train vehicle longitudinal direction.
+[21:36] You see?
+[21:37] But then you have to see, ok, what is my accommodation?
+[21:41] Because it's going to be like this, or like this.
+[21:43] Ok?
+[21:44] Ok?
+[21:45] Ok, here I am just showing, for example, this is the vertical accommodation, you see here, this is the Falcon 9.
+[21:58] And here you have the spacecraft in the longitudinal direction of the spacecraft.
+[22:03] It's the same as the longitudinal direction of the load-train vehicle.
+[22:07] You see?
+[22:08] Here, in the first image.
+[22:09] You see the mouse, right?
+[22:10] Ok.
+[22:11] And, whereas here, it's the other way around.
+[22:14] It's a horizontal or radial accumulation, and therefore, the axes are changed.
+[22:19] Ok?
+[22:20] Ok?
+[22:21] Why do we say that?
+[22:23] Because whenever we go to the test, whenever we go, this is the flight environment.
+[22:29] But whenever testing, because these requirements are usually, very often required to be verified
+[22:37] like this, we go to a vibration table.
+[22:39] And we migrate and verify how much is the momentum frequency.
+[22:43] We apply the loads, and see if the spacecraft resist or not.
+[22:48] So, imagine, we have this spacecraft.
+[22:51] And we go to the vibration table.
+[22:54] Ok?
+[22:55] We go to the vibration table, and place the spacecraft like this.
+[23:00] Ok?
+[23:01] For example, here, imagine, they were telling me.
+[23:03] The spacecraft shall be allowed in that direction, in the longitudinal direction of 5G.
+[23:08] We are now going to see what that really means.
+[23:11] Ok?
+[23:12] But imagine, the load that each calendar is 5G.
+[23:15] Ok, and this is your spacecraft.
+[23:17] Ok?
+[23:18] And then, whenever you are vibrating here on the test,
+[23:20] Ok?
+[23:21] This is X of X spacecraft.
+[23:24] And therefore, you expect here, along with 5G.
+[23:28] Ok, perfect.
+[23:29] If this is your accommodation, fine.
+[23:31] But here, here not.
+[23:34] Ok?
+[23:35] Here, if this is your accommodation,
+[23:38] You shall, the direction in which you shall put the 5G is here.
+[23:43] You see?
+[23:44] It's the 5G on this direction, which is the wire of the spacecraft.
+[23:51] The longitudinal direction.
+[23:53] It's the transversal direction of the spacecraft.
+[23:56] You see?
+[23:57] The table would not have to vibrate like that, but like that.
+[24:09] Or, put the spacecraft like this and vibrate like that.
+[24:14] Yes?
+[24:15] Or not?
+[24:16] Yes?
+[24:17] Ok.
+[24:18] It seems stupid, but usually a lot of errors are committed here, ok?
+[24:23] Ok.
+[24:24] Question.
+[24:25] What happens if you are designing your spacecraft?
+[24:27] You haven't decided yet which launch vehicle to use.
+[24:32] And therefore, you don't know the accommodation.
+[24:35] You're the most restrictive.
+[24:36] And you have to go to test.
+[24:37] You're the most restrictive.
+[24:38] You have to test the more restrictive.
+[24:41] That's very well.
+[24:42] If you, for example, think that the more restrictive push, you know, because before that, you do analysis.
+[24:50] Before that, I'm going to test in order to be more or less safe, you are going to accomplish.
+[24:54] And if by analysis you see that, in any case, you see very difficult to accomplish with that direction.
+[25:01] It depends on what you have.
+[25:02] If you have a qualification unit, maybe you can afford to do this test.
+[25:05] If you have a protoflight model, something that is going to fly, and you suspect the level is very high, because of doing this
+[25:12] the maximum thing, then don't do that and rule out the launch vehicle.
+[25:17] Ok?
+[25:26] Ok.
+[25:27] So now we are introducing the different type of vibrations.
+[25:30] Ok?
+[25:31] A launch vehicle experiences quite different type of vibrations, and there is not just one value, the post-static lock value,
+[25:39] but it is not enough for finishing with the post-static lock value.
+[25:42] What is the post-static lock?
+[25:43] The post-static lock, I think we introduced on the last lesson, but we recall, it represents the maximum, ok?
+[25:51] Equivalent inertial load level that the launch vehicle sees during the flight, during the different phases of the flight.
+[25:59] Ok?
+[26:00] It is an equivalent static lock, but it considers not only static lock, but also dynamic lock, low frequency dynamic lock.
+[26:07] So it is, ok, we are watching it here, ok?
+[26:10] For example, the launch vehicle experiences different, both through different phases, no?
+[26:15] For example, the initial phase is the lift off, which is the vertical accent, vertical accent.
+[26:21] Then we have the maximum dynamic pressure, the separation of the stages, the jettison of the failure.
+[26:27] So, for example, during the lift off, we know that the maximum acceleration in the axial direction, in the longitudinal direction, is 3G.
+[26:36] Whereas in the lateral, it is 0.5.
+[26:38] Ok?
+[26:39] Because the engines start to push, and we have really one of the greatest axial accelerations.
+[26:47] And then, you have different values for the maximum queue, you have for the state separation, for example, due to the compression there, on that stage you have 5.8.
+[26:55] Ok?
+[26:56] On the axial direction, etc, etc.
+[26:59] So, the quasi-static load, you see, would be the maximum among the different stages, and would be to take this 5.8 point each for the axial direction, and for the lateral direction would be this 2.3.
+[27:12] You see?
+[27:13] And this would be the values that the launch service provider would put you as a requirement.
+[27:17] The launch service provider would tell you.
+[27:19] The maximum load, quasi-static load, that the spacecraft shall view in the axial direction, in the long-vehicle axial direction, is 5.8.
+[27:29] Whereas in the lateral acceleration, it's 2.3.
+[27:33] Now we are going to see how this load is obtained.
+[27:36] The only information I have given to you is that it considers the different phases, and it's the maximum in each of the directions, along the different flight phases.
+[27:45] Ok?
+[27:46] Clear?
+[27:47] Now, now we are going to see how do we obtain it.
+[27:50] Ok, so, the objective of the quasi-static load is...
+[27:54] Do you see where the...
+[27:55] That works?
+[27:56] Ok, so, it's to condensate in just one static value, one per axis, as we were saying, the maximum of acceleration at which the spacecraft can be subjected than in the flight.
+[28:12] As only the amplitude of load frequency and dynamic loads are considered, dynamic heads are not fully captured here.
+[28:18] Ok?
+[28:19] So, we basically have, as you know, what is a static load and what is a dynamic load.
+[28:23] Static load means a load which is independent of time, it's constant.
+[28:27] And a dynamic load means a load which has certain frequencies.
+[28:30] Ok?
+[28:31] It oscillates, the value of the amplitude oscillates with a sinusoidal form or with a variable temporal
+[28:37] form.
+[28:38] Ok?
+[28:39] So, and this is a dynamic load.
+[28:40] Then you can have very low frequency loads and high frequency loads.
+[28:45] Ok?
+[28:46] So, the quasi-static load, so you have static loads, dynamic loads at low frequency and dynamic loads at high frequency.
+[28:55] The quasi-static load is going to condense the static loads and the dynamic of low frequency.
+[29:01] You see?
+[29:02] And it's going to condense this information into a variable, which is the quasi-static load.
+[29:07] It's called quasi-static because it's not only static, it also takes into account dynamic loads of low frequency.
+[29:13] Ok?
+[29:14] Clear?
+[29:15] Ok, this we are going to see more in depth on another unit of the dynamic effects.
+[29:22] But basically, the way this maximum acceleration is obtained is as follows.
+[29:28] Ok, the loan service provider has a FEM, has a, do you know this?
+[29:34] The FEM is a model they use to, in some way, reproduce what is the behavior of the structure
+[29:41] and the certain loads.
+[29:42] Ok?
+[29:43] You have used ABACOOS and all these programs, or no?
+[29:47] No?
+[29:48] Yes?
+[29:49] Ok.
+[29:50] So, for those of you who haven't, basically it's, you have, you discretize a given object,
+[29:57] in this case the launch vehicle, into different nodes, and you have certain constraints between
+[30:03] different nodes, so if this node is placed to the right, also the other one.
+[30:07] Ok?
+[30:08] And you apply certain nodes.
+[30:09] And basically by discretizing into the infinite points of the reality into a mesh of nodes,
+[30:17] you can know how the structure behaves, what is expressed in each of the parts, etc. etc.
+[30:21] But, basically using this FEM, what you can do is to, ok, decompose the reality into two parts.
+[30:31] One of them is the so-called, eh, spatial solution of each node, so it's called model coordinate.
+[30:38] So imagine, no?
+[30:39] You have...
+[30:40] Autodesk.
+[30:41] You have...
+[30:42] Autodesk.
+[30:43] Oh, joder, it's a corta.
+[30:44] Imagine, we have, in...
+[30:45] Usually, for example, the whole load vehicle can be model or something like that.
+[30:46] Maybe you have seen.
+[30:47] It's like a bar with a clamp bar.
+[30:48] Means here it doesn't move.
+[30:49] Ok?
+[30:50] And you see, ok, and there are force like this, and there are contrastal force, the structures,
+[31:04] and the force like that.
+[31:06] The model coordinate is nothing more than saying, ok, here the deformation is normally from 0 to 1.
+[31:11] Here the deformation is maximum, I give a 1, and here the deformation is 0.
+[31:15] This is the equivalent of the model coordinate.
+[31:20] It's to introduce how the structure would deform, eh, statically, independently of the load.
+[31:26] I assign maximum deformation, a model coordinate equal to 1, and minimum equal to 0, ok?
+[31:32] And you do this for each of the fundamental frequencies, because you know there is more than one fundamental frequency.
+[31:38] You do this for each of the fundamental frequencies.
+[31:41] So the structure is going to be great, and you do what is the maximum deformation, here for that mode.
+[31:49] But you also say, ok, and for the second mode, the maximum deformation here is something like that.
+[31:54] And you also ask, well, here, sorry because then it was like subtracting, but in the same direction.
+[32:01] It would deform like that.
+[32:03] Ok?
+[32:04] And you add all the modes, the deformation for all the modes, at that point.
+[32:10] Ok?
+[32:11] And you add one for this point.
+[32:13] You say, ok, the model deformation for that point is that you sum all the principal modes up to a certain degree, like, up to the third mode or up to the fourth mode, up to what you want.
+[32:24] Ok?
+[32:25] So this is, let's say, normalised information.
+[32:26] And then what you do is to obtain, with this model coordinate, you also obtain, you also, with the same, sorry, you also have the artificial acceleration.
+[32:37] That is, now, yes, how much acceleration would each of the points see at the original frequency.
+[32:45] Ok?
+[32:46] So, at each of these events, and at each of the different frequencies, how much is the acceleration that this point sees?
+[32:53] Ok?
+[32:54] So, this is one, but I know that the maximum acceleration is 200.
+[33:00] And I multiply this, 1 by 200 meter square second.
+[33:05] Ok?
+[33:06] And therefore, what you obtain is a maximum acceleration of all the points.
+[33:12] Each of the points is a conservative sum because it's as if all the modes were excited together.
+[33:17] Because you are summing the deformation of all the points.
+[33:19] So, it's a very conservative problem because in reality, not all the loads arrive at all the frequencies.
+[33:25] But you are carrying on the maximum acceleration and maximum deformation at all the points.
+[33:29] And what you do is to say, among all of them, the point which has the greatest acceleration is the one that I'm giving as acceleration of quasi-static load.
+[33:41] So, I know that for the structure in that direction, because we are only analyzing the deformation in that direction, the maximum acceleration is this.
+[33:50] It's like this.
+[33:51] And this is the value that the long-static load is provided gives to you as quasi-static load value.
+[33:58] Ok?
+[33:59] In order to compute this acceleration, they only consider either static values or low-frequency dynamic loads.
+[34:09] Ok?
+[34:10] Because for example, you can say, ok, in order to understand how much is acceleration, what loads do I consider?
+[34:16] Do I consider the weight of the load vehicle?
+[34:18] Yes, because this is a quasi-static load.
+[34:20] Do I consider the drag, darling?
+[34:23] It depends on which event you are taking here.
+[34:25] So, for example, the space separation, ok?
+[34:29] For the frame injection is a super-rapid event that is at very high frequency.
+[34:35] This is not included, maybe, in the quasi-static load painless.
+[34:38] But maybe, the switching on of the engines that are in the friction is at a lower frequency, and therefore, the thrust that in this moment is considering that computation.
+[34:50] Ok?
+[34:51] And therefore, I obtain the maximum acceleration under these conditions of static forces or low-frequency forces.
+[35:01] By, what is low frequency?
+[35:03] Usually, it's smaller than 50Hz.
+[35:05] Ok?
+[35:06] Between 50 and 50Hz is low frequency.
+[35:11] Ok?
+[35:12] Everything exceeding this, I was not considered in the quasi-static load.
+[35:17] This is the stuff-line specific environment, which is the random and the...
+[35:22] I would not go in the low frequency more than 20Hz.
+[35:25] Like, 50 is too much.
+[35:27] So, 20Hz, it depends on...
+[35:29] At 20Hz, it's already...
+[35:30] It's already...
+[35:31] Minimum.
+[35:32] Ok?
+[35:39] Ok.
+[35:40] And how do we reproduce into tests the quasi-static load, no?
+[35:44] So, the load service provider was given to us.
+[35:46] You shall, in the longitudinal body axis direction,
+[35:50] you shall endure a load of 5G.
+[35:53] So, how do we...
+[35:55] Or in that case of 11G.
+[35:58] How do we produce this?
+[36:00] So, basically, the quasi-static load, it would have an infinitesimal duration,
+[36:06] because it's a load of 5G.
+[36:09] And that's that, right?
+[36:10] It's like, you vibrate because in the regression table,
+[36:13] you have just a vibration, a table which vibrates and subjects your satellite
+[36:19] to a certain acceleration.
+[36:21] Right?
+[36:22] There was a static load, that is...
+[36:23] It has a half frequency, it would be just to do, like,
+[36:25] one...
+[36:26] One vibration cycle, ok?
+[36:28] As this would be very...
+[36:29] Let's say...
+[36:30] Very dangerous just to do one...
+[36:32] One cycle and have to stop there, ok?
+[36:34] What we usually do is to say, ok,
+[36:36] I do it with a sign, ok?
+[36:38] And with a sign of very low frequency,
+[36:40] because I don't want to produce dynamic effects,
+[36:42] but just very low frequency.
+[36:44] I tend to increase the amplitude amplitude and amplitude,
+[36:48] until I arrive to the energies, or to the 2LG,
+[36:51] the long-series required that I came to do.
+[36:54] I do a couple of cycles, a certain duration,
+[36:57] usually the long-series required establishes the duration,
+[37:00] and I do that.
+[37:01] Ok?
+[37:02] So, in terms of...
+[37:03] If you see, in terms of the frequency,
+[37:04] there is just a peak of 2LG at a certain frequency,
+[37:07] which is the frequency of the sin and the other one.
+[37:10] This frequency,
+[37:11] as we only want to capture static or low frequency dynamic effects,
+[37:15] have to be low enough.
+[37:17] How much lower?
+[37:18] Much lower with respect to the spacecraft's fundamental frequency.
+[37:23] If the fundamental frequency is 50 Hz,
+[37:26] then it's fine to do it at 20 Hz,
+[37:28] because we are only capturing static effects or low frequency effects.
+[37:33] If the fundamental frequency is 10 Hz of the spacecraft,
+[37:37] it's not fine to do it at 20 Hz.
+[37:39] Ok?
+[37:40] And the fruit?
+[37:50] Ok.
+[37:51] Questions?
+[37:56] Ok.
+[37:57] Then, the next environment,
+[37:58] the third environment is the coasistatic load.
+[38:01] The next one is the random environment.
+[38:03] The random environment tries to capture information
+[38:06] of the higher frequency loads
+[38:11] that we were not taking into account with the coasistatic load.
+[38:14] Ok?
+[38:15] So, basically,
+[38:16] for example,
+[38:17] engine transients are producing this kind of loads,
+[38:21] loads of high frequency.
+[38:23] The aerodynamic turbulence also can produce this kind of high frequency.
+[38:28] Ok?
+[38:29] So, for example,
+[38:30] when going through the max cube,
+[38:31] you can also gain half of this dynamic effects
+[38:33] of aerodynamic turbulence,
+[38:35] and therefore produce a load
+[38:37] which is at a frequency of 100 Hz.
+[38:39] So, this highest frequency is not captured by the coasistatic load,
+[38:42] and we shall do further tests.
+[38:44] This test is called random environment.
+[38:47] That is,
+[38:48] a different amplitude,
+[38:49] in this case,
+[38:50] it's not specified in Gs,
+[38:51] but it's specified in what you call the PLP,
+[38:54] power spectral density.
+[38:56] Power spectral density is just to kind of the integral,
+[39:00] ok,
+[39:01] so you see,
+[39:02] ok,
+[39:03] so from a frequency of 2 Hz,
+[39:05] to a frequency of 3 Hz,
+[39:09] I'm going to produce,
+[39:11] I'm going to introduce,
+[39:13] an acceleration of 5 Gs.
+[39:15] Ok?
+[39:16] But this is 5 Gs along 1 Hz,
+[39:18] and therefore,
+[39:19] it's the area below the curve,
+[39:22] and the PSD,
+[39:23] ok,
+[39:24] kind of the acceleration.
+[39:26] Tenderezo.
+[39:27] Tenderezo.
+[39:28] Ok?
+[39:29] We are doing the work of this in there.
+[39:33] Ok?
+[39:34] So it's just a way of,
+[39:35] because the way the random is on,
+[39:37] is like to play all the,
+[39:39] all the,
+[39:40] how do you say,
+[39:41] the steclas,
+[39:42] of the keys,
+[39:43] of the,
+[39:44] of the,
+[39:45] of the,
+[39:46] of the,
+[39:47] of the,
+[39:48] yeah,
+[39:49] at the same time,
+[39:50] and therefore you excite all the frequencies.
+[39:52] And you say, ok,
+[39:53] how much energy do I assign to each of these infinitesimal frequencies,
+[39:56] and this measure of 5 minutes of the PLP.
+[39:58] Ok?
+[39:59] And therefore it's exciting,
+[40:02] all the frequencies at the same time.
+[40:04] Ok?
+[40:05] It's exciting all the frequencies,
+[40:06] and you see,
+[40:07] for example,
+[40:08] the range of frequencies is between
+[40:09] 10 and 1,000 or 2,000 Hz,
+[40:12] because we are trying to capture these high frequency loads.
+[40:15] Ok?
+[40:16] Ok?
+[40:17] Ok,
+[40:18] how do we see if the structure has endured the load or not?
+[40:27] The same for the quasi-static.
+[40:28] Sorry, I didn't say it,
+[40:29] but we use the same thing.
+[40:31] First,
+[40:32] we look at the spacecraft,
+[40:33] nothing even died,
+[40:34] and what we do is a resonance search.
+[40:39] Basically,
+[40:40] the resonance search,
+[40:42] it is not a test itself,
+[40:44] it complements the other test.
+[40:46] It's used to see that the structure is not damaged.
+[40:48] And basically,
+[40:49] what we produce is,
+[40:51] we produce a sinusoidal load,
+[40:57] a very small load,
+[40:58] with a frequency that is changing,
+[41:01] and we see that,
+[41:02] ok, at 10 Hz,
+[41:03] the structure does not resonate.
+[41:05] Ok,
+[41:06] we then go to a 20 Hz,
+[41:07] does it resonate?
+[41:08] No, it doesn't resonate.
+[41:09] At 30 Hz,
+[41:10] yeah,
+[41:11] it resonates,
+[41:12] because with a very small load,
+[41:13] the structure amplifies a lot the displacement.
+[41:16] So,
+[41:17] we know that the fundamental frequency is at 30 Hz.
+[41:20] If something in the structure was damaged,
+[41:23] you would see a variation on this fundamental frequency.
+[41:25] Imagine that the antenna of the spacecraft would be,
+[41:28] let's say,
+[41:29] not stiff that well because of the vibration test.
+[41:32] Then, when you do the resonance search,
+[41:35] the fundamental frequency would have been modified maybe to,
+[41:38] I don't know,
+[41:39] 50 Hz or 40 Hz.
+[41:41] Ok?
+[41:42] So,
+[41:43] the philosophy is,
+[41:45] resonance search before a vibration test.
+[41:48] Vibration test,
+[41:49] resonance search.
+[41:51] You see?
+[41:52] So, resonance search in order to know where the fundamental frequency is,
+[41:55] before performing anything.
+[41:56] Because this is characteristic of my body,
+[41:58] on an accurate direction.
+[41:59] Then I do the vibration test,
+[42:01] this can be the quasi-static load test,
+[42:03] the random test,
+[42:04] whatever.
+[42:05] And then,
+[42:06] I do again the frequency search,
+[42:08] in order to see if it has modified or not.
+[42:10] If it has modified,
+[42:11] I have to stop,
+[42:12] I have a problem.
+[42:13] If it has not modified,
+[42:15] I can continue.
+[42:16] Ok?
+[42:17] Ok?
+[42:18] 
+[42:18] Here, more or less,
+[42:19] the same question I was asking you.
+[42:32] What if we haven't...
+[42:33] Sorry,
+[42:34] these profiles, sorry,
+[42:35] these profiles of what power spectral density,
+[42:39] to apply at each of the frequencies,
+[42:41] and there was static load value,
+[42:43] we were seen before,
+[42:44] these are usually stated in the Payload User Guide.
+[42:46] Ok?
+[42:47] Then, when you go and contact the Launcher Risk Proverter,
+[42:49] maybe they modify,
+[42:50] but it's not usually the case.
+[42:51] If everything is updated,
+[42:52] you know this release will be in our past.
+[42:54] You don't need to sign the contract to get this value.
+[42:57] You know this,
+[42:58] because there is a document called Payload User Guide,
+[43:00] which is available online,
+[43:01] and you know what are the levels that each of the Launcher Risk Provers are going to require to use.
+[43:06] Ok?
+[43:07] And therefore,
+[43:08] imagine we haven't signed the contract,
+[43:10] but we know these are the profiles,
+[43:11] in random,
+[43:12] for different Launcher Risk Provers.
+[43:14] Ok?
+[43:15] So my question is,
+[43:16] as before,
+[43:17] what level should I consider?
+[43:20] Ok?
+[43:21] So, imagine,
+[43:22] we have, for example,
+[43:23] Falcon 9,
+[43:24] which is the red one,
+[43:25] we have
+[43:26] Bigger C,
+[43:27] sorry,
+[43:28] this one,
+[43:29] and we have
+[43:30] SSLV,
+[43:31] which is one from India,
+[43:32] etc, etc.
+[43:33] So,
+[43:34] we have the Internet Non-Service Coaliger,
+[43:35] we are designing our test graph,
+[43:37] and we haven't signed the Non-Service Agreement yet,
+[43:39] therefore,
+[43:40] we don't know who the candidate is going to be,
+[43:42] who the final candidate is.
+[43:45] So therefore,
+[43:46] what do we do?
+[43:47] What level should we consider?
+[43:49] Because we have to go to the vibration test,
+[43:51] and say,
+[43:52] to the guy who is executing the test,
+[43:54] put this level,
+[43:55] or put the other level.
+[43:57] The most?
+[43:59] The most?
+[44:00] Ok,
+[44:01] this would be the classical Indian app,
+[44:02] which is to save.
+[44:03] Ok,
+[44:04] and this is usually what European Space Agency says,
+[44:06] European Space Agency puts you a lot of problems,
+[44:08] until you decide the Non-Service provider,
+[44:10] then makes you change,
+[44:12] and therefore, that's why they ask,
+[44:13] be compatible with everyone,
+[44:15] this way there is no problem.
+[44:16] But,
+[44:17] if you see, for example,
+[44:18] where I haven't put,
+[44:20] yeah,
+[44:21] Bigger C,
+[44:22] here, in some,
+[44:23] this region,
+[44:24] can kill your spacecraft.
+[44:25] And therefore,
+[44:26] you have to go to Visa and say,
+[44:28] look,
+[44:29] I'm going to roll out Bigger C.
+[44:31] Because of this.
+[44:33] Ah,
+[44:34] can we put any solution?
+[44:35] Yeah,
+[44:36] if you put more money,
+[44:37] and I do my structural analysis,
+[44:38] then we can.
+[44:39] Because,
+[44:40] saying a solution which is compatible with everything,
+[44:44] can be received from your spacecraft.
+[44:47] Okay?
+[44:48] Okay?
+[44:49] Okay,
+[44:50] and then,
+[44:51] there is the last environmental test,
+[44:52] last mechanical environmental, sorry,
+[44:53] which is the shock test, okay?
+[44:54] Shock test is the super high frequency, okay?
+[44:56] We usually,
+[44:57] switch frequencies from 100 to 1000,
+[45:00] or 10,000.
+[45:01] Okay?
+[45:02] And it's super,
+[45:03] it's like a discharge,
+[45:04] it's super high frequency and high amplitude.
+[45:07] Okay?
+[45:08] If we go with our flying satellite,
+[45:10] with our flying unit,
+[45:12] or protoflight unit,
+[45:13] and submit,
+[45:14] the first mechanical environmental test,
+[45:16] is the shock test, okay?
+[45:17] The shock test is the super high frequency,
+[45:19] okay?
+[45:20] We usually switch frequencies from 100 to 1000,
+[45:22] or 10,000.
+[45:23] Okay?
+[45:24] And it's super,
+[45:25] it's like a discharge,
+[45:26] it's super high frequency and high amplitude.
+[45:28] Okay?
+[45:29] So,
+[45:30] when you go with your protoflight unit,
+[45:31] and submit to a shock like that,
+[45:33] we have a great damage of destroying it.
+[45:37] So basically,
+[45:38] you either do analysis,
+[45:40] or you do to a qualification model,
+[45:43] but never to a flying unit,
+[45:45] okay?
+[45:46] Because usually,
+[45:47] I haven't said that these values are very high,
+[45:49] they contain a lot of margins.
+[45:51] So,
+[45:52] when the launcher destroyer gives you this,
+[45:53] it's because they expect something like that.
+[45:55] And they give you margins,
+[45:57] because they have to be covered.
+[45:59] Okay?
+[46:00] So,
+[46:01] whenever testing things,
+[46:02] you have to be super careful.
+[46:03] Okay?
+[46:13] Usually,
+[46:14] the thing that always asks you,
+[46:15] the shock can,
+[46:16] it depends on the lungs that we provide, okay?
+[46:18] In fact,
+[46:19] I have now a project with one of the services providers,
+[46:20] that is requiring you to ask shock,
+[46:22] and we don't know what to do it,
+[46:23] because we don't have a structural model.
+[46:24] We don't have a plot of life.
+[46:26] And we are arguing,
+[46:27] and I don't know if we will select them or not,
+[46:29] because there is this problem.
+[46:31] But the thing that they usually ask for shock is the quasi-static load,
+[46:35] and the random.
+[46:36] This is only mandatory,
+[46:37] even for kipsacks.
+[46:38] Okay?
+[46:39] For shock,
+[46:41] usually for kipsacks,
+[46:42] they don't require it.
+[46:43] Okay,
+[46:44] another important requirement coming from the long service provider,
+[46:47] now we have the mechanical ones.
+[46:50] So,
+[46:51] questions on the mechanical?
+[46:53] No?
+[46:54] Yeah?
+[46:55] One quick question.
+[46:56] You said,
+[46:57] for example,
+[46:58] in,
+[47:00] in the selection of the launchers,
+[47:02] that a,
+[47:03] one had a spike,
+[47:05] and you discard that,
+[47:06] because that...
+[47:07] We try to discard it,
+[47:08] and it's until you know.
+[47:09] Yeah.
+[47:10] And you enter into there.
+[47:11] But then,
+[47:12] for which do you,
+[47:14] do you size your spectra,
+[47:16] your spectra?
+[47:17] Your spectra?
+[47:18] Yeah.
+[47:19] You produce a...
+[47:20] Amin or...?
+[47:21] You've had to do analysis,
+[47:22] for all,
+[47:23] because doing analysis,
+[47:24] I mean,
+[47:25] once you have been the model,
+[47:26] it's just a matter of,
+[47:27] let's say,
+[47:28] giving just a button,
+[47:29] increasing the input.
+[47:30] Yeah.
+[47:31] And you see,
+[47:32] okay,
+[47:33] I'm complying with this,
+[47:34] but not with the other one.
+[47:35] You see?
+[47:36] Just try an error.
+[47:37] Yeah.
+[47:38] So,
+[47:39] so you could,
+[47:40] for example,
+[47:41] you could put the envelope,
+[47:42] as a first approximation,
+[47:43] and if everything goes fine,
+[47:44] super, super good,
+[47:45] you go to the test,
+[47:46] if you are confident enough,
+[47:47] on your analysis,
+[47:48] on your model.
+[47:49] But if not,
+[47:50] you go there,
+[47:51] and see,
+[47:52] with this one's a risk provider,
+[47:53] I may have errors.
+[47:54] Okay.
+[47:55] And then you go,
+[47:56] to that candidate,
+[47:57] and say,
+[47:58] I'm expecting problems there,
+[47:59] would you,
+[48:00] would you give it,
+[48:02] to me,
+[48:03] at the aviation,
+[48:04] if I ask you to?
+[48:06] Mm-hmm.
+[48:07] So, imagine,
+[48:08] we sign,
+[48:09] and you tell them,
+[48:10] imagine,
+[48:11] would I,
+[48:12] be able to,
+[48:13] relax it,
+[48:14] please,
+[48:15] 
+[48:15] later you buy how much,
+[48:16] and you tell them.
+[48:17] Okay.
+[48:18] Okay.
+[48:21] Okay.
+[48:22] Eh,
+[48:23] there are other,
+[48:24] very important requirement,
+[48:25] physics,
+[48:26] is usually,
+[48:27] requiring this,
+[48:28] which is the,
+[48:29] powering healing test.
+[48:30] Okay?
+[48:31] So,
+[48:32] basically,
+[48:33] the launch,
+[48:34] service provider,
+[48:35] usually asks,
+[48:36] the spacecraft,
+[48:37] to be switched off,
+[48:38] during,
+[48:39] the light,
+[48:40] anti-lordism.
+[48:41] Okay?
+[48:42] And for doing that,
+[48:43] you have,
+[48:44] eh,
+[48:45] you have a,
+[48:46] mechanism,
+[48:47] that, eh,
+[48:48] really forces,
+[48:49] this,
+[48:50] spacecraft to be,
+[48:51] eh,
+[48:52] switched off.
+[48:53] Okay?
+[48:54] Um,
+[48:55] basically,
+[48:56] it's kind of,
+[48:57] a,
+[48:58] a,
+[48:59] a,
+[49:00] a switch,
+[49:01] that is,
+[49:02] that does not provide power,
+[49:03] to the PCDU,
+[49:04] and to all the units,
+[49:05] and therefore makes,
+[49:06] the spacecraft remain,
+[49:07] in,
+[49:08] 
+[49:08] Okay?
+[49:09] a,
+[49:10] a switch in on,
+[49:11] of the spacecraft.
+[49:12] Okay?
+[49:13] You are,
+[49:14] you are producing something like that,
+[49:15] if this switch, eh,
+[49:16] killing switch does not work properly,
+[49:17] you can induce,
+[49:18] the,
+[49:19] you can induce the switching on,
+[49:20] of the spacecraft.
+[49:21] So,
+[49:22] what do you do?
+[49:23] You go to the vibration test,
+[49:24] with this,
+[49:25] killing switch,
+[49:26] and see,
+[49:27] if it works properly.
+[49:28] If the computer,
+[49:29] turns on,
+[49:30] or not.
+[49:31] Okay?
+[49:32] So,
+[49:33] eh,
+[49:34] this is important,
+[49:35] because,
+[49:36] the spacecraft,
+[49:37] then,
+[49:38] switch on,
+[49:39] then,
+[49:40] the,
+[49:41] radio frequency,
+[49:42] eh,
+[49:43] requirements,
+[49:44] usually,
+[49:45] do not apply to you.
+[49:46] Radio frequency requirements are,
+[49:47] eh,
+[49:48] electromagnetic interference,
+[49:49] right?
+[49:50] 
+[49:50] imagine,
+[49:51] the spacecraft,
+[49:52] emits at the same frequency of the launch vehicle.
+[49:54] This can,
+[49:55] create problems to them.
+[49:56] But, only if you are switched on.
+[49:57] If you prove that,
+[49:58] your spacecraft is going to remain switched off,
+[50:00] then,
+[50:01] you are automatically compliant with the,
+[50:03] eh,
+[50:04] emission requirements,
+[50:05] from the launch vehicle.
+[50:06] Okay?
+[50:07] Okay?
+[50:08] Thermal requirements.
+[50:09] This is important,
+[50:10] as I was telling you before,
+[50:11] to treat these as requirements,
+[50:12] or as just as requirements,
+[50:13] as just as requirements,
+[50:14] as just as requirements,
+[50:15] as just as requirements,
+[50:16] as just as requirements,
+[50:17] as just as requirements,
+[50:18] as just as requirements,
+[50:19] as just as just as requirements,
+[50:21] as just as just environmental information,
+[50:22] depending on what is the,
+[50:23] what the launch vehicle is telling to you.
+[50:26] Is this an environmental information?
+[50:27] Or is it really a requirement,
+[50:29] that is something for which I shall,
+[50:31] eh, provide proof?
+[50:32] Usually,
+[50:33] for this,
+[50:34] the launch vehicle is just environmental information.
+[50:36] Okay?
+[50:37] Even if I have all,
+[50:38] like that, requirements,
+[50:39] but usually for thermal,
+[50:40] why are those?
+[50:41] You see,
+[50:42] for example,
+[50:43] this I extracted from the Falcon 9,
+[50:44] the
+[50:19] the
+[50:45] is the thermal environment,
+[50:46] of a spacecraft in second building,
+[50:48] the Falcon 9,
+[50:49] 
+[50:49] And what,
+[50:50] what it sees is,
+[50:51] you have here,
+[50:52] the
+[50:53] the
+[50:54] basically temperature between,
+[50:55] uh,
+[50:56] this,
+[50:57] uh,
+[50:58] switching on,
+[50:59] at the initial phase,
+[51:00] between 50 something degrees,
+[51:01] and, uh,
+[51:02] 100 degrees,
+[51:05] or 90 something degrees,
+[51:06] okay?
+[51:07] Um,
+[51:09] I'm saying that,
+[51:10] yeah,
+[51:11] around 90,
+[51:12] uh,
+[51:13] degrees,
+[51:14] um,
+[51:15] for example,
+[51:16] for the spacecraft,
+[51:17] while in orbit,
+[51:18] we don't go that much for 90 degrees.
+[51:20] Usually,
+[51:21] I don't know if,
+[51:22] have you done thermal,
+[51:23] thermal space any meeting?
+[51:25] No.
+[51:26] 
+[51:26] 
+[51:26] Okay.
+[51:27] Okay,
+[51:28] you have them because,
+[51:29] but, eh,
+[51:30] basically,
+[51:31] what you size the thermal system of your spacecraft for,
+[51:33] is for the in orbit,
+[51:35] in orbit conditions.
+[51:36] 
+[51:36] that in orbit conditions,
+[51:37] the spacecraft is directly exposed to the sun,
+[51:40] okay?
+[51:41] and not only to the sun,
+[51:42] but also to the albedo radiation coming from the earth.
+[51:45] And,
+[51:46] a lot of radiation which are much more demanding,
+[51:48] than the one of,
+[51:50] while the spacecraft,
+[51:51] eh,
+[51:52] is inside,
+[51:53] eh,
+[51:54] the fading,
+[51:55] is protected,
+[51:56] okay?
+[51:57] and is usually in a controlled environment,
+[51:58] and therefore,
+[51:59] eh,
+[52:00] the conditions, eh,
+[52:01] are much harder in outer space,
+[52:03] so,
+[52:04] while it's in operation,
+[52:06] the spacecraft,
+[52:07] than while it's in the absent flight,
+[52:09] protected by the,
+[52:10] okay?
+[52:11] What happens?
+[52:12] 
+[52:12] first thing,
+[52:13] 
+[52:13] at some point,
+[52:14] the fading gets out,
+[52:15] because there is no more native,
+[52:16] from the environmental point of view,
+[52:18] of the mechanical and environmental,
+[52:19] and then,
+[52:20] it's exposed to the sun.
+[52:21] But,
+[52:22] even before that,
+[52:23] we are reaching temperatures,
+[52:24] which are sometimes 90 degrees.
+[52:26] In orbit,
+[52:27] you usually don't reach more than 60-70 degrees.
+[52:30] And,
+[52:31] in flight,
+[52:32] because of the concentration there,
+[52:33] and the cellular effects,
+[52:34] and the thermal flux,
+[52:35] eh,
+[52:36] you can reach sometimes,
+[52:37] in Falcon 9,
+[52:38] around 90-something degrees.
+[52:40] But,
+[52:41] even with that,
+[52:42] we say,
+[52:43] look,
+[52:44] it's even harder,
+[52:45] the in orbit operation,
+[52:46] and don't care that much,
+[52:47] of the thermal environment inside the long bay port.
+[52:49] Why?
+[52:50] Time of exposure.
+[52:52] Time of exposure.
+[52:53] Time of exposure.
+[52:54] Time of exposure.
+[52:55] Exactly.
+[52:56] Exactly.
+[52:57] 90 degrees,
+[52:58] fine.
+[52:59] But, for how much?
+[53:00] It's just a little time.
+[53:01] Then,
+[53:02] we get released.
+[53:03] And therefore,
+[53:04] you have,
+[53:05] I mean,
+[53:06] it doesn't mean that the spacecraft gets to 90 degrees.
+[53:08] It takes certain time to adapt to that temperature.
+[53:11] It means that the temperature of the fading,
+[53:13] is the temperature of the fading,
+[53:15] the temperature that the spacecraft is seeing,
+[53:18] but it doesn't mean that the spacecraft gets at this temperature.
+[53:20] And therefore,
+[53:21] you, in some way,
+[53:22] perform some thermal analysis,
+[53:24] of conductivity,
+[53:25] of,
+[53:26] so,
+[53:27] heat transmitted by radiation,
+[53:29] heat transmitted,
+[53:31] by conduction,
+[53:33] and also by convection,
+[53:35] to compute from that exterior temperature of the fading,
+[53:40] what is the real temperature that the spacecraft gets.
+[53:44] Okay?
+[53:45] Because,
+[53:46] it's not that the spacecraft automatically gets to 90 degrees,
+[53:49] it takes some time,
+[53:50] and as there is not that much time,
+[53:52] the spacecraft never sees 90 degrees.
+[54:04] Okay.
+[54:05] Deployment requirements.
+[54:06] These deployment requirements are usually,
+[54:08] the other way around.
+[54:09] Okay?
+[54:10] 
+[54:10] it's a spacecraft owner,
+[54:11] which puts some deployment requirements into the launch vehicle.
+[54:14] Okay?
+[54:15] 
+[54:15] basically,
+[54:16] well,
+[54:17] I'm giving here an example,
+[54:19] I'm considering a flight with two main passengers,
+[54:23] the customers,
+[54:24] communicate to the launch service provider,
+[54:26] the direction,
+[54:27] at which they would like to be deployed.
+[54:29] So,
+[54:30] you are telling to the launch service provider,
+[54:31] okay,
+[54:32] I want to be deployed in that direction.
+[54:33] Why can you,
+[54:34] why is that the case that you usually ask?
+[54:37] Because,
+[54:38] imagine for example,
+[54:39] you have,
+[54:40] you are deploying like that,
+[54:41] you have thermal panels there,
+[54:43] and you don't want to overheat.
+[54:45] So,
+[54:46] then you ask them to be deploying like that,
+[54:48] with a sun behind,
+[54:49] for example.
+[54:50] Okay?
+[54:51] In,
+[54:52] in,
+[54:53] in,
+[54:54] in,
+[54:55] so,
+[54:56] it's the direction and also the attitude,
+[54:57] okay?
+[54:58] So,
+[54:59] it depends on how you orientate the spacecraft,
+[55:00] but,
+[55:01] it's,
+[55:02] the,
+[55:03] usually,
+[55:04] what you ask for,
+[55:05] in order to be conservative,
+[55:06] is to,
+[55:07] be deployed in the,
+[55:08] long vehicle,
+[55:09] velocity direction.
+[55:10] Just because,
+[55:11] I mean,
+[55:12] you can do whatever,
+[55:13] but,
+[55:14] if the long vehicle is,
+[55:15] imagine,
+[55:16] it's,
+[55:17] well,
+[55:18] once you see the different phases,
+[55:21] but,
+[55:22] this,
+[55:23] this is here,
+[55:24] we produce,
+[55:25] this,
+[55:26] this,
+[55:27] this trajectory,
+[55:29] this action trajectory,
+[55:30] and we are finally injected,
+[55:32] after the circularization bars,
+[55:34] into a circular bar,
+[55:35] okay?
+[55:36] So,
+[55:37] therefore,
+[55:38] this is the,
+[55:39] final velocity at which I am injected,
+[55:41] and the launch vehicle is looking like that,
+[55:43] okay?
+[55:44] Looking,
+[55:45] it's looking in the vertical.
+[55:46] So,
+[55:47] you usually,
+[55:48] if you are, for example,
+[55:49] in a place like this,
+[55:50] in vertical,
+[55:51] you usually,
+[55:52] ask the launch,
+[55:54] the launch service provider,
+[55:55] to be deployed in the vertical,
+[55:57] sorry,
+[55:58] the velocity direction of the launch vehicle.
+[56:00] But,
+[56:01] in case you imagine,
+[56:02] want to be deployed in that direction,
+[56:04] like here,
+[56:05] then,
+[56:06] the launch vehicle just have to perform some pitching maneuver,
+[56:09] so that,
+[56:10] okay?
+[56:11] It points like that,
+[56:12] and then,
+[56:13] it deploys you,
+[56:14] okay?
+[56:15] It pushes you,
+[56:16] and then,
+[56:17] it pushes you,
+[56:18] okay?
+[56:19] after having some,
+[56:21] perform some pitch maneuver.
+[56:22] And therefore,
+[56:23] you are,
+[56:24] you are deployed in the radial direction,
+[56:26] not in the velocity direction.
+[56:28] Okay?
+[56:37] Okay,
+[56:38] and they communicate the attitude,
+[56:39] as I was saying,
+[56:40] but,
+[56:41] the desired attitude,
+[56:42] and they also communicate to the launch service provider,
+[56:44] the maximum tip of rate.
+[56:45] Depending on the,
+[56:46] for example,
+[56:47] the maximum tip of rate is going to be
+[56:48] they tell you in the payload user guide,
+[56:50] the maximum tip of rate,
+[56:51] which is the maximum one,
+[56:52] but then,
+[56:53] depending on the configuration,
+[56:54] depending on how many space track do they have for this flight,
+[56:57] they are going to be able to provide a tip of rate,
+[56:59] that is maybe lower than what they expected in the payload user guide.
+[57:03] Okay?
+[57:04] 
+[57:04] you provide,
+[57:05] let's say,
+[57:06] the requirements,
+[57:07] or things that you would like to be like that,
+[57:08] and they tell you,
+[57:09] okay,
+[57:10] you can accommodate that,
+[57:11] 
+[57:11] You cannot be released with less than 2 degrees per second.
+[57:14] Okay?
+[57:15] So,
+[57:16] and they do,
+[57:17] the important thing they do there,
+[57:20] is the so-called mission analysis.
+[57:22] So, they produce,
+[57:23] the whole trajectory,
+[57:25] and they also produce this releasing condition of the space track,
+[57:28] and one very important parameter,
+[57:30] when sending yes or no to the customers,
+[57:33] to the space track owners,
+[57:34] is the probability of collision.
+[57:36] So,
+[57:37] in the right sphere,
+[57:38] they are deploying a lot of space track,
+[57:39] you have seen,
+[57:40] for example,
+[57:41] the Falcon 9,
+[57:42] you have seen,
+[57:43] in broadcast,
+[57:44] the Falcon 9,
+[57:45] it deploys a lot of space track sequentially,
+[57:46] and they have to be deployed,
+[57:48] separated in time,
+[57:50] and in given directions,
+[57:52] such that,
+[57:53] you study the probability of collision,
+[57:55] and,
+[57:56] guarantee that this probability of collision,
+[57:58] is below,
+[57:59] 1 to the power of minus 6.
+[58:02] Okay?
+[58:03] 10 to the minus 6.
+[58:04] Something like that.
+[58:05] Okay?
+[58:06] So,
+[58:07] in this,
+[58:08] when you define this strategy,
+[58:09] and say,
+[58:10] yes or no to the different clients,
+[58:11] it's not that,
+[58:12] because you want to,
+[58:13] it's because,
+[58:14] with all the requests,
+[58:15] you have the log service provider,
+[58:16] has to make sure that the probability of collision,
+[58:18] is below a certain number,
+[58:19] and they also give these numbers,
+[58:21] to the client.
+[58:22] Okay?
+[58:23] To see if they are comfortable.
+[58:32] Okay,
+[58:33] as a way of,
+[58:34] also,
+[58:35] of deployment requirements,
+[58:36] for example,
+[58:37] there are some launch vehicles,
+[58:38] which,
+[58:39] there are some spacecraft,
+[58:40] which would like to,
+[58:42] be deployed,
+[58:43] already with the spin.
+[58:45] Some,
+[58:46] some of them,
+[58:47] wants to be,
+[58:48] 
+[58:48] let's say,
+[58:49] three axis is stabilized,
+[58:50] means that,
+[58:51] they have the means,
+[58:52] to stabilize in the three axis,
+[58:53] and therefore,
+[58:54] they want to be deployed,
+[58:55] let's say,
+[58:56] with the,
+[58:57] smallest rotation possible.
+[58:58] But some of them,
+[58:59] I think you have studied,
+[59:00] for those who have studied it from me,
+[59:02] the spin rate stabilization,
+[59:04] some of them,
+[59:05] because of thermal reasons,
+[59:06] and because of stability reasons,
+[59:08] their stable attitude,
+[59:09] is to keep on spinning,
+[59:11] with this torque,
+[59:13] and therefore,
+[59:14] they ask to the non-service wire,
+[59:15] to already be deployed,
+[59:16] with this rate.
+[59:17] Sometimes,
+[59:18] it's not something to avoid,
+[59:19] but something they still avoid.
+[59:20] Okay.
+[59:25] Okay.
+[59:26] Propulsion requirements.
+[59:27] As I was telling,
+[59:28] from the last payload,
+[59:29] with the light,
+[59:30] of alpha 9,
+[59:31] they prohibit,
+[59:32] the use of 3D-quilted tanks.
+[59:33] Okay?
+[59:34] This is one requirement.
+[59:35] Okay?
+[59:36] It depends on,
+[59:37] okay,
+[59:38] so,
+[59:39] as I was telling,
+[59:40] if,
+[59:41] 
+[59:41] and I have already,
+[59:42] the Proxs and the design,
+[59:43] the last version,
+[59:44] of the period,
+[59:44] the periode,
+[59:45] the periode,
+[59:45] 
+[59:45] the periode,
+[59:46] the periode,
+[59:46] 
+[59:46] the periode,
+[59:46] the periode,
+[59:46] the periode,
+[59:46] the periode,
+[59:46] the periode,
+[59:47] the periode,
+[59:47] the periode,
+[59:47] the periode,
+[59:47] the periode,
+[59:47] the periode,
+[59:47] the periode,
+[59:47] the periode,
+[59:47] the periode,
+[59:48] the periode,
+[59:48] the periode,
+[59:48] the periode,
+[59:48] the periode,
+[59:48] the periode,
+[59:48] the periode,
+[59:48] and I have already frozen the design, then the last version of the period user get does not apply.
+[59:53] It applies the one at the moment of signature of the LSE.
+[59:57] But if not,

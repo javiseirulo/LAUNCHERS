@@ -1,0 +1,376 @@
+# lang=en
+[00:00] The launch service provider does not give a...
+[00:04] Ok, so the documentation process.
+[00:09] How do we start getting in contact with a launch service provider?
+[00:12] Ok, so you are a specific owner, we are a specific owner.
+[00:16] And it's not a straightforward process in which we say,
+[00:19] we are going to launch with SpaceX because we know it's the best launch vehicle
+[00:24] and that is good winning.
+[00:26] No, it's not a straightforward process but an interactive process.
+[00:29] Ok, you get up thinking you are going to launch with Falcon 9
+[00:32] and you go to bed realizing that it's not possible because of whatever reason.
+[00:36] And then you ask for a waiver and they tell you yes it's possible and your decision changed.
+[00:41] Ok, especially for institutional funding projects, that is here in Europe for ISA projects,
+[00:48] several factors are considered.
+[00:51] Ok, it's not only about minimizing cost or maximizing the total mass that is
+[00:58] that this launch vehicle can put into orbit but there are several other factors.
+[01:02] The most important of them is the one I think I was already commenting,
+[01:05] is the actual political aspect.
+[01:08] Ok, in theory it shall not be that much like that because as I was telling,
+[01:13] the market is shifting from an institutional approach to a commercial approach.
+[01:18] So, even if you are a Spanish company you can launch with a spacecraft that is, sorry,
+[01:25] with a launch vehicle which is American.
+[01:27] If it's a commercial trade there shall not be these restrictions.
+[01:31] but this thing, this sector of the launch service providers, you have a lot of restricted information
+[01:40] and therefore your political plays a role here.
+[01:43] Ok.
+[01:44] So I will give you the example in which we were thinking on launching with Falcon 9,
+[01:49] it was mainly a reason of course, also reliability.
+[01:52] we were having a kill shot so not that much, we had a pre-agreement and then the commercial war with the States started.
+[02:00] Ok.
+[02:01] Just out of curiosity we end up flying to New Zealand.
+[02:05] When I had to fly to New Zealand there was the attacks from,
+[02:11] I had to go from Spain to, I think it was Emirates and from Emirates to New Zealand.
+[02:17] So the war started there and the day before I had to take the fire.
+[02:21] So I had to go the other way around by the system.
+[02:24] So, just to tell you that all these things you look at in Falcon when selecting a launch service provider
+[02:30] and at the end of the day you have to put all the equipment there, all the satellites there, their routes
+[02:35] because we had to, not to transport people but also to transport the satellite.
+[02:39] And we were scared, we left one spacecraft in an airport that we were not able to save.
+[02:45] So, all the logistics, they also have a role in a launch service.
+[02:50] Ok.
+[02:55] Ok, another important thing here is the level of risk accepted.
+[02:58] Ok, where the technical leader of these activities tries to compare different launch service providers.
+[03:08] Ok, and one of the most important things is the level of risk.
+[03:11] You shall not compare launch service providers which are very different in terms of risk.
+[03:17] Ok.
+[03:18] For example, comparing Falcon 9 with a launch vehicle that has not flagged spirits.
+[03:22] Ok.
+[03:23] So you shall before than that do a risk evaluation and only consider options which are within your acceptable level of risk.
+[03:30] Ok.
+[03:31] Ok.
+[03:32] So this here is the main document search flow.
+[03:37] Ok.
+[03:38] This documentation flow seems boring, it's not that funny but, just for you to start telling the way of how do we work.
+[03:44] So basically the first thing you sign with a launch service provider is an NDA.
+[03:48] Ok, it's a non-disclosure agreement.
+[03:50] Are you familiar with the NDAs?
+[03:51] Ok.
+[03:52] So basically, what you see is afterwards that you are going to provide the launch service provider information out of your spacecraft.
+[04:00] And of course you don't want the launch service provider to start sending it to everyone you know.
+[04:05] These guys of Carlos III are launching a CubeSat with blah blah blah these characteristics.
+[04:12] They want to sign an NDA and they say what the other way around you about the plot table characteristics.
+[04:19] Ok.
+[04:20] Once you have signed the NDA you go to the request for proposal or request for rotation.
+[04:26] First you usually start with the request for rotation and then request for proposal.
+[04:31] and then you request the best and final offer.
+[04:36] Ok.
+[04:37] So there you contact different launch service providers, not just one.
+[04:42] And you also do a final iteration before taking a decision which is the interface requirement document.
+[04:52] This is the only time in which you ask the launch service provider things that you want.
+[04:57] That is for example, you ask, I want to go to a 500km orbit.
+[05:01] But you also ask, I don't want the temperature to be higher than 70 degrees for example.
+[05:07] And the blocks of service provider are compliant or non-compliant.
+[05:11] If they declare non-compliant, they are not going to modify the launch label or the trajectory in order to satisfy.
+[05:18] But at least you know if they are compliant or not with this and this can lead your decision.
+[05:24] Ok.
+[05:25] On selecting them or not.
+[05:26] Ok.
+[05:27] And after that you say, ok, I have these two or three options that are attractive.
+[05:34] And I start negotiating.
+[05:36] You start the negotiations and you select only one.
+[05:39] Ok.
+[05:40] And when you select, you will see all the names afterwards.
+[05:45] The contract is called LSA, it's the loan service agreement.
+[05:50] Ok.
+[05:51] And finally, this loan service agreement gets updated by the so called interface control document.
+[05:57] Ok.
+[05:58] I want to see this afterwards.
+[06:00] Ok, so.
+[06:01] The non-disclosure agreement is established between different companies.
+[06:09] In this case, the satellite donor and the loan service provider.
+[06:12] Ok.
+[06:13] It's bidirectional and it's established for what is the duration of this conflict and charity.
+[06:18] But I have seen from three years, but usually the most common thing is from five to ten years.
+[06:26] Ok.
+[06:27] Ok.
+[06:28] Information that is already public shall not be included there, of course, in the public.
+[06:32] By public I mean not just that you find on the internet, but that you have released,
+[06:37] like for example, on a conference and all these things.
+[06:39] You have already said this and people know it.
+[06:41] You shall not introduce this into the non-disclosure agreement.
+[06:44] Ok.
+[06:45] Ok.
+[06:46] So, then we have the request for quotation and the request for proposal.
+[06:50] Ok.
+[06:51] What are the differences?
+[06:52] So, this is a document that the spacecraft owner has issued to the loan service provider.
+[06:56] And basically, we are asking to the loan service provider for the price and in the case of the request for condition for very basic information.
+[07:06] So basically, we are providing to them what is our spacecraft mask, what is the route we want to go.
+[07:12] We also provide them what is the launch window in which we are interested.
+[07:17] So basically, for more of the launch period.
+[07:19] So, we want to launch a spacecraft for 28, between January 28 and January 29.
+[07:30] So we have this one year period.
+[07:33] Ok.
+[07:34] And we are asking in this RFQ to the launch service provider if they have any launch availability within this period.
+[07:41] Ok.
+[07:42] And also, for example, communicating.
+[07:43] You have interface constraints.
+[07:45] So imagine, your spacecraft can only fly with a certain...
+[07:50] It's a kubesack, no?
+[07:51] And we were saying that kubesacks are put inside a pod.
+[07:54] Inside this box.
+[07:55] Right?
+[07:56] This box, basically, is just a box with some doors that open when the spacecraft is released.
+[08:02] And it guarantees, the reason why we use them, is that they guarantee a robust interface between the spacecraft and the launch vehicle.
+[08:10] And not only this, but they are qualified already.
+[08:12] They have some strings on the bottom bar that push the spacecraft upwards.
+[08:17] Ok?
+[08:18] That's why we use them.
+[08:19] Ok.
+[08:20] I can show you the Andrea name.
+[08:22] Ok.
+[08:23] This is one, a common one.
+[08:24] This is one example we used on our last mission.
+[08:34] This is the pod.
+[08:36] Ok?
+[08:37] You see here the...
+[08:39] Ok.
+[08:40] These are the pushers, very behind.
+[08:45] And the dogs, that open.
+[08:47] Ok?
+[08:48] Ok.
+[08:49] This is in closed position.
+[08:51] And this is when they open.
+[08:53] This is for four satellites inside the same pod.
+[08:56] You can have different configurations.
+[08:58] Ok?
+[08:59] But for kubesacks, this is the most common thing to use.
+[09:01] ExoLaunch is one of the providers that they are getting bigger and bigger because almost all the launch vehicles are already qualified to fly with this kind of pods.
+[09:12] Ok?
+[09:13] They were one of the first ones in Europe developing pods.
+[09:15] And they became sort of a non-official standard.
+[09:18] Ok?
+[09:19] So imagine your spacecraft because of dimensions can only fly with the ExoLaunch pod.
+[09:25] This you shall communicate in your request for quotation to the launch and risk provider.
+[09:31] Ok?
+[09:32] So, most of them are qualified for example for ExoLaunch, but maybe for other providers not.
+[09:38] Ok?
+[09:39] And if they are not qualified, and this is qualified for this launch vehicle, this is a problem because you shall put money in order for this to be qualified.
+[09:47] And fine.
+[09:48] Ok.
+[09:49] Ok.
+[09:50] So, you provide this input in the request for proposal and what gives you back in the proposal on the quotation on the launch and risk provider.
+[09:58] So, the estimated price, the launch vehicle options in case they have more than one launch vehicle.
+[10:03] The schedule.
+[10:04] So, within this year they are going to place it.
+[10:06] Here.
+[10:07] And the...
+[10:08] Ok.
+[10:09] And the...
+[10:10] Ok.
+[10:11] And a high, very high level or risk of what they are compatible.
+[10:13] Ok?
+[10:14] So, this is just to give a graph estimate of how much it's going to cost you the thing and if they have availability or not.
+[10:20] If you want further details, you want to request a proposal.
+[10:24] Which is that you gave them the same input and they are going to give you full technical proposals.
+[10:29] So, definition of the interfaces, definition of the accumulation.
+[10:33] Ok?
+[10:34] Ok?
+[10:35] Ok.
+[10:36] Ok.
+[10:37] Ok.
+[10:38] Ok.
+[10:39] Ok.
+[10:40] Ok.
+[10:41] Here, for example.
+[10:42] You see here the main test graph.
+[10:43] You see this is the failing, ok?
+[10:44] And inside the failing, ok?
+[10:45] And inside the failing, which is the failing, ok?
+[10:46] It's like the failing which is the failing.
+[10:47] And inside the failing, we have what we were saying, the dispenser.
+[10:48] This is the conical bug.
+[10:49] And on top of the dispenser, we have here in transversal direction, small satellites, which
+[11:00] are the scoring ones.
+[11:01] Ok?
+[11:02] And here on the top, the main test graph.
+[11:04] So, whenever the non-service provider is answering to your request, they are also telling
+[11:09] Ok, I'm going to put you in that position.
+[11:12] I'm going to put you in this position, for example here, is called vertical or main deck.
+[11:16] Main deck, ok?
+[11:17] The deck is kind of a table, and you are putting it there.
+[11:20] Or not, you are going to be put, this is called, this is big as C and this position
+[11:24] is called hexa.
+[11:25] Because usually there are six, it's an hexagon, in the cross section, and this, they tell you,
+[11:30] this is going to be an hexaposition.
+[11:32] Because you are a small spacecraft, you are a huge set, and you are going to be placed
+[11:35] there.
+[11:36] Ok?
+[11:37] So, that's what we mean by accommodation.
+[11:38] 
+[11:38] Ok, they are going to describe how the integration process takes place, or how many days do you have
+[11:44] for doing your own test, how many days does it take to integrate the spacecraft into the launch
+[11:50] vehicle, where do you have to arrive to the premises, ok?
+[11:52] This is already communicated in the proposal.
+[11:53] 
+[11:53] An important thing, the price they are giving to you, here in the request for quotation and
+[11:59] request for proposal, can usually be subjected to buy a request for a request for a proposal,
+[12:05] can usually be subjected to variations, so for example inflation, or because they want to
+[12:23] increase the price because of the commercial policies, and that's it.
+[12:28] They usually shall not do more than a third time, because otherwise you don't trust them
+[12:33] anymore when you ask them for a quotation, so it's not fair.
+[12:36] And therefore, what you finally do, is to issue, when you are sure that it's going to be, you are
+[12:47] on only two or three options, you issue them a request for a buffer.
+[12:52] This is the best and final offer.
+[12:54] Then they are committed with the price.
+[12:57] It's the same technical information as before, but it's more oriented to obtain a final statement
+[13:01] on the price, and they cannot go above that price anymore, unless some unexpected deviation
+[13:06] that is properly justified, but the buffer is the final offer you have from the loan service provider.
+[13:12] Ok?
+[13:13] Ok, and then there is an interface requirement document that I was saying, it's a list of requirements
+[13:18] from the Spacecraft owner to the loan service provider, so that we can assess how much complied we are.
+[13:26] Ok?
+[13:27] So we start asking for things, for example, the release, we have, do you remember what we were saying
+[13:35] earlier earlier, the tip of rate, at the end, so at the end of the trajectory, the vehicle releases
+[13:40] the Spacecraft, but it does not stay 100% still, but it has some residual relation.
+[13:46] So it cannot leave with 0 degrees per second, but here in your IRD, it's like a letter to the
+[13:53] bank, to Santa, you can write whatever, and they tell you yes or no.
+[13:58] Usually you ask for things that you really need.
+[14:01] Imagine, you ask, and the maximum rate is going to be 0.30 degrees per second, because this, you know,
+[14:07] how much you can write a letter to the bank, and you can write a letter to the bank, and you
+[14:08] can write a letter to the bank, and you ask for that.
+[14:09] So you ask for that.
+[14:10] And they say yes or no, and then before you know how much you write a letter to the bank.
+[14:14] Yes, we have calibrated.
+[14:15] Yes, we have calibrated.
+[14:16] But the other thing you change the one paper just for you, and you are a super important
+[14:17] company, yes, but otherwise.
+[14:18] Okay, this I'm saying because you're saying things over the way around, they are going to impose
+[14:22] requirements of things you have to accomplish.
+[14:23] in order to be able to ride with them.
+[14:24] They are going to be able to fly with them.
+[14:25] You have to accomplish a few times, not when they have to fly with all the passengers.
+[14:30] But then this is after the signature of the loan service agreement.
+[14:35] Yes, yes.
+[14:36] So, before, it's you who asked.
+[14:38] Yes, yes.
+[14:39] So, yes.
+[14:40] So, yes.
+[14:41] So, yes.
+[14:42] So, yes.
+[14:43] So, yes.
+[14:44] So, yes.
+[14:45] So, yes.
+[14:46] So, yes.
+[14:47] So, yes.
+[14:48] So, yes.
+[14:49] So, yes.
+[14:50] So, yes.
+[14:51] Y'll1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+[15:21] The launch period is what I was telling you, when in the proposal they include, okay, I'm going to launch you from the 1st of January of 2028 to the 1st of January of 2029.
+[15:33] And as we are in 2027, they cannot commit with a specific date yet. So they give you this launch period which is usually around one year.
+[15:45] Then when we are 6 months before the first day of this launch period, this launch period shrinks into a launch period.
+[15:56] And they say it's going to be from 1st of October to the 1st of December.
+[16:03] Okay? Sorry. The 1st of December to the last one of December.
+[16:08] So it gets shrinked into 3 months. You see? So the launch period, as we are probably doing,
+[16:14] as we approach to the first day of this launch period, it gets shrinked into a launch period.
+[16:18] And finally, one month after the day, one month before the launch, or two months before the launch usually,
+[16:24] this gets shrinked into a launch period. Okay? So they tell you.
+[16:28] We are going to launch you the 1st of December, or the 2nd of December.
+[16:32] This is exactly right. The hour they don't tell you until just only some hours.
+[16:38] But the day, they tell you. Okay?
+[16:41] Okay.
+[16:42] Okay.
+[16:43] Okay.
+[16:44] Okay.
+[16:45] Okay.
+[16:46] What modalities, what accommodations do we have for a launch?
+[16:48] So we can have different modalities.
+[16:49] We can have the digital flight.
+[16:50] It's a customer that usually occupies the whole...
+[16:56] payload capacity, the whole payload capacity, the whole payload payload volume.
+[17:03] Or in terms of volume or in terms of volume. Okay?
+[17:05] This offers, of course, to this final client maximum flexibility because you have a specific
+[17:11] customer you have paid for the whole flight.
+[17:14] And you have to pay for the whole flight.
+[17:17] And you have to pay for the whole flight.
+[17:19] And in case you, for example, have some delays, the launch that this provider is going to accommodate these delays.
+[17:31] Or not.
+[17:32] Because imagine they have other launches and they don't want to.
+[17:35] How do you solve this?
+[17:37] In the launch of this agreement, it has to be said something like that.
+[17:40] So whenever you are negotiating, if you are dedicated, you have to have more power of negotiation.
+[17:45] But this has to be translated into a launch of this agreement.
+[17:48] Okay?
+[17:49] I can be up to one year late and the launch of this provider has to wait for me because it's a dedicated flight.
+[17:55] Okay?
+[17:56] But you have to stay this on the agreement, not the contract.
+[17:59] Otherwise, you cannot suppose they are going to do so.
+[18:02] Okay?
+[18:03] So this is why you said maximum flexibility.
+[18:07] Okay.
+[18:08] Up to what is allowed in the LSD.
+[18:11] In the most expensive option, you are buying the whole flight, basically.
+[18:16] And it's usually for lots of.
+[18:18] For lots of.
+[18:19] What you can be, instead of in a dedicated flight, you can be, for example, in a ride share in which you are the main passenger.
+[18:27] Sometimes it is also called lead passenger.
+[18:30] Okay?
+[18:31] Lead passenger shares, it's like sharing a Uber or a taxi.
+[18:36] Basically you have the main space pack and you have the smaller space pack.
+[18:40] The other ones are called secondary payloads.
+[18:43] Okay?
+[18:44] Secondary space pack.
+[18:45] Secondary passengers.
+[18:46] And basically the lead passenger is not only, it's usually the big one.
+[18:52] And it has greater payload capacity.
+[18:55] But the important thing is that they also, depending on the modality.
+[19:00] Okay?
+[19:01] Because I have seen different contracts.
+[19:03] And usually it's the one who fits the orbit altitude and the orbit period in which the flight is performed.
+[19:11] Okay?
+[19:12] So maybe we are sharing the flight.
+[19:14] But you are the main passenger and the secondary one.
+[19:17] And you say, I want to go to 500 kilometers.
+[19:20] And I say, I want to go to 450.
+[19:23] And the final decision is on the long service provider.
+[19:26] But usually what is summarized in the long service agreement is that, is the main passenger who has, let's say, the right to decide on which orbit to go.
+[19:38] Maybe you can go to 450 kilometers.
+[19:41] And the long service provider asks to you, at main passenger, is it fine for you to modify because I have some other customers who are interested in 550.
+[19:50] And you say, yes, then okay.
+[19:52] But otherwise you shall have the right to maintain these 500 kilometers.
+[19:56] Okay?
+[19:57] Usually customers do not have visibility of who are the other customers.
+[20:02] Okay?
+[20:03] Okay.
+[20:04] Plans have a spoiler for not to want this.
+[20:05] Because usually they give different conditions to each of them.
+[20:09] And until you don't arrive to the long path, you don't meet them.
+[20:13] Which is kind of funny because sometimes you find someone you knew and you didn't know it was working on that.
+[20:19] Okay.
+[20:20] Okay.
+[20:21] So they, they, how do we distribute the cost?
+[20:26] So in value, for example, Pegasi, a launcher from Avio, costs now around 50 million euros.
+[20:32] How do we distribute?
+[20:33] Yeah, it's quite a lot because of several reasons.
+[20:35] But how do we distribute, how do we split the cost among the different ambassadors?
+[20:42] So basically what is usually the most common thing is to do it based on the, on the mass.
+[20:47] Okay?
+[20:48] So on a percentage of mass.
+[20:49] You have 50% of the mass, you pay 50% of the lunch.
+[20:53] But not of, but the lead plays, pays an additional fee.
+[20:58] Because they have the right to control the schedule and to control the orbital parameters.
+[21:03] Okay?
+[21:04] So if not proportional, it's kind of proportional basis.
+[21:07] And then not proportional because the lead plays more because they have more, more rights
+[21:14] on the decision technique.
+[21:15] Okay?
+[21:16] Yeah?
+[21:17] And the benefit of that is that therefore the main customer does not have to pay for a dedicated
+[21:23] flight but pays less than in a dedicated flight.
+[21:26] Okay?
+[21:27] Okay.
+[21:28] Okay.
+[21:29] We stop here.
+[21:30] And then we continue to rest.

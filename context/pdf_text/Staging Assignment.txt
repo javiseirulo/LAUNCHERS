@@ -1,0 +1,17 @@
+Compute the minimum GMLO of a 2 stage rocket you need to arrive to a certain circular orbit:
+
+1) Briefly research a LEO altitude that clients may use and a payload capacity
+
+2) Assume as known the exhaust velocities and structural coefficients of both stages
+
+3) Solve the Staging Problem to minimize the GMLO (Design Problem)
+
+
+
+                ∆𝑉𝑇𝑂𝑇
+                                                                                               Λ𝑖 , λ𝑖
+                  𝑁
+                                                 Design Problem
+                𝑚𝑝𝑎𝑦                                                                           𝑚01
+                 𝜀𝑖 , 𝑐𝑖
+

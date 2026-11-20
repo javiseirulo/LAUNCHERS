@@ -1,0 +1,858 @@
+# lang=en
+[00:00] you have to negotiate with them.
+[00:03] Now, for example, if I try to fly with SpaceX,
+[00:05] apart from the fact that it's almost everything good,
+[00:08] they would tell me no, because it's already a tank
+[00:10] since they released that.
+[00:12] They had a lot of problems with Q-SAT that exploited
+[00:15] because of 3D printed tanks, and they say, you know what?
+[00:19] Not that in flight, but even that in operations,
+[00:22] but they have so many flights that their main goal
+[00:24] is to try to produce a lot of flights, flights, flights.
+[00:27] Clients were having issues with their own propulsion tanks,
+[00:29] and their productivity.
+[00:31] So now you have to take this into account
+[00:34] whenever you are designing your spacecraft.
+[00:41] For example, they also tell you that,
+[00:44] for example, look at this requirement,
+[00:46] this is one from SpaceX, from Falcon 9,
+[00:49] that in the mechanical vibration test,
+[00:51] so the test that we were saying with the vibration table,
+[00:54] the overall propulsion system, the tanks,
+[00:58] which shall be pressurized with the so-called maximum expected operation pressure.
+[01:04] Which is, while you are doing the vibration test,
+[01:07] you shall not do it in whatever configuration.
+[01:09] You shall fill your tanks and pressurize them with a certain pressure.
+[01:14] Usually not with the real propellant,
+[01:16] usually not with some other propellant,
+[01:17] which is not that toxic or problematic,
+[01:20] but when you do this,
+[01:22] and if you don't, if you forget,
+[01:24] it was your fault.
+[01:26] You have to show proof that you did it.
+[01:28] There is also one important code from Falcon 9,
+[01:33] which is also kind of new,
+[01:35] which is the 50% rule.
+[01:37] Imagine you are in flight because of the loads,
+[01:41] the compression load of the environment
+[01:43] is going to transfer things from the load-based to the satellite,
+[01:47] and also the satellites,
+[01:49] and the tanks are going to fill that pressure.
+[01:51] Right?
+[01:52] So there is the,
+[01:53] let's say, the pressure coming from the external loads,
+[01:56] and there is the pressure because your system is pressurized.
+[01:59] Okay?
+[02:00] So there is the 15% rule that tells you
+[02:03] that the system is pressurized at a greater,
+[02:06] because it has to work at this frequency for the transfer to work.
+[02:09] Okay?
+[02:10] So there is the rule that tells you,
+[02:12] okay, the pressure that generates the external loads
+[02:15] shall not be 15% more of the total pressure,
+[02:20] of the pressure due to the external loads
+[02:23] and to the internal pressurization,
+[02:25] which is usually the dominant level.
+[02:27] Okay?
+[02:28] Which is kind of a very abstract rule,
+[02:30] but there is this 50% rule,
+[02:32] I mean, from Falcon 9.
+[02:33] Okay?
+[02:34] There is also the very importance of the question,
+[02:36] they saw the leak test.
+[02:37] The leak test is that you shall verify that
+[02:40] your system does not have any leakage, okay?
+[02:46] With the propeller.
+[02:48] And they tell you even the methods,
+[02:50] they offer you different possibilities of methods
+[02:52] at which you shall test your system.
+[02:54] You cannot test that it doesn't have leaks,
+[02:58] but that it makes it at certain, with certain methods.
+[03:02] The most common one is to introduce
+[03:04] the whole propulsion subsystem.
+[03:06] The system, usually taken apart from the spacecraft,
+[03:09] is take it inside a fluid and see, let's say,
+[03:14] the formation of bubbles,
+[03:16] or the rate at which these bubbles are formed.
+[03:19] There are different, you don't have to know this,
+[03:21] but different methods for testing the leak test,
+[03:24] and that already the law of the Joel is asking you to do like that.
+[03:27] Okay, then we have the electromanetic compatibility requirements.
+[03:37] So here I distinguish between susceptibility requirements and
+[03:42] any civility requirements.
+[03:44] The susceptibility requirements means that the spacecraft can be affected by the missions of the long period.
+[03:52] So I am susceptible to that, to these missions.
+[03:54] Okay?
+[03:55] So, and the civility radiation is the other way around.
+[04:02] It's radiation that I produce that could affect the launch vehicle.
+[04:05] So, if I justify, as I was saying, that I am switched off during the flight,
+[04:10] and that I can be switched off because of the plane switch,
+[04:13] then the civility radiations do not apply.
+[04:15] Okay?
+[04:16] The radiation that the spacecraft put the myth over the launch vehicle do not apply,
+[04:20] because it's switched off.
+[04:22] Okay?
+[04:23] Important, also related to that,
+[04:25] the launch vehicle place the satellite into orbit,
+[04:29] and they are separated because the spacecraft is put into orbit,
+[04:33] and afterwards the launch vehicle start the deorbit maneuvers.
+[04:37] Okay?
+[04:38] But what happens with the spacecraft?
+[04:40] The spacecraft remains there,
+[04:41] and there is a certain time for which it shall remain off.
+[04:43] We said that we launch it off,
+[04:45] and there is a certain time for which it shall remain off.
+[04:48] Okay?
+[04:49] It depends.
+[04:50] It's also a requirement coming from the launch vehicle.
+[04:51] Because if we were switched on from the very beginning,
+[04:53] we would produce some emissions that could interfere with the launch vehicle.
+[04:56] You see?
+[04:57] So that's why we say,
+[04:58] okay, we forget about the missivity requirements,
+[04:59] but provided that two things.
+[05:00] One, that we prove that we can be switched off,
+[05:02] that we are going to endure vibrations,
+[05:03] that vibrations do not produce any of the spacecraft.
+[05:05] And then we can do that.
+[05:06] So, we can do that.
+[05:07] Okay, we can do that.
+[05:08] We can do that.
+[05:09] We can do that.
+[05:10] We can do that.
+[05:11] We can do that.
+[05:12] We can do that.
+[05:13] We can do that.
+[05:14] We can do that.
+[05:15] We can do that.
+[05:16] We can do that.
+[05:17] We can do that.
+[05:18] We can do that.
+[05:19] We can do that.
+[05:20] We can do that.
+[05:21] We can do that.
+[05:22] We can do that.
+[05:23] And also,
+[05:24] the second condition,
+[05:25] very important,
+[05:26] is that we respect the time that the launch vehicle is telling to me,
+[05:28] at which I would switch on my spacecraft from ground.
+[05:30] Okay?
+[05:31] From ground or,
+[05:32] yeah,
+[05:33] it has a timer or to do it autonomously,
+[05:35] or you send a signal.
+[05:37] And then,
+[05:38] we can do that.
+[05:39] Okay?
+[05:40] Usually,
+[05:41] for example,
+[05:42] they require two minutes.
+[05:44] Okay?
+[05:45] SpaceX or so.
+[05:46] They require two minutes for the chart.
+[05:48] Anything.
+[05:49] Okay?
+[05:50] So, this is the,
+[05:51] in the city requirements.
+[05:52] But apart from that,
+[05:53] there are the,
+[05:54] there are the,
+[05:55] there are the sub-certificate requirements.
+[05:56] So, the launch service provider,
+[05:58] it's going to inform to you about what are the bands,
+[06:02] the frequency bands,
+[06:03] and the intensity at which they emit.
+[06:05] Okay?
+[06:06] Because even if you are switched off,
+[06:07] maybe,
+[06:08] it produces problems on your circuit,
+[06:10] etc.
+[06:11] etc.
+[06:12] You have to be,
+[06:13] you have to endure this variation.
+[06:17] And,
+[06:18] when you switch on after the two minutes,
+[06:20] 
+[06:20] you can also be affected by the radiation.
+[06:22] On the runtime band,
+[06:23] you have to endure.
+[06:24] Okay.
+[06:31] Okay.
+[06:32] Clear?
+[06:33] Okay.
+[06:34] We are,
+[06:35] we are about to finish, eh?
+[06:36] Seven slides,
+[06:37] and three minutes,
+[06:38] and three minutes,
+[06:39] and three minutes,
+[06:40] I think we can do it,
+[06:41] even less than that.
+[06:42] So,
+[06:43] we have also a,
+[06:44] basic requirements.
+[06:45] Okay.
+[06:46] What is this,
+[06:47] the basic requirements?
+[06:48] So, basically,
+[06:49] imagine,
+[06:50] we have the spacecraft,
+[06:51] we have inside the faibing,
+[06:52] and basically,
+[06:53] the faibing is not completely isolated
+[06:55] from the,
+[06:56] from the rest of the environment,
+[06:58] from the air,
+[06:59] but we have some holes,
+[07:00] through which,
+[07:01] the,
+[07:02] the air is escaping.
+[07:04] Okay.
+[07:05] Because,
+[07:06] we have inside,
+[07:07] so,
+[07:08] we are going up,
+[07:09] and therefore the pressure,
+[07:10] the external pressure is going down.
+[07:11] Right?
+[07:12] This is the line of,
+[07:13] external pressure,
+[07:14] and this is the line of the,
+[07:15] the ring line of the,
+[07:16] this is the,
+[07:17] pressure rate.
+[07:18] Okay.
+[07:19] This is the pressure rate.
+[07:20] This is the maximum pressure rate.
+[07:21] Okay.
+[07:22] This is the maximum pressure rate.
+[07:23] Okay.
+[07:24] This is in negative,
+[07:25] because the air is escaping from the faibing.
+[07:28] Okay.
+[07:29] So,
+[07:30] this is the key.
+[07:31] And therefore,
+[07:32] you have,
+[07:33] you have in the,
+[07:35] in the spacecraft also,
+[07:37] air that is trapped inside the spacecraft.
+[07:39] The spacecraft is not completely full,
+[07:41] but it has air inside.
+[07:43] This air is trying to escape to the faibing,
+[07:45] and from the faibing to the outside.
+[07:47] Because inside the spacecraft,
+[07:48] there is more pressure,
+[07:49] than in,
+[07:50] than outside,
+[07:51] than inside the spacecraft,
+[07:53] inside the faibing.
+[07:54] And then,
+[07:55] you have,
+[07:56] I don't know,
+[07:57] you,
+[07:58] you've fallen,
+[07:59] and you have basically,
+[08:00] this is the faibing.
+[08:03] This is the faibing.
+[08:04] You have one pressure here,
+[08:05] you have one pressure here,
+[08:06] you have one pressure here,
+[08:07] you have one pressure here.
+[08:08] Okay.
+[08:09] And I'm saying,
+[08:10] you want,
+[08:11] this is bigger than this.
+[08:12] Here,
+[08:13] the air that is trapped inside your spacecraft,
+[08:14] also because you have holes and the,
+[08:16] the closing is not perfect of your spacecraft,
+[08:18] it's trying to escape to here,
+[08:19] it's trying to escape to here.
+[08:20] So you have to guarantee,
+[08:22] that this can happen.
+[08:23] And this is very much affected by the,
+[08:25] pressure rate that is seen.
+[08:27] So here,
+[08:28] this pressure is decaying,
+[08:29] this pressure,
+[08:30] external pressure is decaying,
+[08:31] this is the rate of decay,
+[08:33] and you have to be compliant with this maximum,
+[08:36] pressure of decay.
+[08:37] Okay.
+[08:38] And how do you do this?
+[08:39] Usually you have to guarantee,
+[08:40] that there is,
+[08:42] enough space on your spacecraft for the air to flow.
+[08:44] So basically,
+[08:45] that you have,
+[08:46] small holes also here,
+[08:48] it's small,
+[08:49] I mean,
+[08:50] they're not that small,
+[08:51] but,
+[08:52] they're not that,
+[08:53] you don't see them by,
+[08:55] by,
+[08:56] by eye,
+[08:57] that you will feel that the porosity of the surface,
+[08:59] and,
+[09:00] and the holes,
+[09:01] the small holes on the surface,
+[09:02] are big enough,
+[09:03] so that the air can cope,
+[09:05] with this maximum,
+[09:06] the pressurization rate.
+[09:07] Okay.
+[09:08] This is called also painting.
+[09:09] Okay.
+[09:18] Okay.
+[09:19] Then,
+[09:20] this is,
+[09:21] we have to deal with the environmental requirements.
+[09:22] There were two types of requirements.
+[09:23] Environmental,
+[09:24] and all the environments we have in the same,
+[09:26] and now interface requirements.
+[09:27] Okay.
+[09:28] Yes?
+[09:29] Question about environmental?
+[09:31] Okay.
+[09:32] We go with the interface requirements.
+[09:34] So basically,
+[09:35] as we were saying,
+[09:36] depending on the type of satellite,
+[09:37] we have different interfaces.
+[09:39] We have,
+[09:40] explain,
+[09:41] cubesat,
+[09:42] two-body,
+[09:43] flying inside the pods.
+[09:44] Okay.
+[09:45] Or deployers.
+[09:46] These are the pods
+[09:47] that I was showing you before,
+[09:48] this is the one from Etrolaunch.
+[09:49] Okay.
+[09:50] And basically,
+[09:52] this part,
+[09:53] well,
+[09:54] depends on which part,
+[09:55] but,
+[09:56] one is in contact with the,
+[09:57] with the long paper.
+[09:59] And what we do is,
+[10:00] we have some pushers here,
+[10:02] some springs,
+[10:03] that control the velocity,
+[10:05] and the direction,
+[10:06] at which the spacecraft,
+[10:07] it will be.
+[10:08] Okay.
+[10:09] And this is,
+[10:10] the company that sells you,
+[10:11] is different from the non-service provider.
+[10:13] It's a different provider.
+[10:14] Some of the non-service providers,
+[10:15] they don't have to be used.
+[10:16] Okay.
+[10:17] Some of the non-service providers,
+[10:18] their own separation systems,
+[10:20] but it's not usually related.
+[10:22] This is a factor.
+[10:23] Okay.
+[10:24] And then,
+[10:25] for greater spacecraft,
+[10:28] this system is not that easy one,
+[10:30] and the third one we use is a separation ring.
+[10:33] Separation ring is from two parts,
+[10:35] the S ring and the L ring.
+[10:37] This is the L ring,
+[10:38] it's a ring from long side ring,
+[10:42] and this is from S side ring.
+[10:46] Okay.
+[10:47] Basically,
+[10:48] at the moment of separation,
+[10:49] there's a,
+[10:50] there's a,
+[10:51] a device here,
+[10:52] here that produces the,
+[10:54] the separation between the two,
+[10:55] and this,
+[10:56] this,
+[10:57] this separation,
+[10:58] here,
+[10:59] remains attached to the,
+[11:01] to the spacecraft.
+[11:02] Okay.
+[11:03] This is important.
+[11:04] And you see here,
+[11:05] for example,
+[11:06] in this structure,
+[11:07] it's here,
+[11:08] at this place,
+[11:09] over the separation ring.
+[11:12] Okay.
+[11:16] So,
+[11:17] why do I tell this?
+[11:18] Because whenever you ask,
+[11:19] in the design of the spacecraft,
+[11:21] you have to take into account that not all the separation systems
+[11:25] are compliant with all the launch vehicles.
+[11:27] Okay.
+[11:28] So,
+[11:29] because for this,
+[11:30] as you see,
+[11:31] you have to respect some measures.
+[11:32] You have to respect some,
+[11:34] some,
+[11:35] some conditions in terms of the velocity of separation.
+[11:38] So,
+[11:39] each of these separation systems,
+[11:40] introduces its own requirements and its own constraints.
+[11:43] And not all the separation systems,
+[11:44] can be used with all the launch vehicles.
+[11:46] And this makes more complex the project.
+[11:49] Yes?
+[11:54] Okay.
+[11:55] The spacecraft owner,
+[11:56] in order to guarantee that it's compatible with the different separation systems,
+[12:00] makes what they call the mechanical and electrical features.
+[12:04] So,
+[12:05] the mechanical feature is to,
+[12:06] just to check that the dimensions of the spacecraft fit into the dimensions of the separation system.
+[12:11] Okay?
+[12:12] And that the dimension of the separation system,
+[12:14] fit into the interface of the launch vehicle.
+[12:17] But usually,
+[12:18] usually,
+[12:19] certain separation systems are qualified to fly in a certain launch vehicle.
+[12:24] For example,
+[12:25] the ExoPot from ExoLaunch,
+[12:28] that I was showing you for this box,
+[12:30] is qualified already to fly with Falcon 9.
+[12:34] And you don't have to care about this interface.
+[12:37] You only care about the interface of the spacecraft ExoPot.
+[12:40] But the interface ExoPot long vehicle,
+[12:43] if the launch vehicle is Falcon 9,
+[12:45] is already tested and qualified.
+[12:47] Okay?
+[12:48] Okay.
+[12:49] Okay.
+[12:50] Okay.
+[12:51] I say here,
+[12:56] I'll be important.
+[12:57] For the case of a QTSAT,
+[13:00] a release from a deployer,
+[13:01] consider the contribution of the torque,
+[13:03] that the misalignment and spacecraft both could introduce in the deployment.
+[13:07] So,
+[13:08] we are saying,
+[13:09] this was also a concern for our last satellite.
+[13:14] Basically,
+[13:16] we are saying that,
+[13:17] whenever the launch vehicle is releasing the spacecraft,
+[13:19] it is releasing with a certain residual rate.
+[13:21] Right?
+[13:22] But,
+[13:23] there is also,
+[13:24] the fact,
+[13:25] because the launch vehicle cannot fully fully,
+[13:28] fully,
+[13:29] it's about 100%
+[13:30] that we are releasing some rate.
+[13:32] But there is also an important,
+[13:33] and why do I care about the rate?
+[13:35] Because we are saying,
+[13:36] our AOCs of the spacecraft is sized to the dumbbell from a certain rate,
+[13:41] but not from a super high rate.
+[13:43] Okay?
+[13:44] But there is also a component of the provision rate,
+[13:46] which is this one,
+[13:47] okay,
+[13:48] so,
+[13:49] as I was showing you.
+[13:50] This is the,
+[13:51] this is the port,
+[13:52] these are the doors of the port,
+[13:53] when they are open,
+[13:54] and here,
+[13:55] this is the spacecraft.
+[13:56] Okay?
+[13:57] This is the spacecraft.
+[13:58] Okay?
+[13:59] Inside.
+[14:00] Here you have,
+[14:02] the springs,
+[14:03] that gives you the port in order to deploy the spacecraft.
+[14:07] By the way,
+[14:08] there is some wagon here,
+[14:09] on the board.
+[14:10] There is some wagon,
+[14:11] some rails,
+[14:12] that really,
+[14:13] um,
+[14:14] softens this deployment,
+[14:15] so that the spacecraft,
+[14:16] that not,
+[14:17] go through the walls of the,
+[14:19] of the port.
+[14:20] Okay?
+[14:21] But imagine that,
+[14:22] because of the,
+[14:23] because of,
+[14:24] your spacecraft is not super well placed,
+[14:26] or because,
+[14:27] because the center of gravity,
+[14:29] yeah, we can say,
+[14:30] imagine,
+[14:31] is well placed,
+[14:33] but the center of gravity,
+[14:34] is not completely symmetrical.
+[14:35] And therefore,
+[14:36] the center of gravity here.
+[14:38] We are going to have,
+[14:39] a certain torque,
+[14:40] increases the center of gravity,
+[14:41] and this is the geometrical,
+[14:42] center of linear separation.
+[14:43] We are going to have a certain torque,
+[14:44] here,
+[14:45] increases the distance,
+[14:46] the d,
+[14:47] produced by the distance d,
+[14:48] times the force of separation.
+[14:49] Okay?
+[14:50] And this rate,
+[14:51] shall be also taken into account,
+[14:52] and added up,
+[14:53] as a conservative scenario,
+[14:54] to the one introduced by the,
+[14:55] the type of rate of the launch vehicle.
+[14:56] You see?
+[14:57] And this,
+[14:58] 
+[14:58] 
+[14:58] the right,
+[14:58] the right,
+[14:59] 
+[14:59] 
+[14:59] the right,
+[14:59] the right,
+[14:59] the right,
+[14:59] the right,
+[14:59] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:00] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:01] the right,
+[15:02] the right,
+[15:02] the right,
+[15:02] the right,
+[15:02] the right,
+[15:02] the right,
+[15:02] the right,
+[15:02] the right,
+[15:02] 
+[15:02] 
+[15:02] 
+[15:02] 
+[15:02] 
+[15:02] in into account and add it up as a conservative scenario to the one introduced by the type
+[15:09] of rate of the launch vehicle.
+[15:10] You see?
+[15:11] Okay.
+[15:12] And another important thing is the autonomy of the buses.
+[15:27] Okay.
+[15:28] The autonomy of the buses.
+[15:30] And this usually is the long vehicle care.
+[15:33] So the mindset here is why the long vehicle care have all these pins.
+[15:37] Okay?
+[15:38] So it's usually because they are about safety or because when you are a pain in the neck for
+[15:43] them.
+[15:44] Okay?
+[15:45] Because for example, this is not about safety but because not for them to be a pain in the
+[15:50] neck.
+[15:51] Because it's okay.
+[15:52] You have to guarantee that you are right there.
+[15:56] You are right to the launch pad.
+[15:59] Well, to the launch space port.
+[16:02] Okay?
+[16:03] Not to the launch port.
+[16:04] You are there in the processing facilities doing your test, your health checks, seeing
+[16:08] that everything works before integration.
+[16:10] Then you put your spacecraft into the dispenser.
+[16:14] Okay?
+[16:15] You put it on top.
+[16:16] You are still charging your batteries because you want your batteries to be charged right
+[16:19] until the end.
+[16:20] Until you can.
+[16:21] So until encapsulation, until the moment in which you put the jet failing, you remember
+[16:25] the photo before of jet failing, you are charging the batteries.
+[16:30] Once, right before putting the encapsulation, you usually remove all the chargers and all the
+[16:35] external support.
+[16:36] Okay?
+[16:37] From there, your spacecraft is not charged anymore and you are only on your batteries.
+[16:43] Okay?
+[16:44] And the batteries are discharging.
+[16:46] Even if your spacecraft is future, you have a rate of discharge at the cell phone or whatever.
+[16:52] Okay, so you have to make sure that for 15 days, imagine, because now all the operations
+[16:59] take place, so the mating of the failing with the rest of the launch vehicle.
+[17:02] And they go to the launch pad, so it takes some time.
+[17:05] What if whenever they are going to launch, it happens what will happen to us, that they
+[17:08] could not launch because of the weather.
+[17:10] You have to ensure that you can resist a certain amount of days, so for example 15 days,
+[17:17] without charging your batteries.
+[17:18] Because if you have to recharge your batteries, they will have to disassemble the failing
+[17:22] from the launch vehicle.
+[17:24] Go again to the hangar and then go to the clean room, you charge the battery.
+[17:28] And for you not to complicate your operations, they require you for your spacecraft,
+[17:36] autonomous battery to be bigger than 15 days.
+[17:39] Okay?
+[17:40] A ver, it's been charged.
+[17:43] As a side comment to that, there are lots of options in which you can charge your batteries
+[17:51] even while you are in the launch pad.
+[17:53] You are about there to launch, and by means of an unmilicash, you charge the batteries.
+[17:57] But not all of them are offered to you, and usually it's like an additional service as a standard.
+[18:05] It's usually not provided.
+[18:07] Okay?
+[18:08] Okay, and just to relax a little bit, we have just three, four, five minutes.
+[18:14] Okay?
+[18:15] Just to show you how a launch campaign works.
+[18:17] We have in common in MonoLess all the steps.
+[18:20] But just give me five minutes and we will be there.
+[18:23] Okay?
+[18:24] That's why.
+[18:25] That's why.
+[18:26] That's why.
+[18:27] Falcon 9 is Falcon 9.
+[18:28] How do you think launch campaign work?
+[18:30] Okay?
+[18:31] So here, this is, I'm putting as an example, the launch from Rocket Lab.
+[18:36] They have two launch companies, this is the launch company one from Rocket Lab.
+[18:40] And you see in the launch platform, there's a follow.
+[18:45] We see they have two paths.
+[18:47] Okay?
+[18:48] They have the possibility of launching almost simultaneously.
+[18:51] Not simultaneously, but they have the possibility and the means to have two launch paths.
+[18:56] Okay?
+[18:57] Here, this is clean room number one and clean room number two.
+[19:01] This is what we were calling the processing facilities.
+[19:04] Okay?
+[19:05] And here, on one side, we are going to see this afterwards.
+[19:09] But basically, here they have two clean rooms for two different clients.
+[19:12] And this is where they have the fan bag.
+[19:15] Okay?
+[19:16] Where they have the fan bag.
+[19:17] And then, we are going to see this afterwards.
+[19:19] This is a clean room number three.
+[19:21] This is usually meant, this has greatest, very common tool, greatest safety.
+[19:25] Because this is usually what you do if you have to do the filling operations of your tanks, of the spacecraft tanks.
+[19:33] Okay?
+[19:34] The launch table tanks is just filled at the beginning, by the means of this infrastructure.
+[19:39] So you won't be able to put the program here.
+[19:41] But for you to, if you have to fill your tanks of your spacecraft, you can do another facility which has greatest safety measures.
+[19:50] Okay?
+[19:51] Okay, so what are the things that you have to do?
+[19:54] Okay, so what are the stages?
+[19:55] What are the different steps of your process?
+[19:58] So basically, you arrive with your spacecraft and with all your ground support equipment.
+[20:04] You arrive here.
+[20:06] And basically, what you do is to place them for loading day.
+[20:11] The loading day is temperature and humidity are controlled.
+[20:15] It's not a clean room, but they are controlled.
+[20:17] You have to let it there for some time because you cannot, you have the risk of depressurizing things and you have to set them to that temperature.
+[20:25] So you leave there for around one day.
+[20:28] Then you pass it to here, which is your clean room.
+[20:32] Okay?
+[20:33] We said there are two clean rooms.
+[20:34] So for example, here to one of the clean rooms.
+[20:36] Then, yes, we can extract, let's say the whole thing.
+[20:41] We can extract from all the...
+[20:43] What is it?
+[20:44] What happened?
+[20:45] Assamble.
+[20:46] Yeah, assembly or...
+[20:47] Basically, from the packaging, sorry, from all the packaging that is outside.
+[20:52] You leave those for some certain time to accommodate.
+[20:56] And usually what you do is that the spacecraft usually was inside the CubeSat.
+[21:06] So you extract the satellite from the CubeSat.
+[21:08] It was right inside because, for example, to protect it and etc.
+[21:12] So you extract it from the CubeSat and you start doing your health checks.
+[21:16] Is some system being damaged?
+[21:18] That's the thing you work properly, etc.
+[21:21] Here in the clean room.
+[21:22] Okay?
+[21:23] Yes?
+[21:24] And when you are completed, okay, you have certain time to do it.
+[21:28] When you are completed, here you see this part.
+[21:30] I don't know if you see, but this is the...
+[21:32] This is the...
+[21:34] The dispenser.
+[21:36] Okay?
+[21:37] This is the part in which we put the spacecraft.
+[21:39] Okay?
+[21:40] So basically, we have this part in which we put the spacecraft.
+[21:45] We put the spacecraft here, okay?
+[21:47] Inside the pod.
+[21:48] And then the pod here inside the...
+[21:50] Inside the dispenser.
+[21:52] Okay?
+[21:53] Here there are two spacecrafts, for example.
+[21:55] In this place there are two spacecrafts.
+[21:57] And then what we do is that with this, we rotate to the horizontal position.
+[22:03] And we push the ferry.
+[22:05] Okay?
+[22:06] So basically, arrival, stand-alone operations, heat stage integration.
+[22:11] This is the heat stage, okay?
+[22:13] This part is the last stage which releases the spacecraft in orbit.
+[22:16] By the way, I haven't said, but the...
+[22:19] The end of this stage, over here, are super small.
+[22:22] But this is the stage that puts the spacecraft in orbit, okay?
+[22:25] So you just put the ferry over there.
+[22:27] Okay?
+[22:28] Okay.
+[22:29] Okay.
+[22:30] Okay.
+[22:31] Okay.
+[22:32] Okay.
+[22:33] Once the space...
+[22:34] Before encapsulation, sorry.
+[22:35] Once the spacecraft is in that position in here...
+[22:37] It's in here, okay?
+[22:38] Right before the encapsulation, when all the spacecrafts have in place, what you do is the so-called separation test.
+[22:47] So basically, you bring...
+[22:50] From the real onboard computer of the launch vehicle, okay?
+[22:56] You command the separation signal.
+[22:58] Okay?
+[22:59] You cable different things to the...
+[23:01] To the...
+[23:02] To the...
+[23:03] To the ports, okay?
+[23:04] And you come with the real hardware, with the real cables that are going to be in flight, and you command the separation signal.
+[23:09] If you don't prevent it, the doors of the port would open and the spacecraft would come with a lot of velocity, okay?
+[23:16] But instead, what you do is...
+[23:19] It has certain...
+[23:20] ...message here, in order to avoid this.
+[23:23] But you receive, because you have certain telemetry displayed, that this signal is received correctly.
+[23:30] In the...
+[23:31] By the...
+[23:32] By the port, okay?
+[23:34] So you...
+[23:35] It's the last test you do in order to check that you will be able to produce correctly separation when you are in flight, okay?
+[23:41] Okay?
+[23:42] And that's it.
+[23:43] Then you just have to do the encapsulation, and then join the encapsulation to the rest of the launch vehicle.
+[23:52] This is an example, because here integration is a horizontal integration.
+[23:55] Then of course, there are so many strategies, okay?
+[23:58] As long as they go to.
+[23:59] Okay?
+[24:00] So here, once you have all, you make to the rate of the...
+[24:04] To the rest of the stages, and you just roll it out to the launch vehicle.
+[24:09] Okay?
+[24:10] Okay?
+[24:11] And...
+[24:12] Finally, as a last slide, I did just a recall of the different aspects that I consider important, okay?
+[24:18] So keep in mind that...
+[24:19] Even if the selection of the launch service provider is not subjective to geo-retard, that is, you don't have to select this launch service provider just because they are from a certain nationality, also geo-political based on the...
+[24:33] You have to compare different options only compared or take a greater score of the feasibility, and inside this only compare options which are the same accommodation.
+[24:46] Only consider comparing the main...
+[24:48] Being the main passenger on a launch vehicle, then being the main passenger on another launch vehicle, not a main passenger and a riser, okay?
+[24:57] Things like that.
+[24:58] Okay, for what if I don't comply with certain requirements, okay, before ruling out certain launch service provider, try to ask with them if a deviation would be possible, or directly a waiver, that is.
+[25:13] I will not, I'm sorry, I will not comply with this.
+[25:16] Would that be fine in that case for the launch service provider, or not?
+[25:19] Okay?
+[25:20] Also considering this envelope strategy, and this envelope strategy shall not be automatically to consider all the options, but the options I think more or less I can accomplish, okay?
+[25:30] Okay, and then just as a final remark, the risk of nowadays of selecting a new European player still remains high, okay?
+[25:41] They are going to tell you they are super ready, always super ready, and since I think working, they would have had to have the launch vehicle ready three years ago, okay?
+[25:49] It's, I mean, it's not easy.
+[25:50] They are doing progress, and if it was easy, everybody would be doing their own.
+[25:55] But, but it's also, they try to attract a lot of investment, and they tell you, yeah, I have this, I will do this test at this time, and then it's not the case, okay?
+[26:06] So just, if you are in the situation of having to select a launch service provider, be aware of the risk that you commit of people which are in front of you, and they are not telling you the truth, okay?
+[26:17] So, I think, that is the work, of the people, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a veryan, I have a
+[26:47] Thank you.
+[27:17] Thank you.
+[27:47] Thank you.
+[28:17] Thank you.
+[28:47] Thank you.
+[29:17] Thank you.
+[29:47] Thank you.
+[30:17] Thank you.
+[30:47] Thank you.
+[31:17] Thank you.
+[31:47] Thank you.
+[32:17] Thank you.
+[32:47] Thank you.
+[33:17] Thank you.
+[33:47] Thank you.
+[34:17] Thank you.
+[34:47] Thank you.
+[35:17] Thank you.
+[35:47] Thank you.
+[36:17] Thank you.
+[36:47] Thank you.
+[37:17] Thank you.
+[37:47] Thank you.
+[38:17] Thank you.
+[38:47] Thank you.
+[39:17] Thank you.
+[39:47] Thank you.
+[40:17] Thank you.
+[40:47] Thank you.
+[41:17] Thank you.
+[41:47] Thank you.
+[42:17] Thank you.
+[42:47] Thank you.
+[43:17] Thank you.
+[43:47] Thank you.
+[44:17] Thank you.
+[44:47] Thank you.
+[45:17] Thank you.
+[45:47] Thank you.
+[46:17] Thank you.
+[46:47] Thank you.
+[47:17] Thank you.
+[47:47] Thank you.
+[48:17] Thank you.
+[48:47] Thank you.
+[49:17] Thank you.
+[49:47] Thank you.
+[50:17] Thank you.
+[50:47] Thank you.
+[51:17] Thank you.
+[51:47] Thank you.
+[52:17] Thank you.
+[52:47] Thank you.
+[53:17] Thank you.
+[53:47] Thank you.
+[54:17] Thank you.
+[54:47] Thank you.
+[55:17] Thank you.
+[55:47] Thank you.
+[56:17] Thank you.
+[56:47] Thank you.
+[57:17] Thank you.
+[57:47] Thank you.
+[58:17] Thank you.
+[58:47] Thank you.
+[59:17] Thank you.
+[59:47] Thank you.

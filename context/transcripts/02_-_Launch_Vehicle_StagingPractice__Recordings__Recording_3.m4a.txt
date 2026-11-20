@@ -1,0 +1,37 @@
+# lang=en
+[00:00] the velocity radius which are high enough
+[00:04] improving a little bit the structural coefficient
+[00:08] that is making it smaller, improves a lot the payload radius
+[00:12] improves a lot the mass that we can bring into orbit
+[00:16] whenever structural engineers try to improve the mass efficiency
+[00:20] they usually focus
+[00:24] on improving first efficiency of the second stage, the second stage has to be
+[00:28] super light and super efficient because you see that the impact is much higher
+[00:32] than the first one, it doesn't mean that they don't improve also
+[00:36] the first one but usually they focus on the second one because it also makes sense
+[00:40] you carry it longer, you carry it while the first is active
+[00:44] and while the second is active, so it has greater impact than the structural coefficient
+[00:48] this is something we see from this graph, that improving the second
+[00:52] efficiency of the second stage is paramount to maximize the total payload rate
+[00:56] ok?
+[00:58] this was just a conclusion
+[01:00] from these two slides I don't want you to know the progression
+[01:04] or even to go through the whole distribution
+[01:06] but yes, this is a conclusion
+[01:08] ok?
+[01:10] ok, so
+[01:12] you can do the first we have a look.
+[01:14] 
+[01:14] Yeah, here, yes, if you want to know, the effects of the 7.5, you see the payload ratios of each of the factors, and the data B, the each of them provide.
+[01:27] You see that the data B of the first one, for example, both there were 3.7, and then we finish.
+[01:34] Yeah.
+[01:35] You see, the first one provided 3.3, 3.4. Here is 4.7 and 4.2.
+[01:41] It's true that the three stages are very different, but the total delta B that they provide is not that much different.
+[01:47] The supposition we were doing to remember of supposing the same delta B for obtaining the big S, for initiating this algorithm, this order, of same delta B for all the stages was not that bad.
+[01:57] Usually, when distributing the delta B among the different stages, it's not that different.
+[02:03] Even in an extreme example of Saturn's height in which the different stages were so different.
+[02:08] the other is a part.
+[02:09] And, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other is a part, the other that.
+[02:10] 
+[02:10] 
+[02:10] and

@@ -1,0 +1,68 @@
+# lang=en
+[00:00] This is to be Space Program Manufacturer
+[00:02] and we are going to see how to interact with the long service provider
+[00:06] We call it LST
+[00:08] Long service provider is the name we need for the different companies
+[00:12] for Avio, for Ariane
+[00:14] These are called long service providers
+[00:16] We are going to start in the process of how to select a long service provider
+[00:20] among the different options
+[00:22] in terms of the production of the implementation
+[00:24] in terms of the different modalities
+[00:26] and then we are going to go more technical into the different environmental and interface requirements
+[00:33] We are going to study the different phases of the long campaign
+[00:37] and finally some decision making tips
+[00:40] Ok, we are going to end up working this game
+[00:47] Ok, here I am just explaining that
+[00:50] Long event is quite different from the long labor perspective
+[00:55] So basically all the things that we will be doing during the course
+[00:58] and that was recommended
+[00:59] So optimization of the trajectory
+[01:01] Staging, sorting the staging project that we are starting to solve
+[01:05] And on the spacecraft side
+[01:07] we focus more on all the things that happened before
+[01:10] So integration
+[01:11] Track and position
+[01:12] Also at the end
+[01:13] So the release conditions
+[01:14] How we are released
+[01:15] we have released
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 
+[01:16] 

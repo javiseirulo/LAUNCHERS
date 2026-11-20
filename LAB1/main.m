@@ -1,0 +1,99 @@
+clear;
+clc;
+format long;
+
+%% CONSTANTS
+g = 9.81;
+mu_earth = 3.986004418e14; %m^2/s^2
+R_earth = 6378000; %m
+
+%% PARAMETERS
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% NOTA: CUANDO LE METAMOS MAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% STAGES, HACERLO AÑADIENDO MAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COLUMNAS A ESTOS VECTORES
+
+
+% analysis paramétrico (añadir en siguiente iteración)
+% N_stages = 1
+% epsilon_vec = linspace(0.08,0.12,4);
+% c_vec = 3000;
+% h_vec = 250:50:400; %km
+% h_vec = h_vec*1000; %m
+% r_orbit_vec = R_earth + h_vec;
+% v_orbit_vec = sqrt(mu_earth./r_orbit_vec);
+
+% v_losses = 0; %m/s
+% DeltaV_vec = v_orbit_vec + v_losses;
+
+N_stages = 1;
+
+
+Mp = 285950;
+Ms = 24865;
+
+epsilon_vec = Ms/(Mp + Ms);
+Isp_vec = 400;
+c_vec = Isp_vec*g;
+h_vec = 350; %km
+h_vec = h_vec*1000; %m
+r_orbit_vec = R_earth + h_vec;
+v_orbit_vec = sqrt(mu_earth./r_orbit_vec);
+
+DeltaV_vec = 9700;
+
+Mu = 1500; %kg (payload)
+
+
+
+% Design problem: minimize M0
+
+min_reached = false;
+
+% parametric analysis
+for c = c_vec
+    for epsilon = epsilon_vec
+        for DeltaV = DeltaV_vec
+           
+            % optimization
+
+
+            p_guess = 1./  (c.*   (epsilon.*    exp(DeltaV  ./(N_stages*c))  -1  )    );
+
+            sumatory_k = @(p) sum(c_vec .*log( (1+ p.*c)./(p.*c.*epsilon) ));
+            fun = @(p) sumatory_k(p) - DeltaV;
+            p_opt = fzero(fun, p_guess);
+
+            % calculate parameters over all stages
+            for k = 1:N_stages % CORREGIR, CAMBIAR TODO POR VECTORES EN FUNCION DE k
+ 
+                % mass ratio for stage
+                Lambda = (1+ p_opt.*c)./(p_opt.*c.*epsilon);
+    
+                % checkk that it is really a minimum
+    
+                d2f_dLambda = - (1 + p_opt.*c)./(Lambda^2) + (   (epsilon)./(1 - epsilon.*Lambda)   )^2;
+                if d2f_dLambda > 0 
+                    min_reached = true;
+                    fprintf('Minimum obtained')
+                else
+                    fprintf('Minimum not obtained with the current configuration')
+                end
+    
+                lambda = ( 1 - Lambda*epsilon)./(  (1-epsilon).*Lambda   );
+
+                lambda_tot = prod(lambda,1);
+
+
+            end
+
+            % compute GMLO
+            M0_Mu= 1/lambda_tot;
+            
+            M0 = M0_Mu * Mu;
+        end
+
+    end
+end
+
+

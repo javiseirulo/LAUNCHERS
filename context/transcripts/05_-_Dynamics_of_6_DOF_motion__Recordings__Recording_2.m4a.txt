@@ -1,0 +1,639 @@
+# lang=en
+[00:00] Okay, that is the long vehicle is not actuating exactly as a rigid body
+[00:05] But it has certain flexural behavior like such as a wing of an airplane that we have made you study and therefore this affects
+[00:12] This affects our our knowledge. Okay. Why why does affect our knowledge? Okay?
+[00:18] I want to show you I think with
+[00:21] Some equation I have
+[00:30] I
+[00:41] I'm going to explain you with this with this there are different effects different flexible effects
+[00:48] Okay, so the first of them is the bending effect is the fact that
+[00:54] whenever
+[00:55] Whenever we study the dynamics of the launch vehicle of a solid
+[01:01] Okay, it does not behave like if you rotate it does not behave like that like that but you have the movement of your body
+[01:08] Okay, so you have certain oscillation there certain a flexural motion. So imagine
+[01:14] This red line is that rigid is a rigid body. Okay?
+[01:19] This is the this is the
+[01:21] This is the bottom part of the launch vehicle. So this is the nozzle. Okay? Imagine this is this is the nozzle. Okay?
+[01:26] So imagine if there if this was the rigid body
+[01:29] This is the perpendicular. This is perpendicular to the along the launch vehicle
+[01:35] Longitudinal axis, okay?
+[01:37] And you command a certain deflection imagine you command a certain deflection
+[01:40] So you say okay, I think I'm here because this is the rigid body and you command a certain
+[01:45] Certain deflection. Okay, you command this certain deflection. Okay?
+[01:50] Yes, but the fact is that there is another component which is this one which is
+[01:55] Because of the flexural motion the body is not like that but it's like that
+[01:59] It's doing what your colleague was doing and therefore is something like that
+[02:03] Okay, and therefore it is introduced this additional component. So instead of
+[02:09] Finishing with only this rotation and finishing here you your muscle finish up here
+[02:14] You see because you have one component of the design rotation that you are commanding and one rotation due to the flexural behavior
+[02:22] So you need to know so we need to know how the body
+[02:26] flex at each of the different times
+[02:28] And at each of the different points
+[02:31] We need to model this because in reality we we don't know
+[02:35] In order to command for example the actual deflection
+[02:39] Okay of the nassau because we are only commanding this component, okay, but the fact is that
+[02:46] Instead of rotating only this component is rotating more because of the flexural behavior of the body instead of me like that is like that
+[02:52] Okay
+[02:54] You see?
+[02:56] Okay, so how do we know what is the shape of the body at each point and at each instant of time?
+[03:04] How do we know that when we model this because of course we cannot know for sure?
+[03:09] And we model this and we introduce it in the model, okay? You are going to see now, but
+[03:15] Important thing we are producing a deflection, okay?
+[03:18] This deflection is this thing, okay?
+[03:21] This delta, okay?
+[03:23] This deflection is a rotation with a certain velocity that can also be measured as an inertia as an angular velocity
+[03:31] So whenever we were saying the angular velocity from the previous equations, remember that we were obtaining the angular velocity
+[03:37] This was the angular velocity of a rigid body, but on top of that we have to add certain angular velocity of the dynamic effects
+[03:45] You see? And this is theory. We introduce it in our algorithms
+[03:49] supposing that the launch vehicle in the simulation domain
+[03:54] Supposing that the launch vehicle moves like that, but we don't know for sure
+[03:57] We have to do very good models in order to know what is the actual rotational velocity, okay?
+[04:03] This is all model because we don't know if there is going to be a gas that produces this dynamic effect
+[04:08] So we model things and that's why then we took margins, we take margins on top, okay?
+[04:13] So this is to say the deflection
+[04:18] Due to the bending effect due to this flexural behavior at the TBC control, for example
+[04:24] At the TBC point, okay? The TBC point is exactly this tip of the launch vehicle, okay?
+[04:30] Where the nacelle starts, okay?
+[04:32] Sorry, sorry for that
+[04:34] Okay, at this point I'm caring
+[04:35] Why I'm caring about this point and not other points?
+[04:38] Because this is the point at which you command, for example, the reflection angle
+[04:42] You could care about other points, but for example, let's start only by the TBC point, okay?
+[04:47] So this is the sum of something very ugly, okay?
+[04:51] What is this?
+[04:53] We were saying we want to know
+[04:55] What is the position of each
+[04:59] Or the different nodes?
+[05:02] We can discretize, for example, the whole launch vehicle into different nodes and say that this is one node, okay?
+[05:08] And we want to know it for the
+[05:11] Each instant of time of the flight, okay?
+[05:13] So basically we have that this can be expressed at the sum of different modes
+[05:19] And here are the different modes of vibration you are considering
+[05:22] And you are saying that this is the sum
+[05:24] This motion of
+[05:26] In time depends on a component, okay?
+[05:30] This component
+[05:31] This component tells you
+[05:34] How much
+[05:35] The structure deforms
+[05:39] Depending only on the position
+[05:41] That you are considering
+[05:42] So you are particularizing for the trans-vector control point
+[05:45] And then you have this component
+[05:46] That only depends on time
+[05:48] This is what we call the model shape
+[05:50] And this is what we call
+[05:51] The acceleration
+[05:54] Depending on time
+[05:55] Sorry, the deformation
+[05:56] The model coordinate
+[05:57] Depending on time, okay?
+[05:59] This is the model acceleration
+[06:00] And this is the model displacement
+[06:02] Okay?
+[06:03] What is this?
+[06:03] We are going to see more into detail
+[06:05] But basically
+[06:07] For you to know
+[06:08] This is a component
+[06:09] That tells you
+[06:11] Okay
+[06:11] This we were saying briefly yesterday
+[06:15] You are going to know
+[06:22] Like very generic, okay?
+[06:23] I don't want you to enter into the
+[06:24] All the equations
+[06:25] But basically
+[06:25] We are saying that
+[06:27] The total deformation of the structure
+[06:30] At a certain point
+[06:31] Is going to be the sum
+[06:33] Of certain modes
+[06:34] What is a mode?
+[06:35] The mode is how the structure
+[06:36] Deforms at a given natural frequency
+[06:40] Right?
+[06:41] This is the mode
+[06:41] So for example
+[06:42] If you have the typical thing of a beam
+[06:44] Of a cantilever beam
+[06:45] The first mode is to deform like that
+[06:47] Okay?
+[06:49] And this is exactly
+[06:50] What describes this sigma component here
+[06:53] The so-called model shape
+[06:54] This model shape
+[06:56] What I'm putting here
+[06:57] As model shape
+[06:58] It just depends on x
+[07:00] For this mode
+[07:00] For this mode
+[07:02] It tells you
+[07:02] How much is the coordinate here
+[07:04] At that point
+[07:04] At that point
+[07:05] At that point
+[07:06] At that point
+[07:06] At that point
+[07:06] You see?
+[07:08] It just depends
+[07:09] It's a component
+[07:10] That only takes
+[07:11] How the structure
+[07:13] Deforms
+[07:14] At each of the different points
+[07:15] But on top of that
+[07:16] Sorry
+[07:17] But on top of that
+[07:19] You have a component
+[07:20] So here you have this
+[07:21] On top of that
+[07:23] You have
+[07:23] Okay
+[07:23] For this mode
+[07:24] How much does the structure deform?
+[07:27] Okay?
+[07:27] What is the maximum deformation?
+[07:30] And this maximum deformation
+[07:31] Is recalled by the model shape
+[07:35] Because you can have
+[07:36] This is for mode 1
+[07:37] For mode 2
+[07:38] You can have something like that
+[07:39] Now
+[07:41] Instead of being like that
+[07:43] It does as your colleague
+[07:44] It does something like that
+[07:45] Okay?
+[07:47] And this would be
+[07:48] The maximum deformation cube
+[07:50] And the shape
+[07:51] For each of the points
+[07:52] Is the modal coordinate
+[07:54] You see?
+[07:57] So this
+[07:57] Is the dependent
+[07:59] On each of the points
+[08:00] And this is the dependent
+[08:01] On time
+[08:02] Okay?
+[08:03] And is the maximum acceleration
+[08:05] On time
+[08:06] Okay?
+[08:07] And this just depends on x
+[08:09] Okay?
+[08:11] These are some of different modes
+[08:12] Yes?
+[08:13] So in the state matrices
+[08:14] Or something like that
+[08:15] Like
+[08:15] I would measure in the deformation
+[08:17] Just on the scalar plane
+[08:18] Yes
+[08:19] Yes
+[08:20] Yes
+[08:20] I'm just
+[08:21] In order to
+[08:22] To explain
+[08:22] I'm just putting it
+[08:23] On one degree of freedom
+[08:24] Okay?
+[08:25] The launch vehicle
+[08:26] Exactly
+[08:26] It turns on all the
+[08:27] On all the three
+[08:28] Okay?
+[08:29] But just to have
+[08:29] A one dimensional example
+[08:31] Of one degree of freedom
+[08:32] That is true
+[08:33] What you're calling
+[08:33] Saying
+[08:33] This is one modal coordinate
+[08:35] For one coordinate
+[08:36] For one direction
+[08:37] That you will need
+[08:38] For the three
+[08:38] Okay?
+[08:40] Okay
+[08:41] So by means of this
+[08:42] We're able to measure
+[08:43] What is the rotation
+[08:44] Okay?
+[08:45] What is the rotation
+[08:46] Of this
+[08:47] Of all of the points
+[08:49] In each
+[08:49] In set of time
+[08:50] But we are particularizing
+[08:51] For the points
+[08:52] We want
+[08:52] For example
+[08:52] We are taking
+[08:53] For the TBC
+[08:54] So if the TBC
+[08:55] Is here
+[08:56] For example
+[08:56] We are just
+[08:57] Caving about this point
+[08:58] Here
+[08:58] Okay?
+[09:00] It's at the end
+[09:00] Of the
+[09:01] It's at the end
+[09:02] Of the body
+[09:02] Of the launch vehicle
+[09:03] Okay?
+[09:05] So this is just
+[09:06] To tell you
+[09:07] That you end up
+[09:08] By building
+[09:09] These models
+[09:09] Okay?
+[09:10] Because for this
+[09:10] You need to know
+[09:11] How much is this
+[09:12] And how much is
+[09:14] This
+[09:15] A hue
+[09:16] And for this
+[09:17] You have
+[09:17] The so called
+[09:18] FM models
+[09:19] Which characterize
+[09:20] How the structure
+[09:21] Deforms
+[09:22] For the different models
+[09:23] And therefore
+[09:23] You could obtain
+[09:24] This and this
+[09:24] And therefore
+[09:25] You know
+[09:26] How much the structure
+[09:27] Rotates
+[09:28] Okay?
+[09:29] Because of the flex
+[09:30] Because of the bending behavior
+[09:31] You know how much
+[09:33] What is the velocity
+[09:34] Of rotation
+[09:35] And you know
+[09:36] The acceleration
+[09:36] Associated to that
+[09:37] Right?
+[09:40] And you will know
+[09:40] The acceleration
+[09:41] For the TBC
+[09:41] Or for all the points
+[09:43] You compute
+[09:44] Because you can now
+[09:45] At all the points
+[09:46] Okay?
+[09:50] Okay
+[09:51] Why also this important?
+[09:52] We are going to see
+[09:53] This more
+[09:53] In the navigation unit
+[09:55] But this is important
+[09:56] Because
+[09:56] Well
+[09:57] First
+[09:57] This is clear
+[09:58] Okay
+[10:00] We have said
+[10:02] This is important
+[10:02] Because
+[10:05] We have to know
+[10:06] Imagine
+[10:07] The structure
+[10:08] Instead of being like that
+[10:09] Okay?
+[10:10] Because of the flexural effect
+[10:11] We have said
+[10:12] It's like that
+[10:12] Okay?
+[10:14] We want to
+[10:14] We want
+[10:15] Just to rotate
+[10:16] Imagine 45 degrees
+[10:17] We want to rotate
+[10:18] The nacelle here
+[10:19] Which is
+[10:20] It rotates 45 degrees
+[10:21] But just as an example
+[10:23] We want to rotate
+[10:24] 45 degrees
+[10:25] And what we were saying
+[10:26] Is that
+[10:26] Because of the
+[10:27] Flexural behavior
+[10:29] Instead
+[10:29] The surface
+[10:30] Here at the tip
+[10:31] Instead of being like that
+[10:33] Is something like that
+[10:34] Because the structure
+[10:35] Has
+[10:35] Done as your colleague
+[10:37] Right?
+[10:38] And therefore
+[10:38] The structure
+[10:39] Is already
+[10:40] 45 degrees
+[10:41] Imagine
+[10:42] Because of the flexural behavior
+[10:43] It's already at 45 degrees
+[10:44] And you impose now
+[10:45] You didn't know
+[10:47] And you impose
+[10:47] The further
+[10:48] Rotation of 45 degrees
+[10:50] How the nacelle ends up?
+[10:51] Ends up
+[10:52] Here
+[10:52] At 90 degrees
+[10:54] You see?
+[10:55] That's what I'm saying
+[10:57] So you have to know
+[10:57] How your structure
+[10:59] Shapes
+[10:59] It's not that exaggerated
+[11:00] Okay?
+[11:01] But you have to know
+[11:02] How your structure
+[11:03] Is shaped
+[11:04] At a different instant of time
+[11:06] Because
+[11:07] You have to take that
+[11:08] Into account
+[11:09] When commanding
+[11:10] The thrust vector control
+[11:11] For example
+[11:12] What is the bending model
+[11:31] For a launch vehicle
+[11:34] And how it does affect
+[11:37] Its motion
+[11:39] For the effects
+[11:40] That are important
+[11:41] For the launch vehicle
+[11:43] Trajectory characterization
+[11:44] And you have to explain me
+[11:46] That there is a bending mode
+[11:48] That affects
+[11:49] The flexion of the structure
+[11:51] And that this angular motion
+[11:52] Is related
+[11:53] Into angular rotation
+[11:54] For velocity
+[11:55] And into angular acceleration
+[11:57] And you have to consider this
+[11:59] For these effects
+[12:00] For example
+[12:01] Commanding the nacelle
+[12:01] Okay?
+[12:02] Another important effect
+[12:05] Okay?
+[12:05] We are going to see this
+[12:06] More onto the navigation unit
+[12:07] But another important effect
+[12:09] And usually the points
+[12:10] That you care the most
+[12:11] Is that here
+[12:12] This called
+[12:13] Transvector control point
+[12:14] The pivoting point
+[12:15] Okay?
+[12:16] Open a cell
+[12:16] Onto the
+[12:17] Onto the
+[12:18] Launch vehicle body
+[12:19] And there is also
+[12:20] Another important point
+[12:21] I mean
+[12:22] All are important
+[12:22] Because you have to control
+[12:23] That the maximum deformation
+[12:24] Does not exceed a certain value
+[12:26] But
+[12:26] One other important
+[12:27] Is the avionic bay
+[12:28] Do you remember
+[12:29] In the avionic bay
+[12:30] We had the accelerometers
+[12:32] And the gyros
+[12:32] Do you remember?
+[12:33] Because these were the sensors
+[12:35] We were using
+[12:35] To determine position
+[12:37] Velocity
+[12:37] And attitude
+[12:37] So if this is the launch vehicle
+[12:39] Okay
+[12:41] If this is the launch vehicle
+[12:46] The avionic bay
+[12:49] Was something like here
+[12:50] Okay
+[12:50] So this node here
+[12:52] Was right below
+[12:53] The kick stage
+[12:54] So
+[12:56] Knowing also
+[12:57] How much is the deformation
+[12:58] Here
+[12:58] It's important
+[12:59] Why?
+[13:00] Because we are going to have
+[13:01] Certain accelerations
+[13:02] That are measured
+[13:03] By the accelerometers
+[13:04] Right?
+[13:06] For certain
+[13:07] We are going to say
+[13:09] That the gyroscopes
+[13:10] Measures the angular velocity
+[13:12] Okay?
+[13:13] But this angular velocity
+[13:14] Is going to be
+[13:15] One component
+[13:16] Of the rigid body
+[13:17] Motion
+[13:18] Imagine
+[13:19] This is rotating
+[13:20] One component
+[13:22] Is the rigid body motion
+[13:23] But another component
+[13:24] Is the bending mode
+[13:26] Is the fact that
+[13:27] Your structure
+[13:28] Is deflecting
+[13:29] Okay?
+[13:31] And therefore
+[13:31] If you
+[13:33] Know the angular velocity
+[13:35] You know that
+[13:36] By knowing the angular velocity
+[13:37] I can know the attitude
+[13:38] Right?
+[13:39] From the equation
+[13:40] From the kinematic equation
+[13:41] We use
+[13:42] We use that
+[13:43] The propagation of Q
+[13:44] Is one half
+[13:45] You remember this
+[13:49] Right?
+[13:49] If I know the attitude
+[13:50] And I know the angular velocity
+[13:52] I know
+[13:52] What is my next attitude
+[13:54] What is my
+[13:54] But what I'm saying
+[13:55] Is that this is
+[13:56] The angular velocity
+[13:57] Is contaminated
+[13:59] By the
+[14:00] Bending
+[14:00] By the
+[14:01] Flexural behavior
+[14:02] By the bending effects
+[14:03] You see?
+[14:05] And therefore
+[14:06] I need to model this
+[14:07] In the models
+[14:09] I do
+[14:09] In simulation
+[14:10] In order to add
+[14:11] To the rigid one
+[14:12] Which is the real one
+[14:13] That I'm interested
+[14:13] I mean
+[14:14] The real one
+[14:15] Is the total
+[14:15] Because
+[14:15] In reality
+[14:16] It's happening
+[14:17] This
+[14:17] But I'm only interested
+[14:18] On this component
+[14:19] So I need
+[14:20] To the total one
+[14:21] In reality
+[14:23] I have to
+[14:23] Substract this
+[14:24] In order to obtain
+[14:24] The rigid
+[14:25] In the simulation
+[14:26] I need
+[14:26] This is simulated
+[14:27] And I add it
+[14:28] To obtain the total one
+[14:29] But I need to introduce
+[14:31] This effect
+[14:31] In order
+[14:32] Whenever I go here
+[14:33] To determine
+[14:34] Correctly the attitude
+[14:35] And this is done
+[14:37] At the
+[14:38] At the bay
+[14:41] At the
+[14:42] Avionics bay
+[14:43] This is another
+[14:44] Important note
+[14:45] So
+[14:45] For considering
+[14:46] The
+[14:49] Dynamic effect
+[14:50] Correctly
+[14:50] I care about
+[14:51] All the nodes
+[14:51] But especially
+[14:52] The thrust vector
+[14:53] Control point
+[14:54] So the
+[14:54] Pivoting point
+[14:55] Of the thrust vector
+[14:56] Control here
+[14:57] And another
+[14:58] Very important point
+[14:58] This is for
+[14:59] Commanding correctly
+[15:00] The nacelle
+[15:01] And another point
+[15:02] Is for sensing
+[15:03] The actual acceleration
+[15:04] There is an effect
+[15:06] Of the acceleration
+[15:06] Which is dynamics
+[15:07] And that I should
+[15:08] Filter out
+[15:08] And therefore
+[15:09] I also care
+[15:10] About the nodes
+[15:10] Located at
+[15:11] The
+[15:11] Avionic bay
+[15:12] Okay
+[15:14] Okay
+[15:16] So
+[15:16] I propose
+[15:17] To leave it here
+[15:18] We have
+[15:18] Some other
+[15:19] Dynamic tests
+[15:21] That we will see
+[15:22] Next day
+[15:22] Okay
+[15:22] We have studied
+[15:23] The most complex one
+[15:24] Which is the
+[15:24] Vending model
+[15:25] But there are also
+[15:26] Three
+[15:26] Extra
+[15:27] Dynamic effects
+[15:29] That we have to
+[15:30] Take into account
+[15:30] Okay
+[15:31] Yes
+[15:33] So again
+[15:34] Answering to
+[15:35] Your question
+[15:36] You don't have to
+[15:36] Know all the equations
+[15:37] Are not going to
+[15:38] But just the concept
+[15:39] To an explanation
+[15:39] That I am telling
+[15:40] Okay
+[15:41] And that is sometimes
+[15:42] Not on the slides
+[15:43] I don't have to
+[15:44] Write everything
+[15:45] But the important thing
+[15:47] Is not to know the equations
+[15:48] But the concepts
+[15:49] That there are behind them
+[15:50] Okay
+[15:51] Maybe I can give you
+[15:52] The equation
+[15:53] Another solution
+[15:53] Okay
+[15:54] Another possible question
+[15:56] Is to give you
+[15:56] This
+[15:57] Okay
+[15:58] And ask you
+[15:59] Okay
+[15:59] What is this term
+[16:01] Referring to
+[16:01] What I mean by this
+[16:03] What I mean by this
+[16:04] What I mean by this
+[16:05] Okay
+[16:06] Okay
+[16:06] Okay
+[16:09] Thank you very much
+[16:10] Thank you
+[16:11] Yeah
+[16:12] Okay

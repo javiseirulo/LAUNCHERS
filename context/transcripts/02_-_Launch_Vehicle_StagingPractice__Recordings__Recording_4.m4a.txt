@@ -1,0 +1,69 @@
+# lang=en
+[00:00] This is the last one, okay? Because this is important.
+[00:03] And final consideration about an actual of everything we have been doing.
+[00:08] Okay, we focus on the design program, the first one, okay?
+[00:12] We are given certain mission requirements.
+[00:15] Sorry, it's too small.
+[00:18] Sorry, I'm going to increase it.
+[00:25] You are given certain mission requirements, that is,
+[00:27] the height that you want to arrive, and from that height,
+[00:31] the approximated delta b, and I highlight approximated,
+[00:34] because we were estimating the losses,
+[00:37] and also the mass of failure you want to arrive.
+[00:40] Knowing this characteristic of the launch vehicle,
+[00:42] that is, the specific input and the structural coefficient,
+[00:45] we were solving the staging problem.
+[00:47] This staging problem was obtained by Lagrange multipliers
+[00:50] from this failure ratio, and from this, all this change,
+[00:54] minimizing the mass, okay?
+[00:56] You remember?
+[00:57] And imagine the initial mass of the rocket.
+[01:00] Now, what would an engineer do?
+[01:02] Would say, okay, I know the initial mass of the rocket,
+[01:05] now I can do all the trajectory analysis,
+[01:07] because we were estimating the delta b losses,
+[01:10] but we didn't know if this was the total delta b or not.
+[01:15] Okay?
+[01:15] So we do the trajectory analysis,
+[01:17] that you don't know still how to do it,
+[01:19] but we will learn in the next lessons.
+[01:22] And you say, okay, for this trajectory,
+[01:24] I have this total delta b.
+[01:26] Imagine, no?
+[01:26] We have said that the total delta b was 9 km per second,
+[01:30] because it was 7 to arrive to orbit,
+[01:32] plus the 2 of losses,
+[01:33] we said 9 km per second.
+[01:35] We determined the initial mass,
+[01:36] with the initial mass,
+[01:37] we go to the trajectory analysis,
+[01:39] we do all the trajectory analysis,
+[01:40] and we end up with a total delta b,
+[01:42] because I can compute how much it is,
+[01:45] of 11 km per second.
+[01:46] Is it enough, my rockets,
+[01:48] to arrive into that orbit?
+[01:50] No, because the real losses are higher
+[01:53] than the ones that I had supposed.
+[01:54] The total delta b is higher than the one that I have,
+[01:57] size the rocket for.
+[01:58] So, is the trajectory feasible?
+[02:01] No.
+[02:01] What shall I do then?
+[02:02] Increase the delta b.
+[02:04] And from the increase of the delta b,
+[02:05] I have to resize again the rocket,
+[02:08] and I would obtain a different initial mass.
+[02:11] And I go again to the trajectory analysis.
+[02:13] Is this feasible?
+[02:14] So, in other words,
+[02:15] if the delta b enough,
+[02:17] if yes, fine.
+[02:19] And if not,
+[02:21] I have to look there.
+[02:22] Okay?
+[02:23] Yes?
+[02:24] Yeah.
+[02:25] Is this reasoning clear?
+[02:27] Okay, so now,
+[02:28] thank you very much for having me.

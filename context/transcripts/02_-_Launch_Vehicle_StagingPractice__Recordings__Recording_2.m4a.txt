@@ -1,0 +1,1777 @@
+# lang=en
+[00:00] Yes?
+[00:02] Yes?
+[00:04] Okay, I'm dragging this expression here, this is the one you have here, on the upper part.
+[00:20] Because, okay, what does this expression tell you?
+[00:22] It tells you that, okay, if you increase the payload ratio, okay?
+[00:28] The payload ratio was the useful mass over initial mass.
+[00:33] If you increase the payload ratio here, this natural logarithm, okay, as this is, this natural logarithm increases, but as both with the minus, it decreases.
+[00:44] Okay?
+[00:46] Yeah?
+[00:47] You can also imagine you have it on the denominator.
+[00:49] If I put this minus one here, you have it in the denominator, right?
+[00:53] If you increase the lambda here, as you have it in the denominator, this decreases.
+[00:58] So, increasing the payload ratio decreases the delta V.
+[01:04] So, in other words, the higher mass of payload you want to bring to orbit, the total is the delta V you are going to be allowed to bring into that orbit.
+[01:15] So, then, lower the height you are going to, okay?
+[01:18] And this is what we see in this graph.
+[01:20] Moving to the right, this graph is delta V, normalized, with respect to the payload ratio.
+[01:27] And for different structural efficiency, okay?
+[01:31] So, for a given structural efficiency, so we fix in a certain curve of this, and we now just change the payload ratio.
+[01:37] So, increasing the payload ratio, increasing the lambda, what do we see in the graph?
+[01:42] That, the delta V is reduced, okay?
+[01:46] This is what we see.
+[01:47] Okay?
+[01:48] And just an example of this, I'm just here writing the delta V maximum.
+[01:56] So, here, I have a natural algorithm of this plus this, okay?
+[02:00] This is a very small number, and the payload ratio, that means, at maximum, one.
+[02:06] So, this could be, let's say, at maximum, so this value could be zero, okay?
+[02:13] And therefore, we are just, we are just entering the maximum one, is just the natural algorithm of the structural efficiency, okay?
+[02:23] This I'm just referring because this delta V max is going to give you a first estimate of the, of the feasibility of the mission, okay?
+[02:30] We are going to see this afterwards.
+[02:32] Another important thing, which is also intuitive, is that reducing the structural efficiency, so we are not fixing the payload ratio, we are not fixing the x-axis.
+[02:40] And for a certain equilibrium, reducing the structural efficiency parameter, okay?
+[02:46] What do we see here from that, also from that equation?
+[02:49] That this is negative, decreasing this, also, decreases the, sorry, decreasing this, increases the delta V, because it is negative, so it is in delta V, okay?
+[03:00] So, this means that, the more efficient is our structure, because, because, with that, an efficient structure has a small structural coefficient,
+[03:09] decreasing this, decreasing this increases the total delta V that I am able to provide, okay?
+[03:15] This is very important, because, do you remember the, the definition of structural efficiency?
+[03:21] The structural efficiency was, what is, I have there, structural efficiency was, M S divided by M S plus G M P.
+[03:28] So, in some way, it is, how much structure do I need for carrying a certain propellant, okay?
+[03:35] So, if I am able to have structures that are always used for carrying propellant, that is, they are not empty, I am going to be very efficient.
+[03:48] And therefore, I am maximizing the total delta V. And this gives you to the concept of a staging.
+[04:03] What is a staging? We said that the whole launch vehicle is, eh, made of propellant.
+[04:10] Propelant gets consumed. What does it happen when certain part of the structure is, let's say, empty?
+[04:17] Because I have consumed all the propellant in that part of the rocket.
+[04:20] Then, the solution is to get rid of that stage. And therefore, this, keep these structural coefficients small.
+[04:27] You see? So that's why we do staging. And that's why we cannot arrive to a certain orbit, or a low orbit, with only one stage.
+[04:37] Because if we arrive with a certain, with only one stage, we would be carrying for a lot of time structure, which is just empty.
+[04:44] Okay? Yes? So that's the reasoning behind that. Moving to a curve with smaller structural coefficient, that is, having a structure which is more efficient, is moving from one part to the other.
+[05:02] And therefore, this gives you more data, which is what we are seeing in this graph.
+[05:05] Okay?
+[05:06] Okay, another question is, how many stages? Because we said, whenever we consume certain propellant, no?
+[05:14] So imagine, no, in the previous image of the SLS, imagine how many stages would you put here, no?
+[05:20] So, well, here they are different, like, in different parts, so you cannot get rid of, eh, yeah, you could get rid of only one in part, and that's it, no?
+[05:30] But how many stages would you put here? Because as propellant gets consumed here, I get rid of this. As propellant gets consumed here, I get rid of this, no?
+[05:38] That's the philosophy we are saying. But the question is, how many stages? We put infinite stages, no?
+[05:43] But the, you see that the infinite stage would be the optimum case. According to what we are saying, as soon as the, a certain mass, particle mass, is consumed,
+[05:52] we could get rid of it in order to maximize this ratio of structural efficiency, or to minimize this ratio of increased efficiency.
+[06:01] But we cannot do, because every time we get rid of, because there are other concerns, which are not these mathematics here, okay?
+[06:09] Every time you get rid of a stage, you produce a shock, and this has an impact on the structure, and therefore you would need to size more the structure to endure the shock, etc., etc., okay?
+[06:18] And of course you cannot produce infinite stages, okay? The cost of the separation systems.
+[06:23] But you see that going for a higher number of stages would be better, but of course depends on the performance of the long table, okay?
+[06:32] So, now the question is, how many stages? We are going to also suppose the stages as known, okay? We are going to, you can solve the exercise with different stages, and see what's optimum, and do a trade-off between the complexity of your structure and what's the performance you gain, okay?
+[06:58] But for our problems, we are going to suppose, okay, I want to design a rocket of two stages, or of three stages, okay?
+[07:04] For our example, for example, you will do in the, well, you can do as many as you want. I think I'm giving you freedom in the assignment for doing as many as you want, okay?
+[07:13] I recommend you to do as many as you want. Okay, and now the problem we have to solve is how to distribute the mass of propellant among the different stages, okay?
+[07:25] So that we maximize the performance. What is maximize the performance? We can understand this in two ways.
+[07:31] Maximize the total delta V, that we are always saying, or minimize the initial mass, minimize the gross mass at least.
+[07:39] Okay? Yeah, questions of what? Okay.
+[07:51] You usually don't do breaks, right? You do until 8.30 and you just...
+[07:55] Minimize the mass, and then you do the maximum total.
+[07:59] Okay, so now it comes to the most of the...
+[08:09] Okay, so you have the whole rocket.
+[08:15] And we are going to now put index to refer to each of the different stages, okay?
+[08:20] So, you have the initial mass of the first stage. But this initial...
+[08:25] Sorry, not of the first stage, okay? But of the whole.
+[08:28] You see, the nomenclature N01 refers to the whole.
+[08:31] Okay, the first stage would be this one, but the things are contention.
+[08:35] The N01 is what we are calling and what we were calling as the total mass, the one we are trying to do.
+[08:43] Okay? Yes? And this initial mass...
+[08:47] I am made.
+[08:54] It's like a rocket contained inside that rocket.
+[08:58] This is the...
+[08:59] The way we eat it.
+[09:01] I don't know how to eat it.
+[09:02] I don't know how to eat it.
+[09:07] So, you have...
+[09:09] This is the rocket number one.
+[09:11] The whole.
+[09:12] Okay?
+[09:13] But rocket number one also contains rocket number two.
+[09:18] And rocket number two also contains rocket number three.
+[09:21] And rocket number three contains the mass of the payload.
+[09:24] Which is usually...
+[09:25] Which is what I really want to bring it to a rocket.
+[09:27] Okay?
+[09:28] So, I am saying that...
+[09:30] I am calling N01 the total rocket.
+[09:32] And this is composed as always of payload of the first.
+[09:38] Plus the propellant of the first.
+[09:41] Plus...
+[09:42] Plus the structure of the first.
+[09:47] Okay?
+[09:48] And what I am saying is that...
+[09:50] As this is a Matryoshka.
+[09:52] This is what I was telling before.
+[09:53] As the rocket one contains the rocket two.
+[09:56] The useful mass of the rocket one.
+[10:01] Is the initial mass of the stage two.
+[10:06] Do you see this relationship?
+[10:08] What is the useful mass the whole rocket is bringing?
+[10:11] Is bringing the second rocket.
+[10:13] So the useful mass of the rocket number one.
+[10:14] Is only the initial mass of the second stage.
+[10:18] You see?
+[10:19] Yeah?
+[10:20] And the second stage is also composed of this.
+[10:22] The second stage is composed of mass of the structure two.
+[10:24] Plus mass of the mass useful two.
+[10:25] Plus mass of the structure two.
+[10:26] Plus mass of the structure two.
+[10:27] And what is this?
+[10:28] What is this?
+[10:29] What is this?
+[10:30] The first?
+[10:31] 
+[10:31] 
+[10:31] The first.
+[10:31] So, in other words, we can write a relationship.
+[10:32] It is.
+[10:33] So, I have a peri-
+[10:32] I.
+[10:33] I.
+[10:33] 
+[10:33] I.
+[10:34] I.
+[10:34] I.
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] 
+[10:34] plus mass of the fraction.
+[10:38] And what is this?
+[10:39] What is this?
+[10:41] It's the initial mass of the state.
+[10:44] So in other words, we can write a relationship
+[10:46] mass of a certain state.
+[10:49] Why?
+[10:50] It's the initial mass of the next state.
+[10:53] I will not.
+[10:54] No.
+[10:54] It's the useful.
+[10:57] You see this relation?
+[11:01] Yes.
+[11:04] The useful mass of the first rocket
+[11:08] is the initial one of the second.
+[11:13] Menos tinta.
+[11:15] Okay.
+[11:16] Quanto menos letras, menos tinta.
+[11:18] Okay.
+[11:25] Okay, and we can rewrite all the radios
+[11:28] we were saying, but now with the ingots,
+[11:29] because we want to refer to each of the rockets.
+[11:32] Each of the states.
+[11:33] We can write this, the mass radio, the payload radio,
+[11:38] the propelial radio, and the structural efficiency,
+[11:40] but now with the subindex I,
+[11:42] to refer to each of the I states.
+[11:46] Okay, this is the relationship I was showing before.
+[11:49] This is exactly the same relationship I was showing before.
+[11:52] Do you remember?
+[11:54] The one I was using to introduce inside the mass radio
+[11:58] of the Hercocz equation.
+[11:59] Okay.
+[12:02] I'm sorry.
+[12:03] Each of the rockets has a certain delta V.
+[12:06] Each of the stages is going to provide you with a certain delta V, right?
+[12:09] Which is going to also be given by the Hercocz equation.
+[12:12] Right?
+[12:13] Specific impulse times natural logarithm of the payload,
+[12:16] of the mass radio.
+[12:18] Right?
+[12:18] You have to guarantee that the sum of this delta V
+[12:23] is the total delta V we were having as input.
+[12:28] Right?
+[12:28] We were saying,
+[12:29] we need a delta V of 10 kilometers per second
+[12:32] to arrive to orbit.
+[12:33] So you need to ensure that
+[12:34] all the stages provide you a sum of delta V
+[12:37] equal to this total delta V, right?
+[12:42] Just as an idea.
+[12:43] Now we will see how we put all the pieces together.
+[12:47] Okay.
+[12:49] Then,
+[12:49] we also have this ray here.
+[12:52] Clear, clear to back.
+[12:53] You have a lot of equations,
+[12:55] but it seems more complex than what it is.
+[12:58] Yeah?
+[12:59] It's not that different.
+[13:00] It's not that different.
+[13:01] It's not that different.
+[13:03] It's not that different.
+[13:04] Okay.
+[13:05] So,
+[13:06] imagine we have three stages, okay?
+[13:08] Three stages,
+[13:11] rocket.
+[13:12] So,
+[13:12] you have the so-called,
+[13:14] the so-called,
+[13:19] total payload radio.
+[13:22] Do you remember what was payload radio?
+[13:24] It was the mass of the payload
+[13:25] divided by the initial mass.
+[13:28] Right?
+[13:29] Yeah?
+[13:30] And this can be for each of the,
+[13:32] for each of the stages.
+[13:34] Okay?
+[13:34] But if you think about the total one,
+[13:36] this is the mass of the payload,
+[13:39] the final mass.
+[13:40] Okay?
+[13:40] So,
+[13:41] if you have three stages,
+[13:42] this would be the use of the three,
+[13:45] okay?
+[13:46] Divided by the initial mass.
+[13:49] Right?
+[13:50] Professor Heister.
+[13:52] This is the,
+[13:53] if you see total,
+[13:54] because you see total,
+[13:55] it's of the whole,
+[13:57] of the overall rocket.
+[13:58] And the use of the three
+[14:00] is really the mass of the payload
+[14:02] that you want to be in the cockpit.
+[14:03] You will have three stages,
+[14:04] for example.
+[14:04] I'm just doing three stages
+[14:05] as an example for you from the point.
+[14:07] Divided by the initial mass,
+[14:08] which is the initial mass
+[14:09] of the first quarter.
+[14:10] Okay?
+[14:11] This,
+[14:11] I put it here,
+[14:12] the same.
+[14:15] Okay?
+[14:15] I'm just putting it in the same.
+[14:16] I'm then multiplying
+[14:17] and dividing by the initial mass
+[14:20] of the second.
+[14:21] Right?
+[14:22] I can do.
+[14:23] Right?
+[14:24] In mathematics,
+[14:24] you can do everything is possible.
+[14:27] You can do it.
+[14:28] Everything is correct.
+[14:28] You can do it.
+[14:30] So,
+[14:30] therefore,
+[14:31] what is this?
+[14:34] The initial mass
+[14:35] of the second
+[14:36] divided
+[14:37] by the initial mass
+[14:39] of the first.
+[14:40] This is
+[14:40] what?
+[14:45] What is this?
+[14:46] This is the payload
+[14:48] ratio
+[14:49] of what?
+[14:50] Of?
+[14:53] Right?
+[14:54] Because what is,
+[14:55] what is,
+[14:56] what is this?
+[14:58] It's this,
+[14:59] right?
+[15:00] And we have said that
+[15:02] what is the useful mass
+[15:04] of the first stage?
+[15:05] It's the initial mass
+[15:07] of the second.
+[15:10] So,
+[15:10] therefore,
+[15:11] this
+[15:11] is this.
+[15:13] It's the payload
+[15:14] ratio
+[15:14] of the first stage.
+[15:16] Right?
+[15:17] Yeah?
+[15:19] And I can then
+[15:20] multiply
+[15:21] by the next one
+[15:22] and divide
+[15:23] by the next,
+[15:24] by the same.
+[15:25] What is this?
+[15:27] Is this,
+[15:28] what?
+[15:28] Lambda?
+[15:30] Two.
+[15:30] Two.
+[15:30] Two.
+[15:31] And this,
+[15:34] mu,
+[15:35] sorry,
+[15:35] I have,
+[15:36] I'm probably
+[15:36] doing the u's
+[15:37] and the o's.
+[15:38] This,
+[15:39] mass of the u
+[15:39] divided by mass
+[15:40] is what?
+[15:42] It's
+[15:42] mass of u3
+[15:44] divided by
+[15:45] initial mass
+[15:45] or the bridge.
+[15:46] Is lambda?
+[15:48] Three.
+[15:48] Three.
+[15:49] So this is just
+[15:50] to tell you
+[15:50] that it is
+[15:51] lambda one
+[15:52] multiplied by lambda two
+[15:53] multiplied by lambda two.
+[15:54] So you can write this as
+[15:56] okay, this is the product.
+[16:03] All the products.
+[16:04] Okay, in terms of the sum,
+[16:05] the products of all the lambda's eyes.
+[16:08] Okay?
+[16:08] 
+[16:08] Okay, this is the relationship
+[16:12] that was,
+[16:13] 
+[16:13] 
+[16:13] 
+[16:13] this is what we hear.
+[16:14] The lambda total,
+[16:15] the total delta v,
+[16:15] the total delta v is the product
+[16:16] of each of the single stage
+[16:19] delta v.
+[16:20] Okay?
+[16:22] Yeah?
+[16:23] Clear?
+[16:23] Okay.
+[16:25] And what for the total delta v?
+[16:26] For the total delta v,
+[16:27] what we were saying before,
+[16:28] the constraint,
+[16:29] the total delta v of all the stages
+[16:31] has to be equal to the sum
+[16:32] of the delta v that each stage
+[16:34] provides you.
+[16:35] Right?
+[16:36] But each stage provides you
+[16:37] with this formula.
+[16:38] And that's equal to the specific
+[16:40] impulse.
+[16:40] For the c,
+[16:40] I didn't say that.
+[16:41] c is what we call g0
+[16:43] and specific impulse.
+[16:45] The direction of velocity.
+[16:46] Just for the,
+[16:47] for abbreviating there,
+[16:49] instead of writing this,
+[16:50] we write the direction of velocity
+[16:52] c.
+[16:52] Okay?
+[16:54] So it's c,
+[16:54] the natural algorithm
+[16:55] of the payload ratio
+[16:56] of each of the stages.
+[16:59] And if you sum this,
+[17:00] it has to be equal
+[17:01] to the total delta v
+[17:02] that it was a delta.
+[17:03] It was an intro.
+[17:04] Right?
+[17:04] And if you write like this,
+[17:08] it's the same thing
+[17:09] we obtained before.
+[17:10] It was exactly
+[17:11] the same relationship,
+[17:12] but now with the sum,
+[17:13] because we have to consider
+[17:14] the different stages.
+[17:16] Okay?
+[17:16] It's the same equation
+[17:17] as when we were considering
+[17:19] only one stage.
+[17:20] Yeah?
+[17:25] Yes?
+[17:28] So this is a constraint.
+[17:30] It means that the total delta v
+[17:31] has to be equal to here.
+[17:33] You can put the mass
+[17:34] in different ways,
+[17:35] in different landlines.
+[17:38] But you have to put it
+[17:39] in such a way
+[17:40] they fulfill that
+[17:41] this is equal to this data,
+[17:42] which is the total delta v.
+[17:44] Okay?
+[17:46] It's kind of a
+[17:47] constraint equation.
+[17:50] Okay.
+[17:50] And we have two approaches
+[17:52] for the problem.
+[17:53] Remember,
+[17:54] our problem is
+[17:54] how to distribute
+[17:55] the mass of propel
+[17:56] and the different stages
+[17:58] in order to minimize
+[18:01] this M01,
+[18:02] this total mass.
+[18:03] Okay?
+[18:05] And we can have
+[18:06] two different approaches
+[18:07] or two different problems
+[18:08] depending on
+[18:09] which part
+[18:10] of the engineering
+[18:11] we are.
+[18:11] The first one
+[18:12] is the so-called
+[18:12] system requirements
+[18:14] approach.
+[18:15] Or,
+[18:16] in other words,
+[18:17] design problem.
+[18:18] Okay?
+[18:18] Please.
+[18:20] I know.
+[18:22] Can I hear you?
+[18:23] Yes.
+[18:23] Yes.
+[18:25] 
+[18:25] Yes.
+[18:27] Okay.
+[18:27] If I know,
+[18:39] which edge?
+[18:40] If I know the data
+[18:42] as a structure of the vision.
+[18:43] Well,
+[18:44] before I know,
+[18:44] we know the mass
+[18:45] that we want to put
+[18:46] into orbit.
+[18:47] Right?
+[18:48] Okay.
+[18:49] Useful mass.
+[18:52] If I know
+[18:53] the height
+[18:54] that I want to arrive,
+[18:55] right?
+[18:56] We said,
+[18:56] bring 500 kilo
+[18:59] payload
+[18:59] into orbit
+[19:01] of a certain height,
+[19:02] 400 km.
+[19:04] Okay?
+[19:04] This is some data
+[19:06] of the problem.
+[19:06] And I also know
+[19:07] the structural
+[19:08] coefficients,
+[19:08] for example,
+[19:09] and the data
+[19:10] of the revolts
+[19:10] or the specific symbols
+[19:11] or the C's.
+[19:14] Okay?
+[19:15] The problem,
+[19:15] the design problem
+[19:16] is how to distribute
+[19:17] the mass
+[19:17] among the different stages.
+[19:19] That is how to compute,
+[19:20] for example,
+[19:21] this mass ratio
+[19:23] of each of the stages
+[19:24] or this land I.
+[19:26] Okay?
+[19:27] Because this
+[19:27] is kind of equivalent.
+[19:29] There are relationships
+[19:30] between them
+[19:30] that we saw before.
+[19:32] The problem is
+[19:32] how to distribute
+[19:34] the mass
+[19:34] among the different stages.
+[19:35] That is how to compute
+[19:36] these ratios
+[19:37] so that I minimize
+[19:39] the
+[19:40] initial mass.
+[19:42] Right?
+[19:43] This is the design problem.
+[19:44] We don't have the rocket yet.
+[19:45] We are saying,
+[19:46] okay,
+[19:46] how much shall be
+[19:47] the mass of the rocket
+[19:48] that I want to be,
+[19:49] how much shall be
+[19:50] the distribution of the mass
+[19:51] to minimize this?
+[19:52] But I don't have the rocket
+[19:52] there.
+[19:54] Okay?
+[19:54] I'm thinking on
+[19:55] how to optimize it.
+[19:56] And that's why
+[19:56] it's called
+[19:56] the design problem.
+[19:58] Okay?
+[19:58] Given the final orbit
+[19:59] and the mass
+[20:00] that I want to bring to orbit,
+[20:02] compute the distribution
+[20:03] to minimize
+[20:04] the gross mass
+[20:05] at least of.
+[20:06] Okay?
+[20:06] I'm putting it
+[20:07] as an example.
+[20:08] You are an engineer
+[20:08] designing a new rocket
+[20:09] that we were saying.
+[20:10] Okay?
+[20:11] And the concept
+[20:11] is to minimize
+[20:12] the mass.
+[20:14] Okay?
+[20:14] There can be
+[20:15] another approach.
+[20:16] This is the approach
+[20:17] in which we are going to focus.
+[20:18] Okay?
+[20:18] The design problem.
+[20:19] There can be another approach.
+[20:20] This is the design problem.
+[20:21] which is called
+[20:25] the operational problem,
+[20:26] right?
+[20:26] I think it's
+[20:27] the performance analysis.
+[20:28] Performance analysis.
+[20:30] I don't know.
+[20:31] This.
+[20:32] This is more the case
+[20:33] in which...
+[20:34] Okay, imagine
+[20:35] you are a
+[20:35] space engineer.
+[20:37] You are working
+[20:37] with the Falcon 9
+[20:38] and the rocket
+[20:39] is already there
+[20:40] with a certain payload.
+[20:42] Now,
+[20:43] with a certain
+[20:44] payload
+[20:45] I want to bring
+[20:46] into orbit
+[20:47] but also
+[20:47] I know
+[20:48] the total mass
+[20:49] because the rocket
+[20:49] is already built.
+[20:50] It's already there.
+[20:52] The concept is
+[20:52] how to distribute
+[20:53] the mass of propel
+[20:54] and the masses
+[20:55] among the different stages
+[20:56] such as what?
+[20:58] Now,
+[20:58] not to minimize the mass
+[20:59] because the mass
+[20:59] is already there.
+[21:01] The rocket exists.
+[21:02] It's to maximize
+[21:02] the delta V.
+[21:04] How to maximize
+[21:04] the orbit
+[21:05] that I can reach
+[21:06] or the margin
+[21:07] that I can have
+[21:08] for reaching this orbit,
+[21:09] etc.
+[21:09] So, in that case
+[21:10] what I know
+[21:11] is...
+[21:12] Okay.
+[21:13] The...
+[21:13] Now, I know
+[21:16] the mass of...
+[21:18] The mass of payload
+[21:20] I want to put it early.
+[21:21] I also know
+[21:21] the structural data
+[21:23] and the...
+[21:23] Okay, but...
+[21:24] And the...
+[21:25] Specific symbols.
+[21:28] What I want to know
+[21:29] is how to distribute
+[21:30] the mass
+[21:30] again among
+[21:32] the different stages
+[21:33] such that...
+[21:34] Sorry,
+[21:34] I also know...
+[21:35] I will say
+[21:36] I have the rocket
+[21:36] so I also know
+[21:37] the initial mass.
+[21:38] So here what I want
+[21:39] is to maximize
+[21:40] the delta V.
+[21:44] The total delta V
+[21:45] that I can...
+[21:46] That I can go.
+[21:49] Okay?
+[21:50] Because the higher
+[21:50] the delta V,
+[21:51] for example,
+[21:51] the higher the height
+[21:52] I can...
+[21:53] 
+[21:53] I can...
+[21:53] I can...
+[21:54] I can bring this payload
+[21:55] into orbit.
+[21:56] Okay?
+[21:57] So this is kind...
+[21:58] It's called performance
+[21:59] because you already have
+[22:00] the rocket built
+[22:01] with a certain initial mass
+[22:02] you suppose
+[22:02] you cannot change that much
+[22:04] and you fix this
+[22:05] and this is the contrary.
+[22:06] I don't have the rocket yet
+[22:07] and for a certain
+[22:08] height
+[22:08] I want to minimize
+[22:10] the mass at the lift
+[22:11] of it.
+[22:12] Okay?
+[22:13] Yeah, we're going to see
+[22:13] the two but we're going to...
+[22:15] I would like you to
+[22:16] understand more
+[22:17] this design one.
+[22:18] Okay?
+[22:18] Okay?
+[22:19] Okay.
+[22:19] So we focus on this,
+[22:30] on the system requirement
+[22:31] approach
+[22:32] or in the design
+[22:33] it's called
+[22:33] design approach.
+[22:34] Okay?
+[22:34] Yeah, I was telling
+[22:36] what you know.
+[22:37] You know the total
+[22:38] data bin.
+[22:38] Why do you know
+[22:39] the total data bin
+[22:40] here in the design
+[22:40] problem?
+[22:41] We're going to focus
+[22:42] on.
+[22:42] Can I clear here?
+[22:47] Why do I know
+[22:47] the total data bin
+[22:48] in this problem?
+[22:49] How do I compute it?
+[22:52] Because I'm not given,
+[22:54] right?
+[22:54] But I'm saying it's data.
+[22:56] How do I compute
+[22:56] the data bin?
+[22:58] With the orbit.
+[22:59] With the height of the orbit.
+[23:02] With the height of the orbit.
+[23:03] Right?
+[23:03] We were saying that
+[23:03] the delta bin,
+[23:05] we were saying it's
+[23:05] the final velocity
+[23:06] of the orbit
+[23:07] plus the delta bin
+[23:08] dosis.
+[23:10] Right?
+[23:10] And we were saying
+[23:11] that this is
+[23:12] square of mu
+[23:14] divided by mu.
+[23:16] Right?
+[23:17] So from the height,
+[23:18] if I'm given the height,
+[23:19] I can estimate
+[23:20] the delta bin.
+[23:21] Because this I know.
+[23:22] But this I estimate.
+[23:24] If it's at the orbit,
+[23:25] around 1.52 km per second.
+[23:27] Right?
+[23:28] Okay, so I know
+[23:30] the delta bin.
+[23:31] Right?
+[23:32] I'm here.
+[23:35] Delta bin is known.
+[23:37] Okay?
+[23:37] Or approximated.
+[23:39] I know,
+[23:39] I'm going to suppose
+[23:40] that I know
+[23:41] the number of stages.
+[23:42] Okay?
+[23:42] Why do I know?
+[23:43] You can try.
+[23:44] You can say,
+[23:44] okay, I'm going to
+[23:45] solve the problem for two.
+[23:46] I'm going to solve
+[23:46] the problem for three.
+[23:48] You can optimize this.
+[23:49] Okay?
+[23:49] But let's suppose
+[23:49] we know the number of stages.
+[23:51] We are going to say
+[23:52] we have two stages,
+[23:53] for example.
+[23:54] Okay?
+[23:55] And you know
+[23:56] data of the structures
+[23:57] that the engineer's
+[23:58] structural engineer failure.
+[23:59] So,
+[24:00] these structural coefficients
+[24:01] are known
+[24:02] for all the stages.
+[24:04] And the specific impulse
+[24:05] that you can only
+[24:05] on the propulsion technology
+[24:06] and on your rocket
+[24:07] are also known.
+[24:09] Because the propulsion guys
+[24:11] and girls
+[24:11] tell you.
+[24:12] Okay?
+[24:13] Okay.
+[24:13] So,
+[24:14] what do I want to
+[24:15] minimize?
+[24:16] We said
+[24:16] we want to minimize
+[24:17] the initial mass,
+[24:19] no?
+[24:19] But to minimize
+[24:20] the initial mass,
+[24:21] you can also say
+[24:22] as this is a data
+[24:23] that the mass of the payload
+[24:24] you want to put into orbit
+[24:25] is a data,
+[24:27] you can also minimize
+[24:28] this ratio,
+[24:29] M0 over Mpl.
+[24:30] That's correct,
+[24:31] right?
+[24:31] You want to either
+[24:32] minimize M0
+[24:33] or minimize the ratio
+[24:34] M0 over Mpl.
+[24:36] Why is this useful?
+[24:37] because this ratio
+[24:38] is the inverse
+[24:39] of M1 over Mn total.
+[24:42] Okay?
+[24:43] So,
+[24:43] you are going to minimize
+[24:44] this ratio,
+[24:45] M1 over Mn total.
+[24:51] The total payload ratio.
+[24:53] Okay?
+[24:54] Yeah?
+[24:54] You see this relationship,
+[24:55] right?
+[24:56] Mn total is the mass
+[24:57] of the payload,
+[24:59] the final one.
+[25:00] So,
+[25:01] if we have three stages,
+[25:02] MnU3,
+[25:04] Mn payload there,
+[25:05] refers to the final payload.
+[25:06] Okay?
+[25:07] So,
+[25:07] MnU3,
+[25:08] we have three stages.
+[25:08] We have four stages,
+[25:09] MnU4,
+[25:10] okay?
+[25:11] Divided by the initial mass,
+[25:13] which M0 there
+[25:13] is M01.
+[25:15] Okay?
+[25:18] Okay.
+[25:19] So,
+[25:19] we were saying before,
+[25:20] we arrived to that expression,
+[25:21] right?
+[25:22] That the total payload ratio
+[25:23] was the product of all
+[25:25] the latter is,
+[25:27] right?
+[25:28] And,
+[25:29] Rangani,
+[25:30] we remember
+[25:31] from the relationships
+[25:32] of before,
+[25:33] you can recall,
+[25:34] but we were relating
+[25:35] the payload ratio
+[25:36] with the mass radio.
+[25:39] This is the,
+[25:40] I don't remember
+[25:41] the Greek name.
+[25:42] How is this letter called?
+[25:43] Lambda.
+[25:44] Lambda 2?
+[25:45] And this?
+[25:46] The same,
+[25:46] that one is capital,
+[25:47] the other one is small.
+[25:48] So,
+[25:49] capital,
+[25:49] lambda,
+[25:50] capital,
+[25:51] lambda,
+[25:51] the mass radio,
+[25:52] okay?
+[25:53] This is the,
+[25:53] this is the expression
+[25:54] that was related
+[25:55] to the payload ratio
+[25:56] with the mass radio,
+[25:57] okay?
+[25:57] You can go,
+[25:58] I know there are a lot
+[25:58] of expressions,
+[25:59] but you can,
+[26:00] consoles afterwards
+[26:00] and we show this one.
+[26:02] So,
+[26:03] I introduce this,
+[26:04] lambda,
+[26:04] e,
+[26:05] instead of this,
+[26:06] I introduce this,
+[26:07] you know,
+[26:07] in order.
+[26:08] So,
+[26:08] take everything
+[26:08] as a function
+[26:09] of the mass radio,
+[26:10] okay?
+[26:10] And as a function
+[26:11] of the structural
+[26:12] coefficients.
+[26:12] But remember,
+[26:13] structural coefficients
+[26:14] were known.
+[26:15] So,
+[26:15] the only unknown here
+[26:16] is lambda,
+[26:17] capital lambda,
+[26:18] the mass radio,
+[26:19] okay?
+[26:20] Why do this?
+[26:21] because for this
+[26:22] program,
+[26:22] I find more useful
+[26:23] to work with
+[26:24] the mass radio
+[26:25] instead of the
+[26:26] payload radio,
+[26:27] okay?
+[26:28] You are going to
+[26:28] see this afterwards,
+[26:29] okay?
+[26:31] Clear?
+[26:33] Okay.
+[26:34] So,
+[26:34] remember,
+[26:35] we want to minimize
+[26:36] this relation,
+[26:36] 10-0 over
+[26:37] mass of the payload,
+[26:39] because we said
+[26:39] minimizing
+[26:40] 1 over lambda total,
+[26:42] do you remember?
+[26:43] So,
+[26:44] we want to minimize
+[26:44] 1 over lambda total,
+[26:47] and lambda total was this,
+[26:48] so it's to invert
+[26:49] here the numerator
+[26:50] and the denominator.
+[26:52] You see?
+[26:54] I don't know
+[26:54] if there you can see.
+[26:56] Yeah?
+[26:57] I just inverted
+[26:58] the numerator
+[26:58] and the denominator
+[26:59] and see what I'm
+[27:00] trying to minimize.
+[27:01] Okay?
+[27:03] Big break.
+[27:04] Yes?
+[27:05] But I can say
+[27:06] minimize this expression,
+[27:09] okay?
+[27:09] Or I can say
+[27:10] minimize the natural
+[27:11] logarithm of this expression.
+[27:14] That's correct,
+[27:15] right?
+[27:16] Because
+[27:16] natural logarithm
+[27:17] is a monotonic function
+[27:18] that increases.
+[27:20] So,
+[27:20] I can say
+[27:20] I want to minimize
+[27:21] a function
+[27:22] or minimize
+[27:23] the natural logarithm
+[27:24] of that function.
+[27:25] Why do I do this?
+[27:26] Why do I introduce
+[27:27] here the natural
+[27:27] logarithm?
+[27:29] Well,
+[27:29] I introduce here.
+[27:30] You see,
+[27:30] so I pass
+[27:31] from minimizing
+[27:32] this expression
+[27:32] to minimizing
+[27:33] the natural
+[27:34] logarithm
+[27:34] of that expression.
+[27:35] Okay?
+[27:36] I introduce
+[27:36] this natural
+[27:37] logarithm
+[27:38] because
+[27:38] if you,
+[27:41] first,
+[27:41] because it's related
+[27:41] to the Chalpowski
+[27:42] equation,
+[27:43] we'll see it afterwards,
+[27:44] but
+[27:44] recalling the properties
+[27:46] of the logarithm.
+[27:47] Do you remember
+[27:48] this?
+[27:48] or if not,
+[27:49] I recall it.
+[27:49] The natural logarithm
+[27:51] of this product
+[27:52] of something
+[27:52] I'm calling
+[27:53] A-A-T
+[27:54] is the sum
+[27:55] of the natural logarithm.
+[27:57] Summatory
+[27:57] of the natural logarithm.
+[27:59] Okay?
+[27:59] So,
+[28:00] here,
+[28:01] this natural logarithm
+[28:02] enters,
+[28:03] and what you have
+[28:04] here is the sum.
+[28:06] You see?
+[28:07] So,
+[28:07] I want to minimize
+[28:08] that expression.
+[28:09] Minimizing
+[28:09] this,
+[28:11] now,
+[28:13] it's minimizing
+[28:14] this.
+[28:16] Okay?
+[28:17] And this expression
+[28:18] only depends,
+[28:18] as I was saying,
+[28:19] in the
+[28:20] math rate.
+[28:22] Okay?
+[28:23] Because this is
+[28:23] the subparagraph.
+[28:25] This is the function
+[28:26] that I want to minimize.
+[28:27] This is what I call,
+[28:28] when in optimization
+[28:30] theory,
+[28:31] the objective function.
+[28:32] Okay?
+[28:32] The function
+[28:33] that I want to minimize
+[28:34] for maximizing
+[28:35] this.
+[28:35] Minimizing.
+[28:39] Okay.
+[28:40] This is
+[28:40] this function.
+[28:41] Okay?
+[28:42] This function here.
+[28:44] Okay,
+[28:44] this is this function
+[28:45] that I was telling.
+[28:46] Subject here
+[28:47] that I don't want,
+[28:49] so I want to select.
+[28:52] The problem here
+[28:53] is to select
+[28:54] certain mass radius
+[28:55] such as what?
+[28:57] Such as you minimize
+[28:58] the M0.
+[28:59] Okay?
+[29:00] But not only this,
+[29:01] but the problem
+[29:02] is subjected
+[29:03] to a constraint.
+[29:04] What is the constraint?
+[29:05] The constraint you have
+[29:06] is that the
+[29:06] one who is important.
+[29:08] The total delta v
+[29:09] is equal to the delta v
+[29:12] total that we were
+[29:13] computing.
+[29:14] Okay?
+[29:17] Because the total delta v
+[29:18] depends also
+[29:19] on how the structure
+[29:20] is in the
+[29:21] region.
+[29:21] Okay?
+[29:22] So this should be
+[29:26] equal to delta v total.
+[29:30] Yes?
+[29:32] So you have to select
+[29:33] the lambda,
+[29:34] the capital lambda is,
+[29:35] such that you minimize
+[29:36] the mass
+[29:37] and that also you
+[29:38] fulfill,
+[29:40] satisfy this constraint.
+[29:41] Okay?
+[29:42] You could write
+[29:42] a function
+[29:43] for the constraint
+[29:44] that you call,
+[29:45] for example,
+[29:45] G.
+[29:46] and you say
+[29:47] G is this minus this.
+[29:50] And therefore,
+[29:50] the constraint function
+[29:51] has to be always zero.
+[29:52] It's another way
+[29:53] of saying,
+[29:53] right?
+[29:54] So you can say
+[29:54] it's CY
+[29:55] and you say that
+[30:00] this is always
+[30:01] equal to U.
+[30:02] Right?
+[30:02] Okay?
+[30:03] Why do I do this?
+[30:04] You are going to see
+[30:05] it's a typical thing
+[30:06] of the optimal
+[30:08] problem formulation.
+[30:09] Okay?
+[30:09] You are going to see
+[30:10] this.
+[30:11] Are you following me
+[30:12] so far,
+[30:13] apart from the
+[30:14] C of equations
+[30:15] that we have
+[30:16] introduced?
+[30:17] Yeah?
+[30:20] Okay,
+[30:21] so the objective
+[30:22] is to minimize
+[30:22] the span
+[30:23] which I said before,
+[30:24] but sometimes
+[30:24] it's a different
+[30:25] rate.
+[30:26] And the
+[30:26] freedom variable
+[30:28] we have
+[30:28] is the
+[30:29] mass ratio,
+[30:31] capital lambda.
+[30:32] Okay?
+[30:36] Okay.
+[30:37] Yes?
+[30:38] So we are now
+[30:38] going to see
+[30:39] whatever we want
+[30:51] to do
+[30:52] in optimization
+[30:53] theory,
+[30:54] these two things,
+[30:55] maximize or
+[30:56] minimize a function,
+[30:57] satisfying a constraint,
+[30:59] what we need
+[30:59] is the so-called
+[31:00] augmented function.
+[31:01] Okay?
+[31:02] augmented function
+[31:03] is a function
+[31:04] that I built
+[31:05] from the two things
+[31:06] of the puzzle.
+[31:07] Okay?
+[31:08] The objective
+[31:08] function that I want
+[31:10] to minimize
+[31:10] and the constraint.
+[31:12] So I write
+[31:13] an augmented function
+[31:17] and start
+[31:18] which is
+[31:19] the original function
+[31:20] I want to minimize
+[31:21] plus
+[31:22] plus
+[31:23] and under
+[31:24] f that you are going
+[31:25] to see this
+[31:26] multiplied by g.
+[31:27] This is very abstract.
+[31:28] Okay?
+[31:28] But what is
+[31:29] everything?
+[31:30] Okay.
+[31:31] My objective function
+[31:32] is this.
+[31:33] This f.
+[31:35] Is this.
+[31:36] This thing.
+[31:37] Okay?
+[31:38] This f
+[31:39] arrives here.
+[31:40] f in this case
+[31:41] is
+[31:41] sum
+[31:43] f.
+[31:43] f.
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] c.
+[31:43] c.
+[31:43] 
+[31:43] 
+[31:43] c.
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] c.
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] 
+[31:43] of one
+[31:46] of one
+[31:58] ok, this function, what is my variable
+[32:02] is this, right?
+[32:05] my variable was capital lambda
+[32:09] right? because this is known and this is that
+[32:13] so this is f, it's the function that I'm trying to minimize
+[32:15] and from that I'm building an augmenting function
+[32:17] that I define as f plus p, p is called the Lagrange multiplier
+[32:22] is a number that can take whatever value that I don't know
+[32:25] a priori, ok, multiplied by g
+[32:28] and what is g? g is my constraint function
+[32:31] here it is
+[32:36] yes
+[32:39] yes
+[32:40] yeah, thank you
+[32:41] ok
+[32:43] ok, so
+[32:44] and here you see that this also depends
+[32:50] on the same variable, ok?
+[32:54] so this I could write as
+[32:56] ok
+[32:57] this is, let's say, my decision variable
+[33:00] my freedom variable that I have to maximize or to minimize things
+[33:03] and the important thing is, why can I do this? because g is always zero
+[33:12] so maximizing this function
+[33:14] or minimizing this function
+[33:16] is equal to minimizing this augmented function
+[33:19] you see?
+[33:20] so the utility of building an augmented function is that
+[33:23] you are guaranteeing that the optimal condition also holds for the augmented function
+[33:28] but at the same time, you are going to impose this constraint
+[33:31] this is the logic behind optimization theory
+[33:37] ok? and therefore, what we are going to impose now is that the derivative of the augmented function
+[33:42] with respect to my decision variable is equal to, well, it's a minimum, ok?
+[33:54] ok?
+[33:55] so I just have to, I have to build this expression, this is f
+[33:58] I put it here, I put g
+[34:00] and I derive f star with respect to lambda p
+[34:04] ok?
+[34:05] I do
+[34:07] ok, this is f, you see here
+[34:11] the first term is f star is equal to f
+[34:14] you see this is f
+[34:16] plus p, p is a grand multiplier that doesn't have
+[34:19] meaning p has a different value depending on what is the
+[34:23] what is the major decision variable, ok?
+[34:26] and it's going to have a certain value for the optimal condition
+[34:29] it doesn't have physical meaning, it's just a construct I do for building the augmented function, ok?
+[34:36] and therefore it's p, multiplied by, you see the g function
+[34:41] usually we said p was equal to 0
+[34:43] the sum of all the delta p's is, that we spread like that
+[34:46] equal to the delta v of the mission, the total delta v
+[34:50] you see?
+[34:51] clear right?
+[34:52] are you seeing the mouse there or?
+[34:55] no, no, no, ok, so I am saying this is f, this is p, and this is the constraint function, the g
+[35:06] that the total delta v is equal to the delta v, so this minus delta v is equal to 0
+[35:12] ok?
+[35:13] ok?
+[35:14] yeah?
+[35:15] and then, I am just expanding the natural logarithm, ok, this is just all the steps, but if you remember the natural logarithm of a product is the sum of the natural logarithm and the subtraction for the division, so I expand, yeah?
+[35:37] and then, once I have the expression I just derive, I derive f with respect to this, by the way the sabidex are sometimes called k, or other times i, sorry for that, but it's the same, ok?
+[35:50] it's just a different state, it's i1, i1, but you see if i, this term does not depend on the payload radius, sorry, on the math radius, on capital lambda, so this, when I derive with respect to this, this is not a
+[36:07] and here what is that it appears, one of the natural logarithm of the payload radius is 1 over lambda e, right?
+[36:16] and this is minus the structural power fish, because it's 1 over this multiplied by minus this, and the item with respect to the payload radius, ok?
+[36:26] this derivative is equal to 0, so you see why here it appears 1 over this payload radius and this other value, ok?
+[36:35] so I do the whole thing and I put equal to 0, and when you rearrange the acting, you obtain this condition for the optimum payload radius that we were looking for, ok?
+[36:52] so this payload radius depends on what? depends on c, which was the specific input, that is known, on the structural coefficients, that is known, but it also depends on b
+[37:02] what's the value of p? I don't know, because it was a construction that I did in order to build the unwinded function, but I don't know the construction of p
+[37:10] and now I get p with the constraint equation, the constraint equation, the constraint equation, is this one, that tells me that it has to be equal to the zeta b
+[37:17] and if I develop this, I put this optimum, you see? I put this optimum total mass radio here, inside here, I have an equation
+[37:28] here I know the structure, I know the structure, I know the structure, I know the structure, sorry, the specific impulse
+[37:38] I know the detail of the mission, what is the only unknown? p
+[37:43] this is an earlier linear equation, that you cannot solve by hand, but just with the computer, with my lab
+[37:51] because here, in my equation, the earlier known is p
+[37:54] when I obtain g from this equation, not the construction equation, you just come here and obtain the mass radio
+[38:01] yes? and with the mass radio, you have what? the mass radio was also the final mass, the final mass over the initial mass
+[38:11] so you would have also the initial mass
+[38:14] you see? we are going to now recall all the steps, okay?
+[38:20] a remark, this equation was to solve p, this is a non-linear equation, when you solve a non-linear equation
+[38:26] you need to give to the solver an initial guess, okay? and this is an approximation for the initial guess
+[38:32] that from this supposes that all the, this is a sum of the different stages, right?
+[38:37] so, if you suppose that all the data for the impulse and the structural coefficient are equal, you can simplify this to end up with this guess
+[38:47] okay? it's just a guess, because whenever you are going to implement this for the, for the lab
+[38:51] you don't know what to give to the, to the solver
+[38:55] and a good guess is supposing all the delta V's is the same, so imagine, we have to give a delta V of 10 km per second
+[39:02] a total delta V
+[39:04] a good supposition, and it's not that bad, is to say, we have two stages
+[39:08] each of them, we are going to suppose that they are equal in terms of the specific impulse in terms of the structure coefficient
+[39:17] and not only this, but that both of them have the same delta V
+[39:21] so if we have a total delta V of 10 km per second, we are going to suppose
+[39:24] the first one gives you 5 km per second, and the second one gives you 5 km per second, for example
+[39:29] okay? and from that we compute this VES for the start, for allowing the solver to solve this equation
+[39:36] okay? yeah? we are going to merge now all the information of the procedure, okay?
+[39:42] so this is the procedure
+[39:45] the procedure is, okay, solve this equation we were saying, that we have arrived
+[39:51] because this comes from the optimal condition of the, of the math rating, okay?
+[39:56] when, in this equation everything is known by the Lagrange multiplier P
+[40:00] from that equation, which is not linear, we would obtain P
+[40:03] here there is an important check, which is
+[40:06] check that this is really a minimum
+[40:09] because we were just imposing that the derivative is equal to zero
+[40:12] this can happen in a minimum, but also in a maximum, okay?
+[40:15] for that to be a minimum, the curvature has to be bigger than zero
+[40:18] so the second derivative of the function, which is phase 2
+[40:22] the parameter has to be bigger than zero
+[40:24] just a check, okay?
+[40:26] this is important thing, once we obtain the parameter
+[40:29] once we solve this equation, we come to this, which was, you remember
+[40:36] the optimal mass ratio as a function of P
+[40:39] yeah?
+[40:40] we obtain the mass ratios of each of the stages
+[40:45] and from the mass ratios, we can obtain the payload ratio
+[40:48] because there was a relationship, you remember from the relationship before
+[40:52] there was an equation relating the payload ratios and the mass ratios
+[40:55] so from the mass ratios, I obtain the payload ratios
+[40:58] if I have all the payload ratios, I can obtain the total payload ratio
+[41:03] the total payload ratio was the product of the single payload ratios of each of the stages
+[41:08] and therefore, from the total payload, we said that the total payload was the mass of the payload
+[41:13] divided by the initial mass
+[41:14] if I know this, if I know this, I can know the initial mass that now is minimized
+[41:19] okay?
+[41:21] so the final, yeah?
+[41:24] I don't know if I want to move fast
+[41:29] but, in other words, the staging problem for the design, we have to approach it
+[41:35] we have the design approach and the performance approach
+[41:38] for the design approach, we were saying, okay, we have to design a launch vehicle
+[41:41] this launch vehicle is not built yet, that's why we are designing
+[41:46] and what we are doing is to put a certain payload, mass u, and u, into a certain orbit, into a certain height
+[41:54] and we knew as data the structural coefficients and the specific impulse
+[41:59] our problem, our design problem is with this data
+[42:02] decide how to distribute the mass among the different stages
+[42:06] that is, how to compute the different payload ratios or the different mass ratios
+[42:12] because we said, it's equivalent, there is a relationship between them as a function of these two parameters
+[42:16] so how to distribute the mass around the different parameters, among the different stages
+[42:20] such that I minimized the total mass of the rocket, the M01
+[42:25] this is the design problem, okay?
+[42:27] in order to do so, we said that we were building an augmented function
+[42:32] why was useful this augmented function?
+[42:34] because it's minimizing this function, the M01, or the radius depending on M01
+[42:40] the same function, but also subjected to a certain constraint
+[42:44] and the constraint was to guarantee that the sum of the delta V that each stage gives you
+[42:48] is equal to the total delta V that you need
+[42:51] this is what we were calling G
+[42:53] and we were building an augmented cost function
+[42:56] this augmented cost function only had as independent parameter, as optimization parameter
+[43:01] we were putting everything as a function of this, of the mass rating of each of the stages
+[43:07] when you derive this and make it equal to zero, you obtain a relationship of this, of the optimal mass ratio
+[43:17] as a function of what? as a function of P
+[43:20] and as you don't know P, you cannot know it yet
+[43:24] but we said, okay, we introduce this here in the constraint equation
+[43:29] and we do this, this equation just gives P, because I know everything but P
+[43:37] from P, I go back, from P I do this, yeah?
+[43:43] and from this, I can obtain the payload ratio, because there is a relationship as a function of the mass rating
+[43:50] and from all the payload ratio, I obtain the total payload ratio, and from the total payload ratio, I can obtain the M01
+[43:57] that is minimized, because it satisfies this equation
+[44:00] okay?
+[44:02] yeah?
+[44:04] more or less clear?
+[44:08] okay?
+[44:15] okay, so
+[44:16] the exercise that you are going to
+[44:20] require to solve in the first lab, okay?
+[44:26] and I can give you then the
+[44:28] exactly what is going to be the practice exercise
+[44:33] but you can already start thinking about it
+[44:36] you are given the design problem, which is
+[44:39] suppose certain data, you can
+[44:41] I would like to ask you to consult on the
+[44:44] what is a realistic
+[44:46] structural coefficient as specific impulse
+[44:49] you can put whatever you want, but try to look for
+[44:52] you put yourself a certain height that you want to arrive
+[44:56] and you put yourself also
+[44:58] a certain mass of payload capacity
+[45:00] that your blood paper shall agree to
+[45:02] you also suppose the number of the stages
+[45:04] that's not okay
+[45:05] you suppose two or three stages
+[45:08] you can also do the exercise by one
+[45:10] and see how heavy your blood paper becomes
+[45:13] and with this you shall solve the optimization problem
+[45:19] in order to minimize the initial mass
+[45:22] this is something we can do
+[45:23] okay?
+[45:24] here, you see I am just giving us input
+[45:25] the mass of payload
+[45:27] and the data b, or not the data b, but the height
+[45:29] to be more precise
+[45:31] and from that height, here, the delta b
+[45:35] I compute for two stages
+[45:37] how much would be the minimized gross mass at least
+[45:40] okay? just for your work with realistic data
+[45:44] of specific impulse and blah blah blah
+[45:47] I obtained that for 1.5 tons, which is quite a lot
+[45:50] it's in the range for example of gigasit
+[45:52] what we were calling the medium-sized vehicles
+[45:55] you need around 32 tons
+[45:59] okay? so for bringing 1.5, you see?
+[46:01] you need 32 tons
+[46:03] almost 30 times more
+[46:05] or 20 times more than what you bring
+[46:09] okay?
+[46:11] okay?
+[46:13] questions on this
+[46:15] what do you need to remember from all this?
+[46:18] do I need to remember all the equations?
+[46:20] no, you don't need to remember all the equations
+[46:22] maybe the Cholkowski equation
+[46:24] and to know how to build this omitted function
+[46:28] what does it mean?
+[46:29] what the terms here in the omitted function
+[46:31] and what was your constraint in the design problem?
+[46:34] okay?
+[46:35] but you don't need to remember all the equations
+[46:37] I don't know why I have to find it
+[46:38] you don't need to know how to build this
+[46:41] you need to know how to build this
+[46:42] all the concepts we have in the same way
+[46:43] and you can use all the parameters
+[46:45] okay
+[46:50] okay, we are now going to
+[46:52] go to the C controller
+[46:53] okay?
+[46:54] with the word to approaches
+[46:56] that are the word to the controller
+[46:57] and that is the second word to the controller
+[46:58] and that is the second word to the controller
+[46:59] can you remember?
+[47:01] I'm chilling, I'm chilling
+[47:03] being chilling
+[47:05] I have a way to go.
+[47:06] physical.
+[47:07] Simplemente
+[47:08] you have to
+[47:09] ...
+[47:10] ...
+[47:12] ...
+[47:14] ...
+[47:16] ...
+[47:18] ...
+[47:20] ...
+[47:22] ...
+[47:24] ...
+[47:26] ...
+[47:28] ...
+[47:34] ...
+[47:44] ...
+[47:46] ...
+[47:48] ...
+[47:50] ...
+[47:54] ...
+[47:56] ...
+[47:58] ...
+[48:02] And we know the data related to the characteristics of the log-triple, so the structural efficiency and the specific input for the exhaust velocity.
+[48:10] And what we want to know is how to distribute the mass among the different stages, so how to compute this coefficient, such that in that case I maximize the delta-b.
+[48:24] In this case they tell me, I want to have a certain mass of payload, in this case a certain capacity, the launch vehicle is already built, and I know I have this capacity because of all the mass you can allocate here.
+[48:42] And the question is, how high would you bring it, this mass of payload with a certain rocket that is already built?
+[48:50] And the current time is 0-1.
+[48:52] So maximizing this is to, for example, maximize the height you can reach, or for this reach having this margin.
+[48:59] Usually when you have a mission, you know that you have certain capacity to the orbit your final customer is asking you for, and then you compute the margin.
+[49:09] And if, for example, you are working against the European Space Agency, they are interested in knowing, then the launch service provider tells for no, but they are interested in knowing how much margin you have with respect to this.
+[49:19] Imagine, European Space Agency has final client is asking to arrive for 500 km and bring 200 kg, okay?
+[49:31] And they know they can bring, I don't know, 400, so they have 50% margin there.
+[49:37] So increasing this delta V is also, for the same height, is increasing the margin you have, or increasing the height.
+[49:49] And the performance, because they have already built the numbers.
+[49:53] And they can bring 200 kg, you have to bring 200 kg.
+[50:01] So, again, we are thinking of an objective function, which is the objective function plus a multiplier to distinguishable now V, instead of V.
+[50:15] And the other problem, the other multiplier times G.
+[50:19] So, we are going to see now what is the objective function.
+[50:21] We said we want to maximize the total delta V.
+[50:25] The total delta V, you have here, the total delta V is CY times the natural equation of the x.
+[50:33] Do you remember?
+[50:34] And it was the total delta V.
+[50:37] So, it's the sum of...
+[50:45] Yes?
+[50:46] But this, you have a relationship to express.
+[50:48] To express this payload ratio as a function of the payload ratio.
+[50:53] This is, this we go, we do the other way around.
+[50:55] We, from the mass ratio, we express the payload ratio.
+[50:59] And I think this minus CY natural algorithms, and this is the payload ratio.
+[51:04] Okay?
+[51:05] As a function, sorry, the mass ratio as a function of the payload ratio.
+[51:09] Okay?
+[51:10] You have before this equation, you can...
+[51:13] Okay, so I want to maximize this, this, okay?
+[51:17] And now, our decision variable is going to be the payload ratio, the lambda.
+[51:22] Before was the mass ratio.
+[51:23] Now our x, the function we are trying to maximize...
+[51:27] The variable we are using to maximize the minimum is going to be lambda x.
+[51:32] Okay?
+[51:33] Okay, so you have also...
+[51:38] Now the constraint is on...
+[51:41] What is the constraint?
+[51:42] The constraint is as well expressing as a function of the lambda x.
+[51:46] We have this constraint from before.
+[51:48] Do you remember?
+[51:49] That the total payload ratio is the product of everything.
+[51:53] Why is this a constraint?
+[51:54] Because, okay, if I take the natural logarithm of this, okay?
+[51:58] This natural logarithm is the sum of the natural logarithm.
+[52:02] Okay?
+[52:03] This is the total.
+[52:04] And then I build this function, this constraint function e, as...
+[52:07] This has to be equal to this.
+[52:09] So this minus...
+[52:10] Sorry.
+[52:11] So this minus this has to be equal to zero.
+[52:14] So it's this constraint function, okay?
+[52:16] It's the sum of this minus the natural logarithm of this.
+[52:20] So you have to select the payload radius such that...
+[52:23] Okay, they maximize the total data b from this equation, but the product of all of them is equal to the total.
+[52:30] Okay?
+[52:31] Because in this case the total payload ratio is a data.
+[52:34] Why is this a data?
+[52:35] Because I know the mass of the payload and I know the initial mass.
+[52:40] So this...
+[52:41] So now this is the...
+[52:42] The lambda total is a data.
+[52:44] So this I know.
+[52:45] In the performance problem.
+[52:47] Before I did it in the design.
+[52:49] But now, yes, because I know the initial mass and I know the mass of the payload.
+[52:53] So this is a data.
+[52:54] And that's why I'm building the constraint function here on the lambda.
+[52:57] Okay?
+[53:03] Yes?
+[53:04] So I know the objective function f.
+[53:06] I know the constraint function g.
+[53:08] So I can build the augmented function as before.
+[53:11] Okay?
+[53:16] So the augmented function f star is x.
+[53:21] As we said this before was f.
+[53:27] Okay?
+[53:28] F.
+[53:29] As a function of the payload ratio.
+[53:31] Okay?
+[53:32] This is the only variable because the structure-track coefficient I know.
+[53:35] And the only variable is...
+[53:37] My...
+[53:38] Freedom variable is...
+[53:41] Lambda e.
+[53:42] And then...
+[53:43] And then...
+[53:44] Lagrange multiply.
+[53:45] And instead of calling v.
+[53:46] Distinguish from the example before I call it v.
+[53:48] Okay?
+[53:49] V times the constraint function.
+[53:51] Sorry, this shall be a minus.
+[53:52] Okay?
+[53:53] Not an equal.
+[53:54] This shall be a minus.
+[53:55] Okay?
+[53:56] Exactly.
+[53:57] Okay.
+[53:58] And what are we doing now?
+[54:00] Now the whole f star depends only on lambda e.
+[54:03] This is my decision-governed parameter.
+[54:05] And therefore I derive this with respect to lambda e and make it equal to zero.
+[54:10] Yeah?
+[54:11] If you derive the whole expression you can do it by the expression.
+[54:13] And you obtain this.
+[54:15] And you adapt.
+[54:16] Having that, the optimum payload ratio, the lambda e star, depends on what?
+[54:22] As before.
+[54:23] Depends now on the Lagrange parameter.
+[54:26] As before.
+[54:27] Do you remember?
+[54:28] Because all the rest is known.
+[54:30] We don't know the Lagrange parameter.
+[54:33] But what do we do?
+[54:35] We go to the constraint function and introduce e into the constraint function.
+[54:40] This I put it here.
+[54:42] You see?
+[54:43] The lambda star, I put it here.
+[54:45] And I end up with this equation.
+[54:47] In which I know everything but the Lagrange multiplier b.
+[54:52] And this is again a non-linear equation.
+[54:54] This is a non-linear equation for v in which I know everything but b.
+[54:59] With the lambda I could obtain, with a solver, I could obtain v.
+[55:04] From v I come here and obtain the total, the each of the period ratios of each of the stages.
+[55:11] And with this I can compute the total delta b.
+[55:17] Because the total delta b was the...
+[55:21] We're going to see the steps now.
+[55:23] I don't want to.
+[55:24] I want to.
+[55:25] Okay.
+[55:26] And I'm going to come back again to this.
+[55:27] But before summarizing the stages.
+[55:29] This is the non-linear equation that I was telling from which I solved v.
+[55:34] Okay?
+[55:35] This is the summary of the steps.
+[55:36] Okay.
+[55:37] Check again the second derivative to see its minimum.
+[55:39] And then with this v I go to the lambda equation, lambda star.
+[55:49] And with this lambda star, I obtain the total delta b.
+[55:54] The total delta b, if you remember, was only dependent on lambda e.
+[55:57] That I know.
+[55:58] So I compute the total delta b.
+[56:00] Okay?
+[56:01] And I can also know from the lambda e with this relationship also if you want the math right
+[56:06] next.
+[56:07] Okay?
+[56:08] Okay?
+[56:09] So let's say equivalent approach.
+[56:12] Okay?
+[56:13] In two different situations.
+[56:14] There's a format problem, in which you have already a long state called size, but not
+[56:21] how the math shall be distributed among the different stages.
+[56:24] And the design problem, the first one we solved, in which you have to really determine
+[56:29] the minimum mass and the distribution of the mass.
+[56:32] Okay?
+[56:33] Yeah?
+[56:34] So far?
+[56:35] Clear?
+[56:36] Okay.
+[56:37] Here we have just two more slides.
+[56:38] Okay?
+[56:39] If we didn't have enough equations, we are in a little bit more equations.
+[56:43] Just to talk to you.
+[56:44] No, just to give you some sense of important data that we didn't, we were not able to, concepts
+[56:57] that we were not able to retrieve from the previous equations.
+[57:00] Okay?
+[57:01] So here the important is not the equation.
+[57:03] This is like a plus just to, just to obtain some more data.
+[57:07] We were solving, if you remember this equation, it was a non-linear equation for the, for the
+[57:12] V system.
+[57:13] Okay?
+[57:14] For the different Lagrange's parameter V in the performance problem, in the second approach,
+[57:18] we were saying.
+[57:20] Okay?
+[57:21] And here I'm just saying, suppose that all the specific inputs and all the structural coefficients
+[57:27] are equal.
+[57:28] Well, suppose here only was that specific impulse.
+[57:31] Okay?
+[57:32] And you end up with an expression like this.
+[57:34] Okay?
+[57:35] Which is, kilometer is not that difficult to arrive, but you can, you can arrive to something
+[57:39] like that.
+[57:40] And from this, the, let's say the maximum total payload ratio.
+[57:45] Okay?
+[57:46] What I want to arrive, to some conclusions here.
+[57:49] Okay.
+[57:50] What the fuck?
+[57:51] You arrive to an expression like that.
+[57:53] We are thinking of two stages, okay?
+[57:55] With an example of two stages of a rocket.
+[57:58] And this is the maximum payload ratio that we could obtain.
+[58:02] It's maximum because whenever you see the expression, you, you see that this is the maximum.
+[58:07] You cannot arrive more than that.
+[58:08] But forget about the maximum now.
+[58:10] The total mass payload ratio.
+[58:12] The total mass payload ratio, remember is, the mass, the total, the, this is the final one.
+[58:20] So if you have to state this, divide it by the initial mass.
+[58:23] Okay?
+[58:24] So that is, we want this to be maximized, right?
+[58:27] For a certain mass, for a certain initial mass, to bring as much as possible a certain payload mass.
+[58:34] Okay?
+[58:35] So we want this to be as high as possible.
+[58:37] The total mass payload ratio.
+[58:39] And we have a dependency here of U.
+[58:42] U is nothing but, sorry, U was defined in the previous slide.
+[58:49] But U is delta V divided by C.
+[58:53] This is the specific impulse.
+[58:54] And this is U.
+[58:56] Okay?
+[58:57] This is the so-called, um, uh, uh, integral velocity ratio.
+[59:03] Okay?
+[59:04] So this is the total delta V divided by C.
+[59:06] Okay?
+[59:07] So this is the dependency with U.
+[59:10] And this is the dependency with the structural coefficients.
+[59:12] Okay?
+[59:13] If you represent this very, uh, let's say, the function just depends on the U, that is,
+[59:19] on the total delta V, and depends on the structural coefficients of the first and of the second state.
+[59:24] Okay?
+[59:25] So you have two, let's say, two parameters there to play with.
+[59:28] Um, if you represent this in a graph with different cards, each card is a structural coefficient.
+[59:34] Okay?
+[59:35] And here you have the ideal velocity U, or V, delta V, if you like.
+[59:41] And here you have the payload ratio.
+[59:43] Remember, we want to reach as maximum as possible to maximize the payload mass we are able to bring into orbit.
+[59:49] Okay?
+[59:50] So here this graph, what does it tell you?
+[59:52] This, this is, this is the dependency with E2.
+[59:55] Okay?
+[59:56] So for delta Vs, which are high enough, okay?
+[59:59] For delta Vs, which are high enough, okay?

@@ -1,0 +1,786 @@
+Dynamics of 6 DOF motion
+
+
+ Launchers and Re-entry- 19260
+       Pablo Ramos Sánchez
+                        Contents
+1. Simulation vs Real world
+2. Translational dynamics of a rigid body
+3. Rotational Dynamics of a rigid body
+4. Launcher as mass variable and Flexible Multibody System
+
+    Bending mode
+    Mass and Inertia variable system
+    Tail Wag Dog Effect
+    Sloshing Effect
+     Real world vs Simulation
+REAL WORLD                     SIMULATION
+
+                 Real world
+                 Simulation                 Navigation
+               (Dynamics and
+                 Kinematics)
+
+
+
+
+                  Control                   Guidance
+     Real world vs Simulation
+REAL WORLD     UNIT 5          SIMULATION
+
+                 Real world
+                 Simulation                 Navigation
+               (Dynamics and
+                 Kinematics)
+
+
+
+
+                  Control                   Guidance
+                   Launcher Dynamics (1/3)
+ Equation of motion takes normally
+  into account the following forces
+
+     Gravity Acceleration
+         Gravity model up to J2
+           appears adequate
+                                         lo
+                                   usually
+                             modeled
+
+     Atmospheric Drag There
+                         expert     endopat
+                            are2pets initial
+                                          lands
+                                         expert
+                                             thor
+                                        corona
+     Nozzle Exiting Pressure            dunton
+
+         Adapted Nozzle Assumptionlikean
+                                       aero
+                                         spike
+
+     Launcher Thrust Forces
+
+
+ Are generally neglected
+
+     Launcher Lift Forces
+
+     Buoyant force
+        Launcher Dynamics (2/3)
+ Pressure Lost is not very well understood physically
+
+
+
+
+                           Applying Eq.
+                           of motion
+
+
+
+
+                                         Useful Thrust     Inefficient term
+                                    (kinematic momentum)      of thrust
+
+
+                                   Page
+                                      6
+             Launcher Dynamics (3/3)
+ Equation of Motion are very simple if expressed in an Inertial reference system
+
+                        & &
+ State Equations
+  for translation       r v
+   (position and
+                          & & & &
+     velocity)
+                        mv  T  G  D
+ The problem is that for the launcher system forces are oriented along different axis that are
+  characteristic of different reference systems
+                                                             WV    cath r
+                                                      overrightarrow times
+                                                                          overrightarrow
+
+
+
+
+                                                  The atmospheric Drag is directed along the relative
+                                                 velocity vector (Intrinsic Reference System)
+                                       velocity
+                                  relatie
+                                                 Gravity acceleration directed along the local vertical
+                                                  (Local Reference System)
+
+       &                                          Thrust is always expressed with respect to the
+            I sp g 0  ( pe  pa ) Ae bÖA
+      T  m                                      launcher body axis (Body Reference System )
+
+
+
+
+                                                   Page
+                                                      7
+                                         Reference Systems
+         Local Reference System
+                                                                                  Intrinsic Reference System
+                                                                                                                               Intrinsic to the trajectory of the
+                                                                                                                                LV
+                                                                                                                               Centered at the LV CoM
+                                             Centered at the
+                                                                                                                               Z axis parallel to the rel. velocity
+                                              Launch Site
+                                                                                                                                  and X axis perpendicular to the
+                                             Pointing upwards of
+                                                                                                                                trajectory ( )
+                                              Earth radius, North
+                                                                                                                               is the flight path angle
+                                              and East
+                                                                                                                               Used to express the Drag force
+                                             Used to express the
+                                              gravity force
+
+
+
+
+                                                                                    expressed in the
+        Body Reference System                                                    intrinsic reference system,
+                                                                                  from and
+
+
+                            orto                                                                    &
+                                        dAtack
+                                                Centered at the LV CoM
+                                                X to the LV longitudinal         &
+                                                                                                    T Ö
+                                                                                                    &
+                                                                                                                T sin
+                                                                                                                                                 projection
+                                                                                                                                                             of
+                     peor          Angle
+                                                                                  T  TiÖ           T Ö  T cos sin
+                                                                                                                                             thrustonto
+                                                The other Z-body axis can
+                                      sleep
+                                   side          be chosen at the moment                             &
+                                                                                                    T vÖ  T cos cos                        theXYZRF
+                                     angle       of launch, i.e. pointing
+                                                 towards East, only at that
+                                                 moment
+                                                To express the Thrust                and relate the body and intrinsic reference frames           pitio
+                                                 force                                is the angle of attack, between the LV longitudinal and
+                                                                                    in the pitch plane
+Launcher Dynamics and GNC                                                             is the sideslip angle, between the LV longitudinal and
+                                                                                    in the yaw plane
+
+
+
+                                                                                  11/10/
+                                                                                   2017
+                Dynamics Equation in the Intrinsic
+                    Reference System (1/2)
+  6 DoF, 6 Equations
+                      Decomposition in spherical
+                      coordinates (Annex A)
+
+                         r  Vr sin
+      Translational         Vr cos sin
+       Equations               r   cos
+        (position)            V
+                            r cos cos
+                               r
+      btw
+Anglevelocity                                                                                                  &     & &
+         path                1 Vr2                                                                GM          W     A T
+      light
+relative                         cos  2 EVr cos sin       r E2 cos cos cos  sin cos sin  2 cos 
+                                                                                                                 p
+                                                                                                                            Ö
+ and angle                   Vr r                                                                  r                m
+    Translational                                                                                    &    & &
+     Equations                 1 Vr2                                           r E2                  Wp  A  T
+                                     cos tg sin  2 EVr sin  cos tg cos          sin cos sin                  Ö
+      (velocity)              Vr r                                             cos         mainly     m cos
+                                                                                &    & Drag
+                                                                                         &
+                                                                      GM      Wp  A  T Ö
+                         Vr  r E2 cos cos sin  sin cos cos  2 sin                      Vr
+                                                                       r            m
+
+                                                                   Propellant slosh force
+         At beginning of gravity turn, the smaller the
+            the higher is the risk of instability of                                        Pesador
+                           Reduce gamma to    Enduphorizontal        Ifyoudoittoolate since
+    pitchonemaneuver                                                 itisverydillialttodoit do verysoon
+                                                   gravitylosses                      but if     it
+                                              Reduce
+                                                                                                       you
+                                                                    yougoverytest
+                                                                      can induce an
+                                                                                            you too
+                                                                                    instability   lost
+                                                                                              tuning
+                                                                          11/10
+                                                                          /2017
+Dynamics Equation in the Intrinsic
+    Reference System (2/2)
+ Whenever the Earth can be assumed at rest, previous equation can be
+  considerably simplified:
+     Short launch ascent trajectory
+                                           Translational equations on
+     Negligible non-inertial forces
+                                           position and velocity are coupled!!
+
+                                             Ra𝑀
+                                             (𝑈R Ra𝑀
+                                                (𝑈R
+                                             (𝑈R (𝑈R
+
+
+                                                (𝑈R      (𝑈R
+
+                                                (𝑈R    Ra𝑀
+                                                               (𝑈R
+
+                                                Ra𝑀
+                    Atittude Dynamics
+ Rotational Dynamics can be written in fully analogy with translational
+  dynamics
+
+
+                     &    & d  &
+                     F  mv  mv 
+     Equations
+    only valid in
+     an Inertial
+                             dt
+   Ref System!!!
+                     &    &
+                     L  mv
+
+                     & d      &
+                     T  I I I 
+                         dt
+                     &      &
+                       II I
+
+
+                                           11
+Rotational dynamics in the body
+       reference system
+& d      &
+T  I I I 
+    dt
+&      &
+  II I
+
+
+
+
+  &   &  &        &
+  AI  AB  B / I   A
+
+
+                        12
+        Rotational dynamics in the body
+               reference system
+         & d     &
+         T  I I I 
+            dt
+
+
+    &   &  &                &
+    AI  AB  B / I           A                                  x
+
+
+    torque
+         reference
+Total
+    body
+ the frame
+         Importance of modelling all the forces (also the flexible effects)
+         to compute the total             𝑟actuating on LV
+
+
+                                                 13
+                     Rotational kinematics (1/3)
+
+
+        porte
+dto      velocity     t
+                          &              &
+ engule
+the                            B/I   dt
+      by
+       integrating
+                      0
+
+
+
+
+                                                ROLL( ) 1
+                      KINEMATICS               PITCH ( ) 2
+                                                YAW ( ) 3
+
+
+
+
+                                              14
+         Rotational kinematics (2/3)
+                                  p
+                              &
+                                 q
+ -C-     T                w           w                q_FB_FI   In1
+Torque                            r
+               Dynamics                   Kinematics                   Visual
+
+
+
+
+                  p sin( )  q cos( )
+             
+                        sin( )
+               p cos( )  q sin( )
+                                p sin( )  q cos( )
+               r  cos( )
+                                      sin( )
+
+
+
+
+                                                 15
+  Rotational kinematics (3/3): Quaternions
+                                                                                                                                          &
+ Quaternions are used to represent a rotation
+  (angle and vector of rotation)
+                                                                                                                                          Q  q0  q x iÖ  q y Öj  q z kÖ
+ Very useful as a mathematical tool for                                                                                                  &
+  numerical methods                                                                                                                       Q  cos          sin         eÖ
+                                                                                                                                                   2                2
+
+
+                                                                                                                                  vehicle is        oriented
+                                                                                                                            Howthe      instant
+                                                  quaternion
+                                                                                                                            ateach
+ Full process of rotational Equations                                                                                         Forces in Inertial
+                                                                                                                              Frame translated
+                                                                                                                              into Body frame (
+                                                                                                                               gravity gradient,
+                                                                                                                                     Drag)
+
+
+                                                                                                                                                                                                                            LV Orientation
+                                                                                                                                                                                                                            (Body Axis
+                                                       , , , , integral of , w , dot d t , goes to end integral , , w
+                                                                            Ԧ                                           Ԧ                                      integral of , q , dot d t , goes to end integral , , q
+                                                                                                                                                                              Ԧ                                         Ԧ
+
+
+
+
+                                                                                                                                                                                                                            direction)
+
+                                                                                                                                                                                                                                                 r
+                   cap T sub cap B
+
+
+                                     ROTATIONAL                                                                                                ROTATIONAL                                                                      Kinematic
+                                                                                                                                                                                                                                               overrightharpoon
+
+
+
+
+                                      DYNAMICS                                                                                                 KINEMATICS                                                                       transitional
+
+                                                                                                                                                                                                                                dynamics V
+                                                                                                                                                                                                                                               hat
+
+
+                                                                                                                                                                                                                                 rotational
+
+                                                                                                                                                                                                                                 dynamics      q
+
+                                                                                                                                    16
+                         Further Modelling
+ Modelled dynamics presented so far is only the rigid one.
+ However, further accelerations effects shall be considered. They are either modelled
+  as angular and linear accelerations (bending) or as additional moments and forces
+  (variable mass, tail-wag dog and sloshing)
+                                                                          examen
+                                                                                      Esade
+                                                             model displacement
+                                                                                  How is    a bending
+                                                                                  moment in a LV
+      Bending model
+                                                                                  and whatdoes it
+ Know                                                 medalacceleration           alleets
+   equations  terms
+       identity                                                                             TVC
+      Variable Mass and Inertia (extra torque)                                             Avionicboy
+                                                                                            determines position
+                                                                                            velocity      atlit
+      Tail Wag Dog Effect (extra torque and force)                                            Avionics
+                                                                                                       Bay
+
+                                                                                              Tuc
+                                                      Ra𝑀
+      Sloshing Effect (extra force)
+                                                      (𝑈R
+
+
+
+                                                        17
+   INS sensing considering launcher flexibility
+ Sensor mounted on the flexible
+  structure is measuring, in addition to          𝑟
+  the rigid-body motion, a linear
+  combination of the generalized
+  displacements from all the flex modes
+  which are observable at that sensor.
+
+
+
+
+ The sensed values are defined at the
+  node location of the inertial navigation
+  system (INS), which is typically located
+  in the upper stage at a distance INS
+  from the CG (usually Avionics Bay have
+  less bending accelerations than other
+  parts of the LV, this is designed on
+  purpose).
+
+
+
+
+                                             18
+            Launcher: A flexible body
+Flexible body effect introduces acceleration                                                  INERTIAL NAVIGATION UNIT
+you do not want to measure (we are only
+interested in the rigid body attitude)
+
+
+
+
+                                                                                         IMU + TVC sensors: Sense
+                                                                                         the total and (rigid +
+                                                                                         flexible). We are only
+                                                                                         interested in the rigid one,
+                                                                                         so we model the flexible
+                                                                                         one to get rid of it
+                         Previous equations are the Rigid Body Equations, only
+                         valid at low frequencies (2-5 Hz)
+                         Flexible-body modes (bending, sloshing, etc.) occur at
+                         much higher frequencies (5-100 Hz)
+                         The rigid-body dynamics define the flight path and
+                                                                                                  TVC
+                         stability envelope.
+                         The control system cannot ² and should not ² try to
+                         actively control these fast vibrations.
+                         Doing so would require high gain and bandwidth, leading to
+                         instability.
+                         Thus, control loops are designed with bending filters or
+                         notches to avoid exciting those flexible modes and
+                         navigation with same bending filters to reject the navigation
+                         perception sensed from IMU at those frequencies
+
+
+
+
+                                                                          19
+Tail-wag-dog effect-Nozzle Dynamics
+
+
+                                                                         Moment by the    Rotational moment of
+                                                                         reaction force   nozzle (opposite sense on
+ It is a multibody effect caused by the TVC gimbal                                       the LV body wrt to the one
+  Acceleration.                                                                           of the nozzle)
+
+ The rotation itself creates a moment (rotational
+  moment of nozzle) and a force (this force at the
+  contact point produces another torque).
+
+
+            is the acceleration of the actuator in the yaw plane
+
+            is nozzle inertia
+
+            is the distance from the nozzle CG to the PVP
+          (Pivot Point).
+
+            is the nozzle mass
+
+            is the distance from the nozzle PVP to the
+          launcher CoG
+
+
+
+
+                                                                    20
+                 Launcher Bending Model
+ Its main responsibility is to compute the
+  contribution on angular rate and linear
+  acceleration of the vibration modes
+
+                                                            See Annex B
+ Typically, they are considered at IMU position and
+  TVC gimbal node
+
+
+ It provides:
+      TVC
+          Linear displacement, velocity and
+           acceleration @ the TVC node
+
+            Angular displacement, velocity and
+             acceleration @ the TVC node
+
+
+      IMU
+          Linear displacement, velocity and
+           acceleration @ the IMU node
+
+
+            Angular displacement, velocity and
+             acceleration @ IMU node:
+
+
+
+ Typically, the first three modes are considered
+
+                                                       21
+                             LV Bending model
+ The nozzles of gimbaling engines further
+  deflect from their trim positions in order to
+  guide and stabilize the vehicle against
+  disturbances.
+ These additional deflections generate small
+  components of thrust force variations
+  perpendicular to the velocity vector that affect
+  the vehicle attitude and direction
+ The intended deflections, however, are
+  corrupted by structural flexibility at the engine
+  gimbal
+ Total Nozzle deflection consists of two
+  components: a rotation at the gimbal, plus
+  structure deformation
+ We are interested in knowing separately the
+  gimbal rotation (rigid one), so we shall
+  model the flexible body rotation contribution
+  to filter it (thanks to its modelling we can
+  understand the frequency at which it
+  happens and then design filters around
+  that frequency for the Navigation solution
+  provision)
+ Important: the only sensors are at the Avionic
+  Bay, there is no sensor to really measure at
+  the TVC
+
+
+
+                                                      22
+LV Bending model
+                                                       See Annex B
+
+
+
+
+             : Modal Coordinate of bending mode (N bending modes)
+                 𝑺𝑀)          is the linear displacement of the considered i mode at
+          the TVC and INS nodes [m], respectively, and known from FEM analysis
+                ,         are the angular displacement of the considered mode at the
+          TVC node and at the INS node [rad], respectively, and known from FEM
+          analysis
+                is the force applied in the TVC node (gimbal position), and is
+          calculated as the sum of the main engine thrust and the Tail Wag Dog
+          perturbation
+                 is is the torque at the TVC node (gimbal position), and corresponds
+          to the Tail Wag Dog torque perturbation (engine inertia effect)
+
+
+
+                     23
+                         LV Dynamic Effects
+
+
+
+
+ Dyanmic effects in real world and simulation
+      In the real world, signal given by the sensors are filtered (Low Pass Filter or Band Rejection Filters at
+       the modelled frequencies):        is obtained from        (and this      is the useful one to consider for
+       control purposes).
+      In the simulation world, the measurement given by IMU is obtained by adding the rigid and the flexible
+       one:        is modeled on top of        . The objective is to try to be as much as possible as close to
+       reality (what real sensors would measure) and assess our control authority.
+ More specifically, the measures taken against bending mode effects in real world are:
+      Place the IMU (and in general the Avionic Bay) at bending nodes points: reduce accelerations values
+      Filter out the bending modes frequencies in Navigation to obtain the true rigid acceleration
+      Filter at Contol sent to TVC, to avoid exciting bending frequency modes (at Guidance, rigid
+       dynamics are assumed, since the frequency at which it works is lower
+
+
+
+
+                                                              24
+                  LV Dynamic Effects
+   Dynamic effects change along the time of flight.
+   For instance, bending modes change due to:
+
+       the propellant mass decreases
+
+       Sloshing forces and torques change
+
+       structural stiffness changes with temperature
+
+       dynamic pressure changes (smaller effect)
+
+
+
+
+     Frequencies of bending filters at Navigation have to change along flight
+
+     Frequencies filtered when generating the control signal have to change along flight
+
+
+
+
+                                                   25
+               LV Dynamic Effects
+               Domain   Real HW                   Simulation
+GNC Function
+
+Guidance                Ignores slosh/bending;    Includes full slosh +
+                        assumes rigid body;       bending model to
+                        produces smooth           stress-test guidance
+                        commands
+Navigation              Filters bending/slosh     Filters bending/slosh
+                        from IMU; uses            from IMU; uses
+                        notch/LP filters; smart   notch/LP filters; smart
+                        sensor placement          sensor placement
+Control                 Actively suppresses       Simulates flexible-body
+                        slosh + bending (notch    response to verify
+                        filters, gain shaping,    stability
+                        rate limits)
+
+
+
+
+                                       26
+                  Variable mass terms
+ In previous equations for attitude dynamics they have been neglected the
+  following torques:
+
+     Torque induced by varying inertia
+     Torque induced by variation of mass
+
+
+
+
+                                            27
+                      PROPELLANT SLOSHING
+
+ The forces acting on a vehicle from a sloshing
+  propellant in a partially filled tank (accelerations
+  coming from the vehicle         and      The liquid
+  movement is ecxited and it reacts by exerting
+  some reaction forces to the LV (forces we
+  want to model)
+
+
+ The model is a pendulum that is suspended from
+  a pivot point in the tank centerline, a little below
+  the liquid surface.
+
+
+ The pendulum mass represents the sloshing part
+  of the propellant near the surface. This mass
+  moves following a oscillator, and therefore exerts
+  a reaction force on the LV
+
+
+ The remaining of the propellant that is not
+  sloshing is assumed to be rigid and its mass is
+  located at a fixed point further down in the
+  centerline of the tank
+
+
+
+
+                                                         28
+             ANNEX A: Kinematic Equations
+   From Spherical Coordinates(      , )
+
+
+
+
+                                                    (𝑈R
+
+
+
+   Now expressing the components in the intrinsic reference frame
+
+                 Ra𝑀       𝑔𝑺)a𝑺@ (𝑈𝑃Γ𝑈𝑀𝑖𝑀l
+                 (𝑈R (𝑈R        𝑢𝑈.l𝑉 𝑎𝑈ml𝑉 (𝑈𝑃Γ𝑈𝑀𝑖𝑀l
+              − (𝑈R Ra𝑀        ෠𝑺Rl (𝑈𝑃Γ𝑈𝑀𝑖𝑀l
+
+
+   Finally, we can get:
+
+
+
+
+                                                              29
+                   ANNEX B: Modal Equations
+
+
+
+
+                          Nodes                Modal shape                  Modes considered
+                      displacements              matrix                        (bending)
+                                             Relative deformation of each
+                                                 node i at each mode j
+         is a vector containing the temporal displacements of all the i-nodes of the body, dimensions Nx1
+   N is the number of i-nodes (degrees of freedom)
+    ( ) is the modal coordinate (time-varying amplitude), scalar function,of each mode dimensions Mx1
+   M is the number of modes considered, defined on next slide
+     is the mode shape matrix (spatial distribution of displacement for mode i) (in the slides is named
+         𝑀𝑈.𝑃𝑺@aψ𝑖) p𝑺@m𝑖. Dimensions NxM
+
+                                                                      30
+                     ANNEX B: Modal Equations
+
+ ( ) is the modal coordinate (time-varying amplitude for each bending mode): whole body is
+a single solid with certain damping and boundary conditions, and it is just a position function
+depending on time
+Each mode behaves as a different harmonic oscillator
+
+
+
+
+     is the modal mass
+    is the modal forces force
+
+                                                Solve for
+
+
+
+       For the LV only TVC forces are considered (Thrust, tail-wag-dog) as they are high in amplitude and
+       frequency and punctual forces and therefore responsible of the bending modes. The other forces
+       (weight, drag) are low frequency and are not considered for the bending model (and they are
+       distributed, not point forces, so do not contribute as much to flexibility of LV)
+
+
+
+
+                                                                             31
+             ANNEX B: Modal Equations
+ Example: Cantilever beam with 3 nodes and considering the first 2 bending
+  modes
+
+
+
+
+                                              32
+

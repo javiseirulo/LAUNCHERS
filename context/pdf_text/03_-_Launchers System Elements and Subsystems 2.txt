@@ -1,0 +1,626 @@
+   important
+
+Very    exam
+    the
+ for work
+ and
+
+
+
+       Launchers System Elements and Subsystems
+               Launchers and Re-entry- 19260
+                     Pablo Ramos Sánchez
+                         Contents
+1. Launch System Architecture
+2. Launch Vehicle
+   ▪ Structure
+   ▪ Propulsion
+       ▪ Solid Propulsion
+       ▪ Liquid Propulsion
+
+   ▪ Avionics
+      ▪ GNC
+      ▪ OBDH
+
+3. Ground segment
+   ▪ Telemetry
+   ▪ Safety
+       Launch System Architecture
+▪ Flight Segment = Launch Vehicle
+       ▪ Structure
+       ▪ Propulsion
+       ▪ Avionics
+
+▪ Ground Segment
+   ▪ Range
+   ▪ TM/TC antennas
+   ▪ Integration building
+   ▪ Launch Pad
+   ▪ Processing Facility
+   ▪ GSE (MGSE and EGSE)
+
+
+
+
+                                    3
+                                                LV Structure
+▪   Launcher Structure subsystem serves basically as
+       ▪   Load-bearing frame
+       ▪   Provide an Aerodynamic Profile: Objective ↓ ∆𝑉𝑑𝑟𝑎𝑔
+       ▪   A container for Propellant
+       ▪   Protect the Payload (Fairing) during endo-flight
+
+
+▪   These main functions are achieved by:
+       ▪   Using lightweight materials
+       ▪   Optimizing the geometric design of the structure
+
+
+▪   Lightweight materials that have high values of specific stiffness, and specific strength.
+    Typical Materials are:
+       ▪   Aerospace-grade titanium and aluminum alloys
+       ▪   Carbon Fiber structure are increasing in the last decades especially for
+           tanks/case structures
+▪   Optimization of structure to:
+       ▪   Make a more reliable and light structure
+       ▪   But also to improve the performance for Customer
+               ▪   ↑ 𝑚𝑝𝑎𝑦 and volume
+               ▪   QSL (Quasi-Static Load), Random Vibration, Shock, Acoustic
+               ▪   Thermal Environment
+               ▪   Tip-off rate
+
+
+
+
+                                                                               4
+                                        LV Structure
+                                                                       Al-Li alloys
+                                    Predominant structural             •     Particularly attractive for liquid-
+Launch vehicle     Manufacturer
+                                    material                                 propellant tanks and pressurized
+Falcon 9           SpaceX           Al-Li alloy                              structures.
+                                                                       •     Offer a good balance between low
+Starship / Super
+                   SpaceX           Stainless steel                          density, mechanical properties,
+Heavy
+                                                                             weldability and manufacturing
+Ariane 6           ArianeGroup      Al-Li alloy                              maturity.
+                                                                       •     Their predictable behaviour and
+                                    Carbon-fibre composite (solid
+                                                                             established inspection procedures are
+Vega-C             Avio             motor casings); Al alloys (upper
+                                                                             beneficial for reusable launch vehicles.
+                                    stage)
+
+Electron           Rocket Lab       Carbon-fibre composite (CFRP)      CFRP
+                                                                       •   Particularly attractive when minimizing
+                                                                           structural mass is a dominant design
+Spectrum           Isar Aerospace   Carbon-fibre composite (CFRP)
+                                                                           driver.
+                                                                       •   Allows structural optimisation through
+                                    AL 2014 alloy; CFRP in
+MIURA 5            PLD Space                                               fibre orientation and tailored laminate
+                                    composite structures
+                                                                           architectures.
+Atlas V            ULA              Aluminium alloys                   •   Requires greater attention to
+                                                                           manufacturing quality, impact
+Soyuz-2            Progress         Aluminium alloys
+                                                                           damage, cryogenic cycling and
+                                                                           inspection.
+
+
+
+
+                                                                 5
+                                        LV Structure
+▪ Filament winding
+
+
+
+
+▪ New structures
+
+
+
+
+   Landing Legs (CFRP + Al honeycomb)          Fins (Ti)   Hungry Hippo for Neutron (CFRP)
+
+
+
+                                                 6
+                    LV Propulsion: Intro
+▪ In the combustion chamber the
+  flow is almost at rest. Turbopump
+  before the chamber generates a
+  high temperature fluid and
+  increases the feeding pressure.
+
+▪ In the first part of the nozzle
+  (convergent), the flow is subsonic.
+  The temperature decreases and
+  flux velocity is accelerated.
+
+▪ In the throat area the flow is sonic
+  (Mach = 1)
+
+▪ At this time, the flow can be
+  accelerated by means of a
+  diverging duct. In this expansion
+  the flow reaches supersonic
+  condition.
+
+                                         7
+                  LV Propulsion: Intro
+▪ Temperature and Mach Temperature distribution of the
+  generic nozzle configuration
+
+                   𝑇𝑒𝑥𝑖𝑡 ≈ 1800 𝐾     𝑎=   𝛾𝑅𝑇 ≈ 900 𝑚/𝑠        𝑣𝑒 ≈ 3𝑎 ≈ 3000 𝑚/𝑠
+
+
+
+
+           Typical 𝐼𝑠𝑝 of liquid propulsion Launchers ≈ 300 s
+
+
+
+                                           8
+                  LV Propulsion: Intro
+▪ Adapted Nozzle
+   ▪ Ideally, at the exit, the pressure of the flow should match the
+     external pressure in order take the best performance
+
+                                                              Expansion
+                                                              continues out of
+                                                              the nozzle, but this
+                                                              does not give extra
+                                                              thrust
+
+
+
+
+                                                              Desired situation
+
+
+
+
+                                                                Atm pressure
+                                                                reduces effective
+                                                                area : ↓ T
+
+
+
+
+                                        9
+              LV Propulsion: Solid Propulsion
+▪ Basic Principle:
+     ▪   Fuel and oxidizer are mixed in a solid propellant grain,
+         which is manufactured and stored inside the motor
+         casing.
+     ▪   Igniter generates initial E for oxidizer + fuel contained
+         in the grain to react ->surface regression starts (based
+         on grain geometry)
+
+
+▪ Advantages
+     ▪   High density: easily and effectively storable
+     ▪   Chemical stability (long term storage)
+     ▪   Simplicity: low cost, high production rates, reduced
+         maintenance
+     ▪   Total impulse is kept constant (important for staging
+         sizing, but lack of flexibility wrt liquid propulsion)
+
+
+
+
+▪ Drawbacks:
+     ▪   Low Specific Impulse
+     ▪   Very difficult to terminate the thrust (once started is
+         difficult to stop) (gunpowder)
+     ▪   Difficult to control final velocity reached
+     ▪   While in operation, explosion and fire potential is
+         larger, failure can be catastrophic
+     ▪   Complicated TVC system (Thrust Vector Control):
+         difficult gimbaling, noozles for solid prop are big and
+         actuated by vanes and flexible nozzle (limited rotation)
+
+
+
+
+                                                                     10
+LV Propulsion: Vega-C
+
+
+   (liquid)
+ (solid)
+
+
+
+
+  (solid)
+
+
+
+
+  (solid)
+
+
+
+
+              11
+       LV Propulsion: Solid Propulsion
+▪ Five phases can be distinguished:
+
+
+    ▪ Phase 1: reach rapidly a high thrust level and limit the
+      gravity loss (ascent as fast as possible to be able to
+      rotate to reduce gravity losses)
+
+    ▪ Phase 2: Thrust level is reduced to avoid higher peaks
+      in dynamic pressure (max Q)
+
+    ▪ Phase 3: Thrust is increased just passing max Q. The
+      third phase ends when the maximum tolerated
+      acceleration is reached.
+
+    ▪ Phase 4: During the phase four, the thrust level has to
+      decrease in order to follow the reduction of the
+      launcher mass and avoid that the acceleration exceed
+      the levels previously reached.
+
+    ▪ Phase 5: Corresponds to the sharp drop-off of the
+      pressure in the combustion chamber and the
+      corresponding reduction in burn rate.
+
+
+
+
+                                                      12
+LV Propulsion: Liquid and Solid Propulsion- TVC
+ Gimbaled Liquid Propulsion          FNC (Flexible Nozzle Control)
+                                           solid propulsion
+
+
+
+
+ Entire thrust chamber + nozzle is
+ mounted on actuators and tilted     Only nozzle pivots relative to
+            (gimballed)                      motor case
+
+   2 TVC Actuators: orthogonal,
+    pitch and yaw control. Roll              Flexible seal
+            control??
+                                     High Mechanical and Thermal
+ High precision, low plume erosion        Stress, not reusable
+
+        Max ±15° (Raptor)                      Max ±7°
+
+                                                        13
+           LV Propulsion: Liquid Propulsion
+▪ Based on the combustion of an oxidizer and a fuel
+     ▪ Monopropellant: hydrazine
+     ▪ Bipropellant
+          ▪ Cryogenic fuel LH2, LCH4;          + Oxidizer: LOX (cryogenic)
+          ▪ Non cryogenic fuel: RP-1(kerosene)
+
+▪ 𝐿𝑖𝑞𝑢𝑖𝑑 𝑃𝑟𝑜𝑝 𝐸𝑛𝑔𝑖𝑛𝑒 = 𝑇𝑢𝑟𝑏𝑜𝑝𝑢𝑚𝑝 + 𝐶𝑜𝑚𝑏 𝐶ℎ𝑎𝑚𝑏𝑒𝑟 + 𝑁𝑜𝑧𝑧𝑙𝑒 + 𝐿𝑖𝑛𝑒𝑠
+
+▪ Propulsion is by far the most complex and critical system of
+  a launcher. Consider this for the new micro launchers
+  European Industry.
+▪ Lot of problems arise at the turbopump (sealings): high
+  thermal stress, leaks, reactive LOX with metal
+▪ Open vs Closed Combustion
+
+
+
+
+            Prometheus Engine (Ariane)                      Raptor Engine Evolution
+
+
+
+                                                            14
+                     LV Liquid Propulsion
+
+         Open Combustion                           Closed Combustion
+▪ small portion of propellants is burned   ▪ pipe the hot exhaust gas from the
+  in a gas-generator.                        open cycle and put it into the
+                                             combustion chamber.
+▪ The resulting hot gas powers the
+  turbopump turbine(s) to pressurize the   ▪ Different possibilities:
+  fuel and oxidizer.                            ▪ Depending on the fluids mix ratio
+                                                  injected into the pre-burner ORFC
+▪ After passing through the turbine,              or FRSC (oxygen or fuel rich staged
+  these gases are dumped overboard                combustion)
+  (not contributing to thrust).
+                                                ▪ Depenending on the number of pre-
+▪ Simpler to develop but less efficient,          burner and shafts: one single pre-
+  you waste part of the propellant used           burner and shaft, or 2 separate pre-
+  to feed the gas generator (lower 𝐼𝑠𝑝 )          burners and shafts (optimization of
+                                                  the operation of the turbopump shaft
+                                                  rates)
+
+
+
+
+                                              15
+LV Liquid Propulsion
+
+
+
+
+          https://www.youtube.com/watch?v=S6j18P4yOys
+
+
+
+
+             16
+                        LV Liquid Propulsion
+4 main architectures:
+
+
+     ▪ The pressure-fed cycle (low thrust):
+       A separate gas supply, usually helium,
+       pressurizes the propellant tanks to force fuel
+       and oxidizer to the combustion chamber
+
+
+
+
+     ▪ Expander cycle (moderate thrust<300kN):
+       Fuel is used to cool the engine's combustion
+       chamber, picking up heat and changing phase.
+       The heated gaseous fuel then powers the
+       engine's pumps and turbine before being
+       injected into the combustion chamber and
+       burned
+
+
+
+
+                                                 17
+                             LV Liquid Propulsion
+▪ Gas-generator cycle (Open Combustion).
+  The gas generator cycle is a power cycle of a bipropellant rocket engine.
+  Some of the propellant is burned in a gas-generator and the resulting hot
+  gas is used to power the engine's pumps. The gas is then exhausted. Lower
+  Efficiency but lower complexity
+
+▪ Staged combustion cycle (Closed cycle).
+  Some of the propellant is burned in a pre-burner and the resulting hot gas is
+  used to power the engine's turbines and pumps.
+  The exhausted gas is then injected into the main combustion chamber,
+  along with the rest of the propellant, and combustion is completed.
+  High Thrust and high efficiency but higher complexity
+     Is it really that much complex? (It is “only" recirculating turbine
+     exhaust?)
+  • 𝑃𝑡𝑢𝑟𝑏𝑖𝑛𝑒 𝑑𝑖𝑠𝑐ℎ𝑎𝑟𝑔𝑒 must be high enough for fluid to go into combustion chamber ->
+    More demanding structural design on turbopump
+  • Turbine exhaust must have the right chemical composition
+  • Engine control becomes more sophisticated (gas generator and main combustion
+    chamber conditions are coupled) -> more complex start-up and shut down
+     Ex: Disturbance  Ω𝑝𝑢𝑚𝑝  𝑚ሶ 𝑝𝑢𝑚𝑝 𝑄𝑝𝑟𝑒−𝑏𝑢𝑟𝑛𝑒𝑟 𝑊𝑡𝑢𝑟𝑏𝑖𝑛𝑒 Ω𝑝𝑢𝑚𝑝 , ↓ 𝑷𝒕𝒖𝒓𝒃𝒊𝒏𝒆 𝒐𝒖𝒕 = 𝑷𝒊𝒏,𝒄𝒄
+
+
+
+
+                                                                  18
+         LV Liquid Propulsion Rocket Lab
+▪ An electrical engine can be used to activate the pump for
+  small engines
+▪ Rutherford Engine for Electron LV Vehicle
+
+
+
+
+https://www.youtube.com/watch?v=RcY8674eBLQ (Rutherford Engine)
+
+ https://www.youtube.com/watch?v=YIn8BtqVMIE (Vinci Engine)
+
+
+                                         19
+  Launch Vehicle- Liquid Propulsion
+▪ Advantages
+    ▪ Usually higher specific impulse 𝐼𝑠𝑝
+    ▪ Throttling and restarting capabilities
+    ▪ Cutoff impulse can be controllable with thrust
+      termination device (better control of vehicle
+      terminal velocity)
+    ▪ Can be reusable
+    ▪ Can modify operating conditions during firing to
+      prevent some failures
+    ▪ Simplified TVC (less mass than solid prop so
+      higher control authority): 2 axis gimballing
+      system.
+▪ Drawbacks:
+    ▪ Complex design, more parts or components,
+      more things to go wrong.
+    ▪ Cryogenic propellants cannot be stored for long
+      periods
+    ▪ More difficult to control combustion instability
+    ▪ Requires more volume due to lower average
+      propellant density
+    ▪ Sloshing in tank can cause a flight stability
+      problem
+                                                          Vulcain Engine (Ariane 5)
+
+
+                                                     20
+Launch Vehicle- Avionics-GNC
+                                     INERTIAL NAVIGATION UNIT
+ONBOARD COMPUTER
+                                           (NAVIGATION )
+(GUIDANCE )
+
+
+
+
+                      TVC
+                   (CONTROL )
+
+
+
+
+                                21
+            Launch Vehicle- Avionics
+▪ The overall OBSW
+  (including GNC, TLM and Monitoring and
+  Commanding functions)
+▪ Navigation Sensors including
+  GNSS aided Inertial Navigation System (INS)
+▪ On-board Computer (OBC)
+▪ Communication buses
+▪ Power Storage, Distribution and Conditioning
+▪ Communication systems including TM
+  antennas, TM transmitter and TLM encoder
+▪ On-board Controlled Recovery System
+▪ Payload Management System and Services
+▪ On-board Flight Termination System
+▪ Harness
+
+
+
+
+                                         22
+             Launch Vehicle- Avionics
+▪ Miura 1 qualified Avionics Elements
+    ▪ (1) Onboard Computer (OBC)
+    ▪ (2) S-Band Antenna
+    ▪ (3) Power Conditioning and Distribution Unit (PCDU) for flight Termination
+      System
+    ▪ (4) Launcher PCDU
+    ▪ (5) Engine Control Unit (ECU)
+
+
+
+                                2
+
+
+
+
+               1                                            5
+
+
+                                              4
+
+                                    3
+
+
+
+
+                                                  23
+ MIURA 1: Guidance, Navigation and
+              Control
+
+
+
+
+MIURA 1
+
+
+
+
+                    24
+                        OBDH System
+▪ This subsystem provides data to the ground during the flight
+  performing a series of operations consisting:
+    ▪ Data Acquisition
+    ▪ Data Formatting
+    ▪ Data Transmission
+
+
+▪ Main Elements
+
+    ▪   GPS
+    ▪   Telemetry Encoder
+    ▪   Telemetry Transmitter
+    ▪   S-band Antenna
+    ▪   L-band Antenna
+    ▪   Couplers
+
+
+
+
+                                      25
+    Ground Segment Premises
+LV Integration Building        Payload preparation complex
+
+
+
+
+                          26
+     Ground Segment Premises
+ Launch Site                    Site Infrastructure and Utilities
+
+
+
+
+Launch Control Centre +        Range Safety + Comms, TM and
+ Mission Control Center               Tracking Systems
+
+
+
+
+                          27
+Ground Segment Premises
+
+
+
+
+             28
+                    Ground Segment-Safety
+▪ Main Functionalities
+    ▪ Launch Vehicle independent localization (separated
+      implementation than the core LV GNC)
+    ▪ Ground commanded neutralization for trajectory
+      dispersion
+    ▪ Inhibit neutralization during nominal separation events
+    ▪ Activate neutralization on off-scheduled separation
+      events
+                                                   Traditional FTS   Autonomous FTS
+
+▪ Main Elements
+    ▪ On board
+        ▪ Flight Termination System
+        ▪ Radar Transponder
+    ▪ On ground
+        ▪ Command Transmitters
+        ▪ Radars
+        ▪ Telemetry Receivers
+        ▪ Mission Flight Control
+
+
+
+
+                                                          29
+          Ground Segment-Safety
+▪ June 4, 1996 Ariane 5 Maiden Flight: Ariane 501
+
+
+
+
+                                  30
+                    Ground Segment-AFTS
+▪ Autonomous Flight Termination System has been
+  already developed and tested in USA by system
+  providers as Space-X and ATK and more recently
+  Rocket Lab
+▪ Tracking and decision-making capability moved
+  to the LV
+
+
+▪ Space-X is using this system since 2017 after
+  having been certified by the correspondent authority
+
+
+▪ AFTS has allowed to increase the number of
+  launches that they can be support in a year to 48.
+
+
+▪ The cost of range services for a single launch has
+  been reduced by 50%.
+
+
+
+
+                                                       31
+
